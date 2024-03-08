@@ -1,0 +1,16 @@
+{% block content %}
+<h3 style="font-size: 1.4rem">Mobility-related Questions</h3><br>
+
+<p>Please answer the following questions about your mobility behavior.</p>
+
+<div>
+    {% formfield player.drivers_license %}
+    {% formfield player.own_car %}
+    {% formfield player.car %}
+</div>
+
+
+{%  next_button %}
+
+{% endblock %}
+

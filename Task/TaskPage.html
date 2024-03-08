@@ -1,0 +1,426 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+
+{% block styles %}
+<style type="text/css">
+
+    .my_flipcards {
+        position:relative;
+        margin-top:-30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-12 {
+        /* Adjust the max-width and other styles as needed */
+        max-width: 800px; /* Example value, adjust based on your design */
+        width: 100%;
+        display: flex;
+        flex-direction: column; /* Set cards to stack vertically */
+        align-items: center; /* Center cards horizontally within the column */
+    }
+
+    .flip-card {
+            perspective: 1000px;
+            width: 200px;
+            height: 80px;
+            min-width: 300px;
+            margin: 4px;
+        }
+
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgb(169, 169, 169);
+            border-color: gray;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 2%;
+            background-color: lightgray;
+        }
+
+        .flip-card:hover .flip-card-inner {
+            transform: rotateX(180deg);
+        }
+
+        .flip-card-front span,
+        .flip-card-back span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 1rem;
+        }
+
+        .flip-card-front,
+        .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .flip-card-back {
+            transform: rotateX(-180deg);
+            color: black;
+            background-color: lightgray;
+        }
+
+    .btn-choice {
+        color: white;
+    }
+
+    .btn-custom {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .btn-custom:hover {
+        background-color: #0056b3;
+    }
+
+    .button-container {
+        margin-top: {% if policy_block %}10px{% else %}10px{% endif %}; /* Adjust as needed */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .question-container {
+        margin-top: {% if policy_block %}10px{% else %}10px{% endif %}; /* Adjust as needed */
+        margin-bottom: {% if policy_block %}10px{% else %}10px{% endif %}; /* Adjust as needed */
+    }
+
+    .white-screen-overlay {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+        z-index: 999;
+        display: flex;
+    }
+
+.block-instruction-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .9);
+    z-index: 1000;
+}
+
+.card-content {
+    max-width: 80%;
+    text-align: left;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+@media (max-height: 600px) {
+    .block-instruction-card {
+        top: 0;
+        transform: translateY(0);
+    }
+
+    .card-content {
+        max-width: 100%;
+    }
+}
+
+.block-instruction-card p {
+    margin-bottom: 15px;
+}
+
+.block-instruction-card button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px
+}
+
+.block-instruction-card button:hover {
+    background-color: #0056b3;
+}
+
+#choiceQuestion {
+    padding: 50px;
+    left: 50%; /* Adjust as needed */
+  }
+
+#choiceQuestionPolicy {
+    padding: 30px;
+    left: 50%; /* Adjust as needed */
+  }
+
+</style>
+
+
+{% endblock %}
+
+
+{% block content %}
+{% if is_first_trial_of_block %}
+<div class="white-screen-overlay" id="whiteScreenOverlay"></div>
+    <div class="block-instruction-card" id="blockInstructionCard" style="display: none;">
+        <div class="card-content">
+            {% if completed_block %}
+                <p style="font-size: 1rem"><b>{{ Constants.affirmative_text }}</b></p>
+            {% endif %}
+            {% if product_first %}
+                {{ include_sibling 'instruction_product.html' }}
+                {% if not blockC_first %}
+                <p style="color: red; font-size: 1rem">Please be aware of the following: {{ block_text }}</p>
+                {% else %}
+                {{ block_text }}
+                {% endif %}
+            {% elif policy_block %}
+                {{ include_sibling 'instruction_policy.html' }}
+            {% elif product_second and first_block_was_policy %}
+                {{ include_sibling 'instruction_product.html' }}
+                {% if not blockC_second %}
+                <p style="color: red; font-size: 1rem"> Please be aware of the following: {{ block_text }}</p>
+                {% else %}
+                <p style="color: red; font-size: 1rem"> Please be aware of the following: The previous government policies are no longer in effect.</p>
+                {% endif %}
+            {% else %}
+                    <p style="font-size: 1rem">On the next pages, we ask you again to decide for or against electric vehicle offers. As before, please consider the following attributes that vary across the offers:</p>
+                    <ul style="text-align:left; font-size: 1rem">
+                        <li><b>Investment Costs:</b> This monetary attribute defines the total investment costs of the electric car. Citizens may be eligible for government subsidies, which reduce the costs. The costs depend on the make of the car and subsidies received.</li>
+                        <li><b>Savings on Driving:</b> Electric vehicles cost less to drive than traditional gasoline cars. The savings are calculated compared to the costs of driving a gasoline car and are based on electricity prices and efficiency for 100 miles.</li>
+                        <li><b>Life Cycle Emissions:</b> This refers to the total greenhouse gas emissions associated with an electric vehicle <b>throughout its entire lifespan</b>. It takes into account emissions from manufacturing, disposal, and the electricity needed for the journey. In simpler terms, this corresponds to assessing the environmental footprint of the electric car from the moment of its creation to its retirement after <b>approximately 150,000 miles</b>.</li>
+                        <li><b>Battery Range:</b> Battery range indicates the distance an electric vehicle can travel on a single charge. It defines how far you can drive before needing to recharge the vehicle's battery.</li>
+                        <li><b>Adopters in the Neighborhood:</b> This attribute represents the <b>percentage of people in your neighborhood who currently drive a <i>similar electric car</i></b>.</li>
+                    </ul>
+                    {% if not blockC_second %}
+                    <p style="color: red;font-size: 1rem"> Please be aware of a recent government policy change: {{ block_text }}</p>
+                    {% else %}
+                    <p style="color: red; font-size: 1rem"> Please be aware of the following: The previous government policies are no longer in effect.</p>
+                    {% endif %}
+            {% endif %}
+            <div id="hideInstructionButton" class="btn btn-primary" >Start Task</div>
+        </div>
+    </div>
+{% endif %}
+<div class="container my_flipcards">
+    <div class="row">
+        <div class="col-12 my_flipcards">
+        {% if policy_block %}
+        <p id="offerTitle">Policy Package No. 1</p>
+        <img style="width:100%; margin: 10px; max-width:300px;" src="{% static 'global/images/policyhand.webp' %}">
+        {% else %}
+        <p id="offerTitle">Electric Vehicle Offer No. 1</p>
+        <img style="width:100%; margin: 10px; max-width:300px;" src="{% static 'global/images/electric.webp' %}">
+        {% endif %}
+            {% for attribute, level in attributes.items %}
+                <div class="flip-card tracked_element" data-loop-counter="{{ forloop.counter }}" id="att_{{ attribute }}">
+                     <div class="flip-card-inner">
+                        <div id="att_{{ forloop.counter }}_frontwrapper" class="flip-card-front valign-wrapper jok">
+                    <span id="att_{{ forloop.counter }}_frontspan" style="font-weight: bold;">{{ attribute }}</span>
+                    </div>
+                    <div id="att_{{ forloop.counter }}_backwrapper" class="flip-card-back valign-wrapper jok">
+                <span id="att_{{ forloop.counter }}_backspan">{{ level }}</span>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+        </div>
+    </div>
+    </div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="question-container">
+
+        {% if policy_block %}
+        <span id="choiceQuestionPolicy" style="font-size: 16px; text-align: center">Would you support this policy package?</span>
+
+        {% else %}
+        <span id="choiceQuestion" style="font-size: 16px; text-align: center">Would you buy this electric vehicle?</span>
+
+        {% endif %}
+
+        <div class="button-container">
+
+            <button id="choiceYesButton" class="btn btn-custom">Yes</button>
+            <button id="choiceNoButton" class="btn btn-custom">No</button>
+
+        </div>
+        <input class="form-check-input" type="radio" name="choice" id="choiceYes" style="display: none" value="Yes">
+        <input class="form-check-input" type="radio" name="choice" id="choiceNo" style="display: none" value="No">
+        {{ formfield_errors 'choice' }}
+        </div>
+    </div>
+    </div>
+
+
+<div class="row mt-4">
+    <div class="col-6 offset-3 text-center">
+        <button id="nextButton" class="btn btn-primary" style="display: none;">Next</button>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block scripts %}
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get the title element
+        var titleElement = document.getElementById("offerTitle");
+
+        // Check if it's a policy block
+        var isPolicyBlock = {% if policy_block %}true{% else %}false{% endif %};
+
+        // Get the round number from the backend
+        var roundNumber = {{ round_number }};
+
+        // Use a modulo operation to map round_number to values 1-18
+        var pageLoadCount = (roundNumber - 1) % 18 + 1;
+
+        // Set the title with the updated count and appropriate prefix
+        var titlePrefix = isPolicyBlock ? "Policy Package" : "Electric Vehicle Offer";
+        titleElement.textContent = titlePrefix + " No. " + pageLoadCount;
+
+        // Save the updated pageLoadCount to localStorage
+        localStorage.setItem("pageLoadCount", pageLoadCount.toString());
+    });
+
+    let hover_events = {};
+    let currentlyHoveredElement = null;
+
+    // Flag to track whether at least one flip card has been hovered
+    let flipCardHovered = false;
+
+    // Function to enable the buttons
+    function enableButtons() {
+        flipCardHovered = true;
+        updateButtonStatus();
+    }
+
+    // Function to show or hide the buttons based on hover status
+    function updateButtonStatus() {
+        const displayStyle = flipCardHovered ? "inline-block" : "none";
+        choiceYesButton.style.display = displayStyle;
+        choiceNoButton.style.display = displayStyle;
+    }
+
+$(".tracked_element").mouseenter(function() {
+    // entering starts a new hover event
+    let enter_time = Date.now();
+    let loopCounter = $(this).data('loop-counter');
+
+    if (currentlyHoveredElement !== loopCounter) {
+        // Check if there's a currently hovered element and wait for its leave event to complete
+        if (currentlyHoveredElement) {
+            handleMouseLeave(currentlyHoveredElement);
+        }
+
+        currentlyHoveredElement = loopCounter;
+
+        hover_events[currentlyHoveredElement] = {
+            element_id: 'att_' + currentlyHoveredElement,
+            enter_time: enter_time,
+            leave_time: undefined
+        };
+
+    }
+});
+
+$(".tracked_element").mouseleave(function () {
+    let leave_time = Date.now();
+    let previousElement = currentlyHoveredElement;
+    currentlyHoveredElement = null;
+
+    handleMouseLeave(previousElement, leave_time);
+
+    flipCardHovered = true;
+    updateButtonStatus();
+});
+    function handleMouseLeave(elementId, leave_time) {
+    if (hover_events[elementId]) {
+        hover_events[elementId]["leave_time"] = leave_time;
+        hover_events[elementId]["duration"] = leave_time - hover_events[elementId]["enter_time"];
+        hover_events[elementId]["attributeType"] = $('#' + 'att_' + elementId + '_frontspan').text();
+        hover_events[elementId]["attributeValue"] = $('#' + 'att_' + elementId + '_backspan').text();
+        hover_events[elementId]["choice"] = $('input[name="choice"]:checked').val();
+    }
+
+
+    liveSend(hover_events[elementId]);
+
+    delete hover_events[elementId];
+}
+
+    const choiceYesButton = document.getElementById("choiceYesButton");
+    const choiceNoButton = document.getElementById("choiceNoButton");
+    const choiceYesRadio = document.getElementById("choiceYes");
+    const choiceNoRadio = document.getElementById("choiceNo");
+
+// Initially hide the buttons
+updateButtonStatus();
+
+// Function to trigger the next button
+function triggerNext() {
+    console.log("Next button clicked");
+}
+
+// Add event listeners to the custom buttons
+choiceYesButton.addEventListener("click", function () {
+    choiceYesRadio.click();  // Trigger the click event on the radio button
+    triggerNext();
+});
+
+choiceNoButton.addEventListener("click", function () {
+    choiceNoRadio.click();  // Trigger the click event on the radio button
+    triggerNext();
+});
+
+
+// Show block instruction card on the first trial of each block
+    {% if is_first_trial_of_block %}
+    $(document).ready(function () {
+        $("#blockInstructionCard").fadeIn();
+        $("#whiteScreenOverlay").fadeIn();  // Show the white-screen overlay
+        $("#hideInstructionButton").click(function () {
+            $("#blockInstructionCard").fadeOut();
+            $("#whiteScreenOverlay").fadeOut();  // Hide the white-screen overlay
+        });
+    });
+{% endif %}
+
+</script>
+{% endblock %}
