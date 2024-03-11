@@ -1,4 +1,4 @@
-attributes_listA_small = [
+attributes_listA_small_de = [
     {
         "Investment Costs": "$30,000",
         "Savings Compared to Gasoline Car": "Per 100 miles: $4.5 + $3 carbon tax savings",
@@ -127,7 +127,7 @@ attributes_listA_small = [
     },
 ]
 
-attributes_listA_medium = [
+attributes_listA_medium_de = [
     {
         "Investment Costs": "$24,000",
         "Savings Compared to Gasoline Car": "Per 100 miles: $5.5 + $3 carbon tax savings",
@@ -256,7 +256,7 @@ attributes_listA_medium = [
     },
 ]
 
-attributes_listA_large = [
+attributes_listA_large_de = [
     {
         "Investment Costs": "$70,000",
         "Savings Compared to Gasoline Car": "Per 100 miles: $6.4 + $3 carbon tax savings",
@@ -385,7 +385,7 @@ attributes_listA_large = [
     },
 ]
 
-attributes_listB_small = [
+attributes_listB_small_de = [
     {
         "Investment Costs": "$30,000",
         "Savings Compared to Gasoline Car": "Per 100 miles: $4.5 + $3 carbon tax savings",
@@ -514,7 +514,7 @@ attributes_listB_small = [
     },
 ]
 
-attributes_listB_medium = [
+attributes_listB_medium_de = [
     {
         "Investment Costs": "$24,000",
         "Savings Compared to Gasoline Car": "Per 100 miles: $5.5 + $3 carbon tax savings",
@@ -643,7 +643,7 @@ attributes_listB_medium = [
     },
 ]
 
-attributes_listB_large = [
+attributes_listB_large_de = [
     {
         "Investment Costs": "$70,000",
         "Savings Compared to Gasoline Car": "Per 100 miles: $6.4 + $3 carbon tax savings",
@@ -772,7 +772,7 @@ attributes_listB_large = [
     },
 ]
 
-attributes_listC_small = [
+attributes_listC_small_de = [
     {
         "Investment Costs": "$30,000",
         "Savings Compared to Gasoline Car": "Per 100 miles: $4.5 savings",
@@ -901,7 +901,7 @@ attributes_listC_small = [
     },
 ]
 
-attributes_listC_medium = [
+attributes_listC_medium_de = [
     {
         "Investment Costs": "$24,000",
         "Savings Compared to Gasoline Car": "Per 100 miles: $5.5 savings",
@@ -1030,7 +1030,7 @@ attributes_listC_medium = [
     },
 ]
 
-attributes_listC_large = [
+attributes_listC_large_de = [
     {
         "Investment Costs": "$70,000",
         "Savings Compared to Gasoline Car": "Per 100 miles: $6.4 savings",
@@ -1159,7 +1159,7 @@ attributes_listC_large = [
     },
 ]
 
-attributes_listD_small = [
+attributes_listD_small_de = [
     {
         "Investment Costs": "$30,000",
         "Savings Compared to Gasoline Car": "Per 100 miles: $4.5 savings",
@@ -1288,7 +1288,7 @@ attributes_listD_small = [
     },
 ]
 
-attributes_listD_medium = [
+attributes_listD_medium_de = [
     {
         "Investment Costs": "$24,000",
         "Savings Compared to Gasoline Car": "Per 100 miles: $5.5 savings",
@@ -1417,7 +1417,7 @@ attributes_listD_medium = [
     },
 ]
 
-attributes_listD_large = [
+attributes_listD_large_de = [
     {
         "Investment Costs": "$70,000",
         "Savings Compared to Gasoline Car": "Per 100 miles: $6.4 savings",
@@ -1546,7 +1546,7 @@ attributes_listD_large = [
     },
 ]
 
-attributes_listE = [
+attributes_listE_de = [
     {
         "Carbon Tax on Gasoline": "No new tax on gasoline",
         "Subsidy on EV Price": "$3750 price reduction",
