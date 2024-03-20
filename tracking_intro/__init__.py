@@ -97,10 +97,10 @@ class Player(BasePlayer):
     car_age = models.IntegerField(label='How old is your main car (in years)?', min=0, max=30, blank=True)
     car_replace = models.StringField(
         label='How often do you replace your car?',
-        choices=[['every year', 'Every year'],
-                 ['every four years', 'Every 4 years'],
-                 ['every eight years', 'Every 8 years'],
-                 ['every twelve years', 'Every 12 years or when it needs replacement']],
+        choices=[['1', 'Every year'],
+                 ['4', 'Every 4 years'],
+                 ['8', 'Every 8 years'],
+                 ['12', 'Every 12 years or when it needs replacement']],
         widget=widgets.RadioSelect,
     )
     car = models.StringField(
