@@ -1,4 +1,9 @@
 from otree.api import *
+from Consent.lexicon_en import Lexicon
+print("Imported Lexicon successfully!")
+
+# Now try to access an attribute or method from the Lexicon class
+print(Lexicon.information_title)
 
 
 class C(BaseConstants):
@@ -9,6 +14,12 @@ class C(BaseConstants):
 
 class Subsession(BaseSubsession):
     pass
+
+
+# def creating_session(subsession: Subsession):
+#    from .lexicon_en import Lexicon
+#    subsession.session.myLangCode = "_en"
+#    subsession.session.introLexi = Lexicon
 
 
 class Group(BaseGroup):
@@ -142,9 +153,9 @@ class Player(BasePlayer):
         )
 
     affect_ev = models.IntegerField(widget=widgets.RadioSelect,
-                                               choices=[['1', ''], ['2', '2'], ['3', '3'],
-                                                        ['4', '4'], ['5', '5'], ['6', '6'], ['7', '7'], ['8', '8'],
-                                                        ['9', '9'], ['10', '10']])
+                                    choices=[['1', ''], ['2', '2'], ['3', '3'],
+                                            ['4', '4'], ['5', '5'], ['6', '6'], ['7', '7'], ['8', '8'],
+                                            ['9', '9'], ['10', '10']])
 
     # Consent fields
     dataScience = models.BooleanField(initial=False)
@@ -206,6 +217,7 @@ class introduction_consent(Page):
     @staticmethod
     def vars_for_template(player: Player):
         return {
+            'Lexicon': Lexicon,
             "particpantlabel": player.participant.label,
         }  # add ?participant_label={{%PROLIFIC_PID%}} to link on prolific
 
@@ -270,8 +282,6 @@ class practice_completed_template(Page):
 
 # Page sequence
 page_sequence = [
-    MobileCheck,
-    introduction_consent,
     Demographics,
     Car_questions,
     car_owner,

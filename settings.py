@@ -3,11 +3,12 @@ from os import environ
 
 SESSION_CONFIGS = [
 
-     dict(
-       name='Pilot',
-       display_name="Study Pilot",
+    dict(
+       name='Intervention_Study',
+       display_name="Intervention_Study",
        num_demo_participants=5,
-       app_sequence=['tracking_intro', 'Task', 'Questionnaires', 'End']
+       language="en",
+       app_sequence=['Consent', 'tracking_intro', 'Task', 'Questionnaires', 'End']
      ),
 ]
 
@@ -27,6 +28,8 @@ PARTICIPANT_FIELDS = [
 
 
 SESSION_FIELDS = [
+    'introLexi',
+    'myLangCode'
 ]
 
 # ISO-639 code
