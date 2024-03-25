@@ -2,6 +2,7 @@ from otree.api import *
 import random
 import os
 
+
 from attributes_en import attributes_listA_small, attributes_listA_medium, attributes_listA_large, attributes_listB_small, attributes_listB_medium, attributes_listB_large, attributes_listC_small, attributes_listC_medium, attributes_listC_large, attributes_listD_small, attributes_listD_medium, attributes_listD_large, attributes_listE
 from attributes_de import attributes_listA_small_de, attributes_listA_medium_de, attributes_listA_large_de, attributes_listB_small_de, attributes_listB_medium_de, attributes_listB_large_de, attributes_listC_small_de, attributes_listC_medium_de, attributes_listC_large_de, attributes_listD_small_de, attributes_listD_medium_de, attributes_listD_large_de, attributes_listE_de
 from attributes_es import attributes_listA_small_es, attributes_listA_medium_es, attributes_listA_large_es, attributes_listB_small_es, attributes_listB_medium_es, attributes_listB_large_es, attributes_listC_small_es, attributes_listC_medium_es, attributes_listC_large_es, attributes_listD_small_es, attributes_listD_medium_es, attributes_listD_large_es, attributes_listE_es
@@ -14,7 +15,6 @@ doc = """
 Mouse Tracking Task
 """
 
-...
 # Constants
 class Constants(BaseConstants):
     name_in_url = 'Task'
