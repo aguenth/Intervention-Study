@@ -4,12 +4,33 @@ from os import environ
 SESSION_CONFIGS = [
 
     dict(
-       name='Intervention_Study',
-       display_name="Intervention_Study",
+       name='USA',
+       display_name="USA_Intervention_Study",
        num_demo_participants=5,
        language="en",
        app_sequence=['Consent', 'tracking_intro', 'Task', 'Questionnaires', 'End']
      ),
+    dict(
+       name='Mexico',
+       display_name="Mexico_Intervention_Study",
+       num_demo_participants=5,
+       language="mx",
+       app_sequence=['Consent', 'tracking_intro', 'Task', 'Questionnaires', 'End']
+     ),
+    dict(
+        name='UK',
+        display_name="UK_Intervention_Study",
+        num_demo_participants=5,
+        language="uk",
+        app_sequence=['Consent', 'tracking_intro', 'Task', 'Questionnaires', 'End']
+    ),
+    dict(
+        name='SouthAfrica',
+        display_name="ZA_Intervention_Study",
+        num_demo_participants=5,
+        language="za",
+        app_sequence=['Consent', 'tracking_intro', 'Task', 'Questionnaires', 'End']
+    ),
 ]
 
 # if you set a property in SESSION_CONFIG_DEFAULTS, it will be inherited by all configs
@@ -29,6 +50,15 @@ PARTICIPANT_FIELDS = [
 
 SESSION_FIELDS = [
     'introLexi',
+
+    'demographicsLexi',
+
+    'taskLexi',
+
+    'questionnairesLexi',
+
+    'endLexi',
+
     'myLangCode'
 ]
 

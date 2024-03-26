@@ -1,5 +1,5 @@
 class Lexicon:
-    information_title = 'Information about this study'
+    information_title = 'Información sobre este estudio'
     instructions = "Instructions"
     no = "No"
     yes = "Yes"
