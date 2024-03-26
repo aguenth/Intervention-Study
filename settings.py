@@ -8,28 +8,44 @@ SESSION_CONFIGS = [
        display_name="USA_Intervention_Study",
        num_demo_participants=5,
        language="en",
-       app_sequence=['Consent', 'tracking_intro', 'Task', 'Questionnaires', 'End']
+       app_sequence=['Consent',
+                    # 'tracking_intro',
+                    # 'Task',
+                    # 'Questionnaires',
+                     'End']
      ),
     dict(
        name='Mexico',
        display_name="Mexico_Intervention_Study",
        num_demo_participants=5,
        language="mx",
-       app_sequence=['Consent', 'tracking_intro', 'Task', 'Questionnaires', 'End']
+       app_sequence=['Consent',
+                   #  'tracking_intro',
+                   #  'Task',
+                   #  'Questionnaires',
+                     'End']
      ),
     dict(
         name='UK',
         display_name="UK_Intervention_Study",
         num_demo_participants=5,
         language="uk",
-        app_sequence=['Consent', 'tracking_intro', 'Task', 'Questionnaires', 'End']
+        app_sequence=['Consent',
+                    #  'tracking_intro',
+                    #  'Task',
+                    #  'Questionnaires',
+                      'End']
     ),
     dict(
         name='SouthAfrica',
         display_name="ZA_Intervention_Study",
         num_demo_participants=5,
         language="za",
-        app_sequence=['Consent', 'tracking_intro', 'Task', 'Questionnaires', 'End']
+        app_sequence=['Consent',
+                    #  'tracking_intro',
+                    #  'Task',
+                    #  'Questionnaires',
+                      'End']
     ),
 ]
 

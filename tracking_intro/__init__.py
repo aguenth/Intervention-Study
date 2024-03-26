@@ -1,9 +1,4 @@
 from otree.api import *
-from Consent.lexicon_en import Lexicon
-print("Imported Lexicon successfully!")
-
-# Now try to access an attribute or method from the Lexicon class
-print(Lexicon.information_title)
 
 
 class C(BaseConstants):

@@ -1,16 +1,20 @@
+{% block title %}
+  {{ Lexicon.end_title }}
+{% endblock %}
 
-{{ block title }}End{{ endblock }}
-{{ block content }}
+{% block styles %}
+  <link href="{{ static 'global/css/General.css' }}" rel="stylesheet">
+  <link href="{{ static 'global/css/customStyle.css' }}" rel="stylesheet">
+{% endblock %}
 
-<p>
-        Thank you for your participation.<br><br>
-        <b> PLEASE CLICK BELOW TO FINISH AND SUBMIT YOUR RESULTS </b>
-        <br>
-        <br>
+{% block content %}
 
-    <button class="btn btn-primary btn-large reps" style="margin-top:3vh;" type="button" onclick="window.location.href='https://app.prolific.com/submissions/complete?cc=CJOS4RKJ'"> Click here to Finish</button>
+  <div>
+    <br><p>{{ Lexicon.thanks }}</p><br>
+    <p><b>{{ Lexicon.redirect_instructions }}</b></p>
+    <br>
+  </div>
 
-</p>
-
+<button class="btn btn-primary btn-large reps" style="margin-top:3vh;" type="button" onclick="window.location.href='{{ redirect_url }}'"> {{ Lexicon.finish }} </button>
 
 {{ endblock }}
