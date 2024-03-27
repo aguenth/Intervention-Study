@@ -9,8 +9,8 @@ SESSION_CONFIGS = [
        num_demo_participants=5,
        language="en",
        app_sequence=['Consent',
-                    # 'tracking_intro',
-                    # 'Task',
+                    'tracking_intro',
+                    'Task',
                     # 'Questionnaires',
                      'End']
      ),
@@ -20,8 +20,8 @@ SESSION_CONFIGS = [
        num_demo_participants=5,
        language="mx",
        app_sequence=['Consent',
-                   #  'tracking_intro',
-                   #  'Task',
+                   'tracking_intro',
+                   'Task',
                    #  'Questionnaires',
                      'End']
      ),
