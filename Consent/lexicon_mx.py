@@ -3,9 +3,10 @@ class Lexicon:
     instructions = "Instructions"
     no = "No"
     yes = "Yes"
-    start = "Start"
+    start = "Inicio"
     stop = "Stop"
     your_decision = "Your decision"
+    mobile_check = "Haga clic en Siguiente. "
     next = "Next"
 
     # Consent Text

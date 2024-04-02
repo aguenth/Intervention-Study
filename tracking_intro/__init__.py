@@ -35,7 +35,7 @@ class Player(BasePlayer):
         label='What is your <b>highest education</b>?',
         choices=[['No formal education', 'No formal education'],
                  ['Compulsory education', 'Compulsory education (secondary school)'],
-                 ['Further education', 'Further education'],
+                 ['Further education', 'Further education'], # Maybe change wording here?
                  ['Higher education (Bachelor, Master, PhD)', 'Higher education (Bachelor, Master, PhD)']],
         widget=widgets.RadioSelect,
     )

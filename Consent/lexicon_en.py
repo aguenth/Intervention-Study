@@ -6,6 +6,7 @@ class Lexicon:
     start = "Start"
     stop = "Stop"
     your_decision = "Your decision"
+    mobile_check = "Please click next."
     next = "Next"
 
     # Consent Text
