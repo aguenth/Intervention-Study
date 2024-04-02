@@ -1,6 +1,5 @@
 
 {{ block content }}
-<h3 style="font-size: 1.4rem">Thank you for evaluating the electric vehicle offers and policy packages!</h3><br>
 <style>
     .question {
         margin: 0;
@@ -31,62 +30,40 @@
 </style>
 
 <p>
-    Below are some general questions about the advantages and disadvantages of electric vehicles for you personally.
+    {{ Lexicon.intro_probability}}
     <br>
     <br>
     <br>
-    <b>How likely do you think you are to benefit from the following advantages when buying an electric vehicle?</b>
+    <b>{{ Lexicon.question_advantages}}</b>
     <br>
     <br>
-    Buying an electric vehicle would allow me to...
+    {{ Lexicon.answer_intro_advantages}}
 </p>
 
 
 <table class="radiotable">
     <tr> <th></th>
-        <th class="radio-column"> Very unlikely (1) </th>
+        <th class="radio-column"> {{ Lexicon.unlikely }} </th>
         <th class="radio-column"> 2 </th>
         <th class="radio-column"> 3 </th>
         <th class="radio-column"> 4 </th>
         <th class="radio-column"> 5 </th>
-        <th class="radio-column"> Very likely (6) </th>
+        <th class="radio-column"> {{ Lexicon.likely }} </th>
     </tr>
-    <tr>
-    <th style="font-weight:normal;">{{ form.ev_prob_benefits1.label }}</th>
-    <td>{{ form.ev_prob_benefits1.0 }}</td>
-    <td>{{ form.ev_prob_benefits1.1 }}</td>
-    <td>{{ form.ev_prob_benefits1.2 }}</td>
-    <td>{{ form.ev_prob_benefits1.3 }}</td>
-    <td>{{ form.ev_prob_benefits1.4 }}</td>
-    <td>{{ form.ev_prob_benefits1.5 }}</td>
-</tr>
-<tr>
-    <th style="font-weight:normal;">{{ form.ev_prob_benefits2.label }}</th>
-    <td>{{ form.ev_prob_benefits2.0 }}</td>
-    <td>{{ form.ev_prob_benefits2.1 }}</td>
-    <td>{{ form.ev_prob_benefits2.2 }}</td>
-    <td>{{ form.ev_prob_benefits2.3 }}</td>
-    <td>{{ form.ev_prob_benefits2.4 }}</td>
-    <td>{{ form.ev_prob_benefits2.5 }}</td>
-</tr>
-<tr>
-    <th style="font-weight:normal;">{{ form.ev_prob_benefits3.label }}</th>
-    <td>{{ form.ev_prob_benefits3.0 }}</td>
-    <td>{{ form.ev_prob_benefits3.1 }}</td>
-    <td>{{ form.ev_prob_benefits3.2 }}</td>
-    <td>{{ form.ev_prob_benefits3.3 }}</td>
-    <td>{{ form.ev_prob_benefits3.4 }}</td>
-    <td>{{ form.ev_prob_benefits3.5 }}</td>
-</tr>
-<tr>
-    <th style="font-weight:normal;">{{ form.ev_prob_benefits4.label }}</th>
-    <td>{{ form.ev_prob_benefits4.0 }}</td>
-    <td>{{ form.ev_prob_benefits4.1 }}</td>
-    <td>{{ form.ev_prob_benefits4.2 }}</td>
-    <td>{{ form.ev_prob_benefits4.3 }}</td>
-    <td>{{ form.ev_prob_benefits4.4 }}</td>
-    <td>{{ form.ev_prob_benefits4.5 }}</td>
-</tr>
+    {% for field in form %}
+            {% if field.name == 'ev_prob_benefits1' or field.name == 'ev_prob_benefits2' or field.name == 'ev_prob_benefits3' or field.name == 'ev_prob_benefits4'  %}
+            {{formfield_errors field.name}}
+
+            <tr>
+                <th style="font-weight:normal;"  style="word-wrap:break-word;" id={{field.id}} name={{field.name}}>  </th>
+
+                {{ for choice in field }}
+                <td   style="width:7%;" > {{ choice }} </td>
+                {{ endfor }}
+            </tr>
+            {% endif %}
+
+        {{ endfor }}
     </table>
 <br>
 <br>
@@ -98,39 +75,58 @@
 </p>
 <table class="radiotable">
     <tr> <th></th>
-        <th class="radio-column"> Very unlikely (1) </th>
+        <th class="radio-column"> {{ Lexicon.unlikely }} </th>
         <th class="radio-column"> 2 </th>
         <th class="radio-column"> 3 </th>
         <th class="radio-column"> 4 </th>
         <th class="radio-column"> 5 </th>
-        <th class="radio-column"> Very likely (6) </th>
+        <th class="radio-column"> {{ Lexicon.likely }} </th>
     </tr>
-<tr>
-    <th style="font-weight:normal;">{{ form.ev_prob_risks1.label }}</th>
-    <td>{{ form.ev_prob_risks1.0 }}</td>
-    <td>{{ form.ev_prob_risks1.1 }}</td>
-    <td>{{ form.ev_prob_risks1.2 }}</td>
-    <td>{{ form.ev_prob_risks1.3 }}</td>
-    <td>{{ form.ev_prob_risks1.4 }}</td>
-    <td>{{ form.ev_prob_risks1.5 }}</td>
-</tr>
-<tr>
-    <th style="font-weight:normal;">{{ form.ev_prob_risks2.label }}</th>
-    <td>{{ form.ev_prob_risks2.0 }}</td>
-    <td>{{ form.ev_prob_risks2.1 }}</td>
-    <td>{{ form.ev_prob_risks2.2 }}</td>
-    <td>{{ form.ev_prob_risks2.3 }}</td>
-    <td>{{ form.ev_prob_risks2.4 }}</td>
-    <td>{{ form.ev_prob_risks2.5 }}</td>
-</tr>
+    {% for field in form %}
+            {% if field.name == 'ev_prob_risks1' or field.name == 'ev_prob_risks2' %}
+            {{formfield_errors field.name}}
+
+            <tr>
+                <th style="font-weight:normal;"  style="word-wrap:break-word;" id={{field.id}} name={{field.name}}>  </th>
+
+                {{ for choice in field }}
+                <td   style="width:7%;" > {{ choice }} </td>
+                {{ endfor }}
+            </tr>
+            {% endif %}
+
+        {{ endfor }}
+
 </table>
 
-<div class="next-btn radiotable">
+ <div class="next-btn radiotable">
     <div style="float: right; padding-top: 2vh;">
-         {% next_button %}
+        <button id="nextst"  style=" margin-top: 4vh;" class="otree-btn-next btn btn-primary">{{Lexicon.next}}</button>
+
+
     </div>
 </div>
 
-
 {% endblock %}
 
+{% block scripts %}
+<script src="{% static 'global/js/functions.js' %}" defer></script>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+        setWidthForTableColumns1();
+    });
+
+    $(document).ready(function () {
+        for (let i = 0; i < js_vars.form_fields.length; i++) {
+            prop= js_vars.form_fields[i] + '_Label'
+            label = js_vars.form_field_labels[i]
+            id = 'id_' + js_vars.form_fields[i]
+            $('#' + id).html(label)
+        }
+
+
+    })
+</script>
+{% endblock %}

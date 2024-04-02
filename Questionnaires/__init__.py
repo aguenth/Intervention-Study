@@ -12,60 +12,74 @@ class Subsession(BaseSubsession):
     pass
 
 
+def creating_session(subsession: Subsession):
+    if subsession.session.config['language'] == 'mx':
+        from .lexicon_mx import Lexicon
+        subsession.session.myLangCode = "_mx"
+    elif subsession.session.config['language'] == 'za':
+        from .lexicon_en import Lexicon
+        subsession.session.myLangCode = "_za"
+    elif subsession.session.config['language'] == 'uk':
+        from .lexicon_en import Lexicon
+        subsession.session.myLangCode = "_uk"
+    else:
+        from .lexicon_en import Lexicon
+        subsession.session.myLangCode = "_en"
+    subsession.session.questionnairesLexi = Lexicon
+
+
+def make_likert6():
+    return models.IntegerField(
+        choices=[1,2,3,4,5,6],
+            widget=widgets.RadioSelect,
+    )
+
+
+def make_likert10():
+        return models.IntegerField(
+            choices=[1,2,3,4,5,6,7,8,9,10],
+            widget=widgets.RadioSelect,
+        )
+
+
 class Group(BaseGroup):
     pass
 
 
 class Player(BasePlayer):
-    def make_field(label):
-        return models.IntegerField(
-            choices=[['6', 'Agree completely (6)'], ['5', '5'], ['4', '4'],
-                     ['3', '3'], ['2', '2'], ['1', 'Completely disagree (1)']],
-            label=label,
-            widget=widgets.RadioSelectHorizontal,
-        )
 
     # questionnaire
-    conservative_liberal = models.IntegerField(widget=widgets.RadioSelect,
-                                               choices=[['1', 'extremely liberal (1)'], ['2', '2'], ['3', '3'],
-                                                        ['4', '4'], ['5', '5'], ['6', '6'], ['7', '7'], ['8', '8'],
-                                                        ['9', '9'], ['10', 'extremely conservative (10)']])
-    climate_change_concern1 = make_field('I worry about the climate´s state.')
-    climate_change_concern2 = make_field('Climate protection is important for our future.')
-    climate_change_concern3 = make_field('We must protect the climate´s delicate equilibrium.')
-    climate_change_concern4 = make_field('Climate change has severe consequences for humans and nature.')
+    conservative_liberal = make_likert10()
 
-    ev_prob_benefits1 = make_field('...considerably reduce my expenses.')
-    ev_prob_benefits2 = make_field('...considerably increase my independence.')
-    ev_prob_benefits3 = make_field('...considerably decrease my impact on the climate.')
-    ev_prob_benefits4 = make_field('...be part of a common goal or action that others are also involved in.')
+    cc_concern1 = make_likert6()
+    cc_concern2 = make_likert6()
+    cc_concern3 = make_likert6()
+    cc_concern4 = make_likert6()
 
-    ev_prob_risks1 = make_field('...high initial costs.')
-    ev_prob_risks2 = make_field('...too low a return of investment.')
+    ev_prob_benefits1 = make_likert6()
+    ev_prob_benefits2 = make_likert6()
+    ev_prob_benefits3 = make_likert6()
+    ev_prob_benefits4 = make_likert6()
 
-    ev_perceived_risk1 = make_field('Buying an electric vehicle is a risk for me.')
-    ev_perceived_risk2 = make_field('I find buying an electric vehicle too risky.')
-    ev_perceived_benefit1 = make_field('Buying an electric vehicle is good for me.')
-    ev_perceived_benefit2 = make_field('I find that buying an electric vehicle brings many advantages.')
+    ev_prob_risks1 = make_likert6()
+    ev_prob_risks2 = make_likert6()
 
-    neighborhood1 = make_field('I am interested in what my neighbors are doing.')
-    neighborhood2 = make_field('I enjoy meeting and chatting with my neighbors.')
-    attention = make_field('If you are still paying attention, choose response number 2.')
-    neighborhood3 = make_field('It is easy to make friends with my neighbors.')
-    neighborhood4 = make_field('In my neighborhood, we often borrow things from each other.')
+    ev_perceived_benefit1 = make_likert6()
+    ev_perceived_benefit2 = make_likert6()
 
-    homophily1 = make_field('...their political orientation and opinions?')
-    homophily2 = make_field('...their social and economic status?')
-    homophily3 = make_field('...their lifestyle and consumption choices?')
+    ev_perceived_risk1 = make_likert6()
+    ev_perceived_risk2 = make_likert6()
 
-    EVreason = models.StringField(
-            label='If you said you would not want to buy an EV, what was the reason?',
-            choices=[['I would buy a gasoline car instead', 'I would buy a gasoline car instead'],
-                     ['I would not buy any car', 'I would not buy any car'],
-                     ['I would buy a different kind of car (e.g., Hybrid)',
-                      'I would buy a different kind of car (e.g., Hybrid)']],
-            widget=widgets.RadioSelect,
-        )
+    neighborhood1 = make_likert6()
+    neighborhood2 = make_likert6()
+    neighborhood3 = make_likert6()
+    neighborhood4 = make_likert6()
+
+    attention = make_likert6()
+
+    homophily1 = make_likert6()
+    homophily2 = make_likert6()
+    homophily3 = make_likert6()
 
     comment = models.StringField(
         blank=True,
@@ -77,18 +91,29 @@ class Player(BasePlayer):
 
 class cc_concern(Page):
     form_model = 'player'
-    form_fields = ['climate_change_concern1', 'climate_change_concern2', 'climate_change_concern3',
-                   'climate_change_concern4']
+    form_fields = ['cc_concern1', 'cc_concern2', 'cc_concern3', 'cc_concern4']
+
+    @staticmethod
+    def vars_for_template(player: Player):
+        return dict(Lexicon=player.session.questionnairesLexi)
+
+    @staticmethod
+    def js_vars(player):
+        Lexicon = player.session.questionnairesLexi
+        return dict(
+            form_fields=['cc_concern1', 'cc_concern2', 'cc_concern3', 'cc_concern4'],
+            form_field_labels=[Lexicon.cc_concern1_label, Lexicon.cc_concern2_label, Lexicon.cc_concern3_label,
+                               Lexicon.cc_concern4_label]
+    )
 
 
 class pol_orientation(Page):
     form_model = 'player'
     form_fields = ['conservative_liberal']
 
-
-class EVreason(Page):
-    form_model = 'player'
-    form_fields = ['EVreason']
+    @staticmethod
+    def vars_for_template(player: Player):
+        return dict(Lexicon=player.session.questionnairesLexi)
 
 
 class probability(Page):
@@ -96,16 +121,58 @@ class probability(Page):
     form_fields = ['ev_prob_benefits1', 'ev_prob_benefits2', 'ev_prob_benefits3', 'ev_prob_benefits4',
                    'ev_prob_risks1', 'ev_prob_risks2']
 
+    @staticmethod
+    def vars_for_template(player: Player):
+        return dict(Lexicon=player.session.questionnairesLexi)
+
+    @staticmethod
+    def js_vars(player):
+        Lexicon = player.session.questionnairesLexi
+        return dict(
+            form_fields=['ev_prob_benefits1', 'ev_prob_benefits2', 'ev_prob_benefits3', 'ev_prob_benefits4',
+                         'ev_prob_risks1', 'ev_prob_risks2'],
+            form_field_labels=[Lexicon.ev_prob_benefits1_label, Lexicon.ev_prob_benefits2_label,
+                               Lexicon.ev_prob_benefits3_label, Lexicon.ev_prob_benefits4_label]
+        )
+
 
 class risks(Page):
     form_model = 'player'
     form_fields = ['ev_perceived_risk1', 'ev_perceived_risk2', 'ev_perceived_benefit1', 'ev_perceived_benefit2']
 
+    @staticmethod
+    def vars_for_template(player: Player):
+        return dict(Lexicon=player.session.questionnairesLexi)
+
+    @staticmethod
+    def js_vars(player):
+        Lexicon = player.session.questionnairesLexi
+        return dict(
+            form_fields=['ev_perceived_risk1', 'ev_perceived_risk2', 'ev_perceived_benefit1', 'ev_perceived_benefit2'],
+            form_field_labels=[Lexicon.ev_perceived_risk1_label, Lexicon.ev_perceived_risk2_label,
+                               Lexicon.ev_perceived_benefit1_label, Lexicon.ev_perceived_benefit2_label]
+        )
 
 class neighbors(Page):
     form_model = 'player'
     form_fields = ['neighborhood1', 'neighborhood2', 'attention', 'neighborhood3', 'neighborhood4', 'homophily1',
                    'homophily2', 'homophily3']
+
+    @staticmethod
+    def vars_for_template(player: Player):
+        return dict(Lexicon=player.session.questionnairesLexi)
+
+    @staticmethod
+    def js_vars(player):
+        Lexicon = player.session.questionnairesLexi
+        return dict(
+            form_fields=['neighborhood1', 'neighborhood2', 'attention', 'neighborhood3', 'neighborhood4', 'homophily1',
+                         'homophily2', 'homophily3'],
+            form_field_labels=[Lexicon.neighborhood1_label, Lexicon.neighborhood2_label,
+                               Lexicon.attention_label,
+                               Lexicon.neighborhood3_label, Lexicon.neighborhood4_label,
+                               Lexicon.homophily1_label, Lexicon.homophily2_label, Lexicon.homophily3_label]
+        )
 
 
 class comments(Page):

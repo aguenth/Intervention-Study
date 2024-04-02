@@ -1,23 +1,22 @@
 
 {{ block content }}
 
-<h3 style="font-size: 1.4rem">Political Orientation</h3><br>
+<h3 style="font-size: 1.4rem"> {{ Lexicon.pol_orientation_title}}</h3><br>
 
-<b>Liberal</b> and <b>Conservative</b> are terms commonly used to characterize political orientation. Please indicate on the following scale ranging from 1 (extremely liberal) to 10 (extremely conservative) how you would classify yourself in terms of political orientation.
+{{ Lexicon.pol_orientation_text }}
 
 <div class="radiotable" style="padding-top:2vh; padding-left:1vw;">
-<p> Overall, how would you describe your political attitudes and beliefs? </p>
 <p style="text-indent: 7vw;">
-    very liberal &nbsp;
+    {{ Lexicon.strongly_liberal}}
     {{ for choice in form.conservative_liberal}}
         {{ choice }}
     {{ endfor }}
-    &nbsp; very conservative
+    {{ Lexicon.strongly_conservative}}
 </p>
 </div>
 
 
-{{ next_button }}
+<button style="float: right; margin-top: 2vh;" class="otree-btn-next btn btn-primary" >{{ Lexicon.next }}</button>
 
 {% endblock %}
 
