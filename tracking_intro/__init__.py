@@ -24,7 +24,7 @@ def creating_session(subsession: Subsession):
     else:
         from .lexicon_en import Lexicon
         subsession.session.myLangCode = "_en"
-    subsession.session.questionnairesLexi = Lexicon
+    subsession.session.tracking_introLexi = Lexicon
 
 
 class Group(BaseGroup):
