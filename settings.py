@@ -9,43 +9,47 @@ SESSION_CONFIGS = [
        num_demo_participants=5,
        language="en",
        app_sequence=['Questionnaires',
-                    'End',
-                    'Consent',
-                    'tracking_intro',
-                    'Task']
+                     'Consent',
+                     'Demographics',
+                     'End',
+                     'tracking_intro',
+                     'Task']
      ),
     dict(
        name='Mexico',
        display_name="Mexico_Intervention_Study",
        num_demo_participants=5,
        language="mx",
-       app_sequence=['Questionnaires',
-                    'End',
-                    'Consent',
-                    'tracking_intro',
-                    'Task']
+       app_sequence=['Demographics',
+                     'Questionnaires',
+                     'End',
+                     'Consent',
+                     'tracking_intro',
+                     'Task']
      ),
     dict(
         name='UK',
         display_name="UK_Intervention_Study",
         num_demo_participants=5,
         language="uk",
-        app_sequence=['Consent',
-                    #  'tracking_intro',
-                    #  'Task',
-                    #  'Questionnaires',
-                      'End']
+        app_sequence=['Demographics',
+                      'Questionnaires',
+                      'End',
+                      'Consent',
+                      'tracking_intro',
+                      'Task']
     ),
     dict(
         name='SouthAfrica',
         display_name="ZA_Intervention_Study",
         num_demo_participants=5,
         language="za",
-        app_sequence=['Consent',
-                    #  'tracking_intro',
-                    #  'Task',
-                    #  'Questionnaires',
-                      'End']
+        app_sequence=['Demographics',
+                      'Questionnaires',
+                      'End',
+                      'Consent',
+                      'tracking_intro',
+                      'Task']
     ),
 ]
 
@@ -65,13 +69,17 @@ PARTICIPANT_FIELDS = [
 
 
 SESSION_FIELDS = [
+
+    'questionnairesLexi',
+
     'introLexi',
 
     'demographicsLexi',
 
+    'tracking_introLexi',
+
     'taskLexi',
 
-    'questionnairesLexi',
 
     'endLexi',
 

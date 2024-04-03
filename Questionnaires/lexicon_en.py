@@ -1,5 +1,4 @@
 class Lexicon:
-
     # General
     instructions = "Instructions"
     next = "Next"
@@ -53,14 +52,14 @@ class Lexicon:
     cc_concern3_label = "We must protect the climate’s equilibrium."
     cc_concern4_label = "Climate change has severe consequences for humans and nature."
 
-    #Political Orientation
+    # Political Orientation
     pol_orientation_title = "Political Orientation"
     pol_orientation_text = "<b>Liberal</b> and <b>Conservative</b> are terms commonly used to characterize political orientation. Please indicate on the following scale ranging from 1 (extremely liberal) to 10 (extremely conservative) how you would classify yourself in terms of political orientation."
     strongly_liberal = "Strongly Liberal"
     moderate = "Moderate"
     strongly_conservative = "Strongly Conservative"
 
-    #Neighborhood
+    # Neighborhood
     not_similar = "not similar"
     very_similar = "very similar"
     neighborhood_title = "Neigborhood Questions"
@@ -76,6 +75,6 @@ class Lexicon:
     homophily2_label = "...their social and economic status?"
     homophily3_label = "...their lifestyle and consumption choices?"
 
-    #Comments
+    # Comments
     comments_title = "Do you have any comments before finishing the study?"
     comments_instruction = "Write down your comments in the box or leave this box blank."

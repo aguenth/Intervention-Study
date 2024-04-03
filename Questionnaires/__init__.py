@@ -16,12 +16,6 @@ def creating_session(subsession: Subsession):
     if subsession.session.config['language'] == 'mx':
         from .lexicon_mx import Lexicon
         subsession.session.myLangCode = "_mx"
-    elif subsession.session.config['language'] == 'za':
-        from .lexicon_en import Lexicon
-        subsession.session.myLangCode = "_za"
-    elif subsession.session.config['language'] == 'uk':
-        from .lexicon_en import Lexicon
-        subsession.session.myLangCode = "_uk"
     else:
         from .lexicon_en import Lexicon
         subsession.session.myLangCode = "_en"
@@ -30,16 +24,16 @@ def creating_session(subsession: Subsession):
 
 def make_likert6():
     return models.IntegerField(
-        choices=[1,2,3,4,5,6],
-            widget=widgets.RadioSelect,
+        choices=[1, 2, 3, 4, 5, 6],
+        widget=widgets.RadioSelect,
     )
 
 
 def make_likert10():
-        return models.IntegerField(
-            choices=[1,2,3,4,5,6,7,8,9,10],
-            widget=widgets.RadioSelect,
-        )
+    return models.IntegerField(
+        choices=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        widget=widgets.RadioSelect,
+    )
 
 
 class Group(BaseGroup):
@@ -47,7 +41,6 @@ class Group(BaseGroup):
 
 
 class Player(BasePlayer):
-
     # questionnaire
     conservative_liberal = make_likert10()
 
@@ -86,36 +79,6 @@ class Player(BasePlayer):
     )
 
 
-# FUNCTIONS
-# PAGES
-
-class cc_concern(Page):
-    form_model = 'player'
-    form_fields = ['cc_concern1', 'cc_concern2', 'cc_concern3', 'cc_concern4']
-
-    @staticmethod
-    def vars_for_template(player: Player):
-        return dict(Lexicon=player.session.questionnairesLexi)
-
-    @staticmethod
-    def js_vars(player):
-        Lexicon = player.session.questionnairesLexi
-        return dict(
-            form_fields=['cc_concern1', 'cc_concern2', 'cc_concern3', 'cc_concern4'],
-            form_field_labels=[Lexicon.cc_concern1_label, Lexicon.cc_concern2_label, Lexicon.cc_concern3_label,
-                               Lexicon.cc_concern4_label]
-    )
-
-
-class pol_orientation(Page):
-    form_model = 'player'
-    form_fields = ['conservative_liberal']
-
-    @staticmethod
-    def vars_for_template(player: Player):
-        return dict(Lexicon=player.session.questionnairesLexi)
-
-
 class probability(Page):
     form_model = 'player'
     form_fields = ['ev_prob_benefits1', 'ev_prob_benefits2', 'ev_prob_benefits3', 'ev_prob_benefits4',
@@ -137,6 +100,33 @@ class probability(Page):
         )
 
 
+class cc_concern(Page):
+    form_model = 'player'
+    form_fields = ['cc_concern1', 'cc_concern2', 'cc_concern3', 'cc_concern4']
+
+    @staticmethod
+    def vars_for_template(player: Player):
+        return dict(Lexicon=player.session.questionnairesLexi)
+
+    @staticmethod
+    def js_vars(player):
+        Lexicon = player.session.questionnairesLexi
+        return dict(
+            form_fields=['cc_concern1', 'cc_concern2', 'cc_concern3', 'cc_concern4'],
+            form_field_labels=[Lexicon.cc_concern1_label, Lexicon.cc_concern2_label, Lexicon.cc_concern3_label,
+                               Lexicon.cc_concern4_label]
+        )
+
+
+class pol_orientation(Page):
+    form_model = 'player'
+    form_fields = ['conservative_liberal']
+
+    @staticmethod
+    def vars_for_template(player: Player):
+        return dict(Lexicon=player.session.questionnairesLexi)
+
+
 class risks(Page):
     form_model = 'player'
     form_fields = ['ev_perceived_risk1', 'ev_perceived_risk2', 'ev_perceived_benefit1', 'ev_perceived_benefit2']
@@ -153,6 +143,7 @@ class risks(Page):
             form_field_labels=[Lexicon.ev_perceived_risk1_label, Lexicon.ev_perceived_risk2_label,
                                Lexicon.ev_perceived_benefit1_label, Lexicon.ev_perceived_benefit2_label]
         )
+
 
 class neighbors(Page):
     form_model = 'player'
