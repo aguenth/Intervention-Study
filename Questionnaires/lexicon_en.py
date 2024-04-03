@@ -58,12 +58,17 @@ class Lexicon:
     strongly_conservative = "Strongly Conservative"
 
     #Neighborhood
+    not_similar = "not similar"
+    very_similar = "very similar"
+    neighborhood_title = "Neigborhood Questions"
+    neighborhood_intro = "Please indicate how much you agree or disagree with the following statements:"
     neighborhood1_label = "I am interested in what my neighbors are doing."
     neighborhood2_label = "I enjoy meeting and chatting with my neighbors."
     attention_label = "If you are still paying attention, choose response number 2."
     neighborhood3_label = "It is easy to make friends with my neighbors."
     neighborhood4_label = "In my neighborhood, we often borrow things from each other."
 
+    homophily_intro = "When you think about your friends and neighbors, would you say they are similar to you regarding..."
     homophily1_label = "...their political orientation and opinions?"
     homophily2_label = "...their social and economic status?"
     homophily3_label = "...their lifestyle and consumption choices?"

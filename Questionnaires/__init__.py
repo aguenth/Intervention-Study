@@ -155,7 +155,7 @@ class risks(Page):
 
 class neighbors(Page):
     form_model = 'player'
-    form_fields = ['neighborhood1', 'neighborhood2', 'attention', 'neighborhood3', 'neighborhood4', 'homophily1',
+    form_fields = ['neighborhood1', 'neighborhood2', 'neighborhood3', 'attention', 'neighborhood4', 'homophily1',
                    'homophily2', 'homophily3']
 
     @staticmethod
@@ -166,11 +166,12 @@ class neighbors(Page):
     def js_vars(player):
         Lexicon = player.session.questionnairesLexi
         return dict(
-            form_fields=['neighborhood1', 'neighborhood2', 'attention', 'neighborhood3', 'neighborhood4', 'homophily1',
+            form_fields=['neighborhood1', 'neighborhood2', 'neighborhood3', 'attention', 'neighborhood4', 'homophily1',
                          'homophily2', 'homophily3'],
             form_field_labels=[Lexicon.neighborhood1_label, Lexicon.neighborhood2_label,
+                               Lexicon.neighborhood3_label,
                                Lexicon.attention_label,
-                               Lexicon.neighborhood3_label, Lexicon.neighborhood4_label,
+                               Lexicon.neighborhood4_label,
                                Lexicon.homophily1_label, Lexicon.homophily2_label, Lexicon.homophily3_label]
         )
 
