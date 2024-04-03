@@ -91,8 +91,6 @@ class probability(Page):
     @staticmethod
     def js_vars(player):
         Lexicon = player.session.questionnairesLexi
-        print("Debug: Lexicon class instance:", Lexicon)  # Check if Lexicon class is imported correctly
-        print("Debug: Available labels in Lexicon:", dir(Lexicon))  # List available labels in Lexicon class
         return dict(
             form_fields=['ev_prob_benefits1', 'ev_prob_benefits2', 'ev_prob_benefits3', 'ev_prob_benefits4',
                          'ev_prob_risks1', 'ev_prob_risks2'],
