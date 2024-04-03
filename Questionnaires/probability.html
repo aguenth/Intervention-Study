@@ -1,3 +1,6 @@
+{{ block title }}
+{{ Lexicon.probability_title}}
+{{ endblock }}
 
 {{ block content }}
 <style>
@@ -43,15 +46,17 @@
 
 <table class="radiotable">
     <tr> <th></th>
-        <th class="radio-column"> {{ Lexicon.unlikely }} </th>
+        <th class="radio-column"> {{ Lexicon.completely_disagree }} </th>
         <th class="radio-column"> 2 </th>
         <th class="radio-column"> 3 </th>
         <th class="radio-column"> 4 </th>
         <th class="radio-column"> 5 </th>
-        <th class="radio-column"> {{ Lexicon.likely }} </th>
+        <th class="radio-column"> {{ Lexicon.completely_agree }} </th>
     </tr>
+
     {% for field in form %}
-            {% if field.name == 'ev_prob_benefits1' or field.name == 'ev_prob_benefits2' or field.name == 'ev_prob_benefits3' or field.name == 'ev_prob_benefits4'  %}
+            {% if field.name == 'ev_prob_benefits1' or field.name == 'ev_prob_benefits2'
+            or field.name == 'ev_prob_benefits3' or field.name == 'ev_prob_benefits4' %}
             {{formfield_errors field.name}}
 
             <tr>
@@ -64,24 +69,27 @@
             {% endif %}
 
         {{ endfor }}
-    </table>
+
+</table>
 <br>
 <br>
 <p>
-    <b>How likely do you think you are to experience the following disadvantages when buying an electric vehicle?</b>
-    <br>
-    <br>
-    Buying an electric vehicle would entail...
+    <b> {{ Lexicon.question_disadvantages }} </b>
+    <br><br>
+
+    {{ Lexicon.answer_intro_disadvantages }}
+
 </p>
 <table class="radiotable">
     <tr> <th></th>
-        <th class="radio-column"> {{ Lexicon.unlikely }} </th>
+        <th class="radio-column"> {{ Lexicon.completely_disagree }} </th>
         <th class="radio-column"> 2 </th>
         <th class="radio-column"> 3 </th>
         <th class="radio-column"> 4 </th>
         <th class="radio-column"> 5 </th>
-        <th class="radio-column"> {{ Lexicon.likely }} </th>
+        <th class="radio-column"> {{ Lexicon.completely_agree }} </th>
     </tr>
+<tr>
     {% for field in form %}
             {% if field.name == 'ev_prob_risks1' or field.name == 'ev_prob_risks2' %}
             {{formfield_errors field.name}}
@@ -106,6 +114,7 @@
 
     </div>
 </div>
+
 
 {% endblock %}
 

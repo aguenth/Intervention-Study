@@ -132,7 +132,8 @@ class probability(Page):
             form_fields=['ev_prob_benefits1', 'ev_prob_benefits2', 'ev_prob_benefits3', 'ev_prob_benefits4',
                          'ev_prob_risks1', 'ev_prob_risks2'],
             form_field_labels=[Lexicon.ev_prob_benefits1_label, Lexicon.ev_prob_benefits2_label,
-                               Lexicon.ev_prob_benefits3_label, Lexicon.ev_prob_benefits4_label]
+                               Lexicon.ev_prob_benefits3_label, Lexicon.ev_prob_benefits4_label,
+                               Lexicon.ev_prob_risks1_label, Lexicon.ev_prob_risks2_label]
         )
 
 
@@ -179,6 +180,10 @@ class neighbors(Page):
 class comments(Page):
     form_model = 'player'
     form_fields = ['comment']
+
+    @staticmethod
+    def vars_for_template(player: Player):
+        return dict(Lexicon=player.session.questionnairesLexi)
 
 
 # Page sequence
