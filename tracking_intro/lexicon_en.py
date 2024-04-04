@@ -32,3 +32,10 @@ class Lexicon:
     philosophy = "Philosophy"
     spanish = "Spanish"
 
+    well_done = "Well done, you completed the practice task!"
+    intro_main_part1 = "Now, we proceed to the main part of the study, which consists of <b>four blocks of product decisions</b>, each containing 18 trials. Additionally, there will be <b>one block with 18 trials where we present policy packages</b>, and we ask you to decide whether you would support or oppose them.<br><br> "
+    intro_main_part2 = "Before each block, you will receive instructions for the upcoming task. Similar to the practice run, product attributes and policy package components will be concealed behind boxes. To reveal the information, hover your mouse pointer over the box, and it will open, allowing you to see the details. "
+    intro_main_part3 = "Please make your decisions based on the provided information. Before each block you will receive an instruction which describes your task.<br><br>"
+    intro_main_part4 = "<b>Please note:</b> If you find the font size too large on the following pages or if the task does not fit on one page and you have to scroll, you can easily adjust the size using your browser's zoom settings. Look for the zoom settings at the top of the page, typically located in the menu bar of most common browsers View-tab. This allows you to customize the task and text size according to your preference.<br><br><b> "
+    intro_main_part5 = "Click next to confirm your understanding of the task. Specific instructions will be provided before each block. Let's get started!</b> "
+

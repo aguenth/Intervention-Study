@@ -96,7 +96,7 @@ class Lexicon:
     wom_negative_label = "In the last month, how often have you heard <b>negative</b> comments about electric vehicles?"
 
     # affect
-    affect_ev_label = "Overall, how do you feel about electric cars?"
     affect_ev_title = "Feelings towards electric vehicles"
+    affect_ev_label = "Overall, how do you feel about electric cars?"
     very_negative = "very negative"
     very_positive = "very positive"
