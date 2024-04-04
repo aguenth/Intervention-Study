@@ -193,7 +193,7 @@ class Player(BasePlayer):
     no_car = models.StringField(widget=widgets.RadioSelect,)
 
     # WoM
-    wom_owner = models.StringField(widget=widgets.RadioSelect,blank=True)
+    wom_owner = models.StringField(widget=widgets.RadioSelect, blank=True)
     wom_number = models.IntegerField(min=0, max=50)
     wom_positive = models.StringField(widget=widgets.RadioSelect,)
     wom_negative = models.StringField(widget=widgets.RadioSelect,)
@@ -263,6 +263,7 @@ class car_owner(Page):
             form_field_labels=[Lexicon.car_number_label, Lexicon.car_type_label, Lexicon.car_model_label,
                                Lexicon.car_age_label, Lexicon.car_replace_label]
         )
+
 
 class no_car_owner(Page):
     form_model = 'player'

@@ -63,16 +63,12 @@ class Player(BasePlayer):
     ev_perceived_risk1 = make_likert6()
     ev_perceived_risk2 = make_likert6()
 
-    neighborhood1 = make_likert6()
-    neighborhood2 = make_likert6()
-    neighborhood3 = make_likert6()
-    neighborhood4 = make_likert6()
-
-    attention = make_likert6()
+    wom_talking = models.IntegerField(min=0, max=50)
 
     homophily1 = make_likert6()
     homophily2 = make_likert6()
     homophily3 = make_likert6()
+    homophily4 = make_likert6()
 
     comment = models.StringField(
         blank=True,
@@ -147,8 +143,8 @@ class risks(Page):
 
 class neighbors(Page):
     form_model = 'player'
-    form_fields = ['neighborhood1', 'neighborhood2', 'neighborhood3', 'attention', 'neighborhood4', 'homophily1',
-                   'homophily2', 'homophily3']
+    form_fields = ['wom_talking',
+                   'homophily1', 'homophily2', 'homophily3', 'homophily4']
 
     @staticmethod
     def vars_for_template(player: Player):
@@ -158,13 +154,11 @@ class neighbors(Page):
     def js_vars(player):
         Lexicon = player.session.questionnairesLexi
         return dict(
-            form_fields=['neighborhood1', 'neighborhood2', 'neighborhood3', 'attention', 'neighborhood4', 'homophily1',
-                         'homophily2', 'homophily3'],
-            form_field_labels=[Lexicon.neighborhood1_label, Lexicon.neighborhood2_label,
-                               Lexicon.neighborhood3_label,
-                               Lexicon.attention_label,
-                               Lexicon.neighborhood4_label,
-                               Lexicon.homophily1_label, Lexicon.homophily2_label, Lexicon.homophily3_label]
+            form_fields=['wom_talking',
+                         'homophily1', 'homophily2', 'homophily3', 'homophily4'],
+            form_field_labels=[Lexicon.wom_talking_label,
+                               Lexicon.homophily1_label, Lexicon.homophily2_label,
+                               Lexicon.homophily3_label, Lexicon.homophily4_label]
         )
 
 

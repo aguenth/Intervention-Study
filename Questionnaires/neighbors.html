@@ -33,42 +33,24 @@
       
 </style>
 
-<p>
-    {{ Lexicon.neighborhood_intro }}
-
-</p>
-
-<table class="radiotable">
-    <tr> <th></th>
-        <th class="radio-column"> {{ Lexicon.completely_disagree }} </th>
-        <th class="radio-column"> 2 </th>
-        <th class="radio-column"> 3 </th>
-        <th class="radio-column"> 4 </th>
-        <th class="radio-column"> 5 </th>
-        <th class="radio-column"> {{ Lexicon.completely_agree }} </th>
-    </tr>
-
+<form method="post">
     {% for field in form %}
-            {% if field.name == 'neighborhood1' or field.name == 'neighborhood2'
-            or field.name == 'neighborhood3' or field.name == 'attention' or field.name == 'neighborhood4' %}
-            {{formfield_errors field.name}}
+    {% if field.name == 'wom_talking' %}
+        {{formfield_errors field.name}}
+        <br><div>
+            <b><label id="{{field.id}}" name="{{field.name}}"></label></b><br><br style="margin-bottom: 2px">
+           {{field}}
+            <br>
+        </div>
+       {% endif %}
+    {% endfor %}
+</form>
 
-            <tr>
-                <th style="font-weight:normal;"  style="word-wrap:break-word;" id={{field.id}} name={{field.name}}>  </th>
 
-                {{ for choice in field }}
-                <td   style="width:7%;" > {{ choice }} </td>
-                {{ endfor }}
-            </tr>
-            {% endif %}
-
-        {{ endfor }}
-
-</table>
 <br>
 <br>
 <p>
-    {{ Lexicon.homophily_intro }}
+    <b>{{ Lexicon.homophily_intro }}</b>
     <br>
 
 </p>
@@ -83,7 +65,8 @@
     </tr>
 <tr>
     {% for field in form %}
-            {% if field.name == 'homophily1' or field.name == 'homophily2' or field.name == 'homophily3' %}
+            {% if field.name == 'homophily1' or field.name == 'homophily2' or field.name == 'homophily3'
+                or field.name == 'homophily4'%}
             {{formfield_errors field.name}}
 
             <tr>
