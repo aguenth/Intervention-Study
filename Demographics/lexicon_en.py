@@ -29,25 +29,26 @@ class Lexicon:
     education_label = "What is your highest education?"
     none = "No formal education"
     obligatory = "Compulsory education (secondary school)"
-    high_school = "High School"
-    university = "University Degree"
-    doctor = "Doctoral Degree"
+    high_school = "High school diploma or GED"
+    college = "Some college degree"
+    university = "University degree"
+    doctor = "Doctorate"
 
-    income_label = "How high is your yearly personal income before tax?"
+    income_label = "How high is your yearly <b>household</b> income before tax?"
     income_quintile1 = "< $30,000"
-    income_quintile2 = "$30,000 to $50,000"
-    income_quintile3 = "$50,001 to $75,000"
-    income_quintile4 = "$75,001 to $100,000"
-    income_quintile5 = "> $100,001"
+    income_quintile2 = "$30,001 to $55,000"
+    income_quintile3 = "$55,001 to $90,000"
+    income_quintile4 = "$90,001 to $150,000"
+    income_quintile5 = "> $150,001"
 
     household_label = "How many people live in your household?"
+
+    region_label = "In which type of region do you live?"
     urban = "Urban (more than 50,000 inhabitants)"
     suburban = "Suburban (between 5,000 and 50,000 inhabitants)"
     rural = "Rural (less than 5,000 inhabitants)"
 
-    region_label = "In which type of region do you live?"
-
-    zip_code_label = "Optional: What is your zip code?"
+    zip_code_label = "What is your zip code?"
 
     # Car_questions
     own_car_label = "Does your household own a car (or lease a car)?"
@@ -73,6 +74,9 @@ class Lexicon:
     four = "Every 4 years"
     eight = "Every 8 years"
     twelve = "Every 12 years or when it needs replacement"
+
+    # No car
+    no_car_label = "You indicated that you do not own a car. Can you imagine buying a car in the next 10 years?"
 
     # WoM
     wom_owner_label = "If someone you know asks you for your opinion on your electric car, you would provide... "

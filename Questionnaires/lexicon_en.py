@@ -33,16 +33,16 @@ class Lexicon:
     ev_prob_benefits3_label = '...considerably decrease my impact on the climate.'
     ev_prob_benefits4_label = '...be part of a common goal or action that others are also involved in.'
 
-    ev_prob_risks1_label = '...high initial costs.'
+    ev_prob_risks1_label = '...too high initial costs.'
     ev_prob_risks2_label = '...too low a return of investment.'
 
     # Perceived Risk and benefit
     risks_title = "Your Perception of Risks and Benefits Associated with Electric Vehicles"
     risk_agree = "To what extent do you agree with the following statements?"
     ev_perceived_risk1_label = "Buying an electric vehicle is a risk for me."
-    ev_perceived_risk2_label = "I find buying an electric vehicle too risky."
-    ev_perceived_benefit1_label = "Buying an electric vehicle is good for me."
-    ev_perceived_benefit2_label = "I find that buying an electric vehicle brings many advantages."
+    ev_perceived_risk2_label = "I think there are too many risks involved in buying an electric vehicle."
+    ev_perceived_benefit1_label = "Buying an electric vehicle is attractive for me."
+    ev_perceived_benefit2_label = "I think that buying an electric vehicle has many advantages."
 
     # Climate Change Concern (Tobler et al., 2012 & Shi et al., 2016)
     cc_concern_title = "Concern about Climate Change"

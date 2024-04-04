@@ -10,13 +10,27 @@
 </p>
 
 <form method="post">
+    {% if player.field_maybe_none('car_type') and player.car_type != "gasoline" %}
+        {% for field in form %}
+            {% if field.name == 'wom_owner' %}
+    <div>
+        <b><label id="{{field.id}}" name="{{field.name}}"></label></b><br><br style="margin-bottom: 2px">
+        {{ field }}
+    </div>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+
     {% for field in form %}
-        {{formfield_errors field.name}}
-        <br><div>
-            <b><label id="{{field.id}}" name="{{field.name}}"></label></b><br><br style="margin-bottom: 2px">
-           {{field}}
+        {% if field.name == 'wom_number' or field.name == 'wom_positive' or field.name == 'wom_negative' %}
+            {{ formfield_errors field.name }}
             <br>
-        </div>
+            <div>
+                <b><label id="{{field.id}}" name="{{field.name}}"></label></b><br><br style="margin-bottom: 2px">
+                {{ field }}
+                <br>
+            </div>
+        {% endif %}
     {% endfor %}
 </form>
 

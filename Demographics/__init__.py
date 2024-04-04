@@ -44,6 +44,7 @@ def education_choices(player):
             ["none", Lexicon.none],
             ["obligatory", Lexicon.obligatory],
             ["high_school", Lexicon.high_school],
+            ["college", Lexicon.college],
             ["university", Lexicon.university],
             ["doctor", Lexicon.doctor]
         ]
@@ -157,6 +158,14 @@ def wom_negative_choices(player):
     ]
     return wom_negative_choices
 
+def no_car_choices(player):
+    Lexicon = player.session.demographicsLexi
+    no_car_choices = [
+        ["yes", Lexicon.yes],
+        ["no", Lexicon.no]
+    ]
+    return no_car_choices
+
 
 class Player(BasePlayer):
 
@@ -180,8 +189,11 @@ class Player(BasePlayer):
     car_age = models.IntegerField(min=1, max=30)
     car_replace = models.StringField(widget=widgets.RadioSelect,)
 
+    # no_car_owner
+    no_car = models.StringField(widget=widgets.RadioSelect,)
+
     # WoM
-    wom_owner = models.StringField(widget=widgets.RadioSelect,)
+    wom_owner = models.StringField(widget=widgets.RadioSelect,blank=True)
     wom_number = models.IntegerField(min=0, max=50)
     wom_positive = models.StringField(widget=widgets.RadioSelect,)
     wom_negative = models.StringField(widget=widgets.RadioSelect,)
@@ -193,7 +205,7 @@ class Player(BasePlayer):
 # Demographics Page class
 class Demographics(Page):
     form_model = 'player'
-    form_fields = ['age', 'gender', 'education', 'income', 'household', 'region']
+    form_fields = ['age', 'gender', 'education', 'income', 'household', 'region', 'zip_code']
 
     @staticmethod
     def vars_for_template(player: Player):
@@ -203,9 +215,10 @@ class Demographics(Page):
     def js_vars(player):
         Lexicon = player.session.demographicsLexi
         return dict(
-            form_fields=['age', 'gender', 'education', 'income', 'household', 'region'],
+            form_fields=['age', 'gender', 'education', 'income', 'household', 'region', 'zip_code'],
             form_field_labels=[Lexicon.age_label, Lexicon.gender_label, Lexicon.education_label,
-                               Lexicon.income_label, Lexicon.household_label, Lexicon.region_label]
+                               Lexicon.income_label, Lexicon.household_label, Lexicon.region_label,
+                               Lexicon.zip_code_label]
         )
 
 
@@ -251,6 +264,25 @@ class car_owner(Page):
                                Lexicon.car_age_label, Lexicon.car_replace_label]
         )
 
+class no_car_owner(Page):
+    form_model = 'player'
+    form_fields = ['no_car']
+
+    def is_displayed(player):
+        return player.participant.vars['own_car'] == 'no'
+
+    @staticmethod
+    def vars_for_template(player: Player):
+        return dict(Lexicon=player.session.demographicsLexi)
+
+    @staticmethod
+    def js_vars(player):
+        Lexicon = player.session.demographicsLexi
+        return dict(
+            form_fields=['no_car'],
+            form_field_labels=[Lexicon.no_car_label]
+        )
+
 
 class WoM(Page):
     form_model = 'player'
@@ -284,6 +316,7 @@ page_sequence = [
     Demographics,
     Car_questions,
     car_owner,
+    no_car_owner,
     WoM,
     affect
 ]
