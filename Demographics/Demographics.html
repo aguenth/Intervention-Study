@@ -1,7 +1,12 @@
 {% block title %}
   {{ Lexicon.demographics_title }}
-{% endblock %}
+{% endblock%}
 
+{% block content %}
+{% load otree otree_tools %}
+   {% tracking_focus %}
+   {% tracking_time %}
+{% endblock%}
 
 {% block content %}
 <br>{{ Lexicon.demographics_subtitle }}<br><br>

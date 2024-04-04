@@ -114,4 +114,5 @@ Here are some oTree games.
 
 SECRET_KEY = '3153268574945'
 
-INSTALLED_APPS = ['otree']
+INSTALLED_APPS = ['otree', 'django_extensions']
+EXTENSION_APPS = ['otree_tools']

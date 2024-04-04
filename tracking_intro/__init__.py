@@ -15,12 +15,6 @@ def creating_session(subsession: Subsession):
     if subsession.session.config['language'] == 'mx':
         from .lexicon_mx import Lexicon
         subsession.session.myLangCode = "_mx"
-    elif subsession.session.config['language'] == 'za':
-        from .lexicon_en import Lexicon
-        subsession.session.myLangCode = "_za"
-    elif subsession.session.config['language'] == 'uk':
-        from .lexicon_en import Lexicon
-        subsession.session.myLangCode = "_uk"
     else:
         from .lexicon_en import Lexicon
         subsession.session.myLangCode = "_en"
