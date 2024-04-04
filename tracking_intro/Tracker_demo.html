@@ -1,7 +1,6 @@
 {% extends "global/Page.html" %}
 {% load otree static %}
 
-
 {% block styles %}
     <style type="text/css">
 
@@ -86,17 +85,11 @@
 
 {% block content %}
 <div>
-<h3 style="font-size: 1.4rem">Practice Task</h3><br>
-
+<h3 style="font-size: 1.4rem"> {{ Lexicon.practice_title }}</h3><br>
     <p>
-    Behind the boxes you will find information about the classes three professors teach. <br>
-        You can look at the content of the boxes by moving the mouse pointer into the box. <br>
-        The box will open, and you can see the information until you move the mouse out of the box again.<br><br>
-        Please try to answer the question below.
-    <br>
-    <br>
-        <br>
-</p>
+    {{ Lexicon.practice_info }}
+    <br><br><br>
+    </p>
 </div>
 
 <div class="container my_flipcards">
@@ -105,10 +98,10 @@
             <div class="flip-card tracked_element">
                 <div class="flip-card-inner">
                     <div class="flip-card-front valign-wrapper jok">
-                        <span style="font-weight: bold;">Box A</span>
+                        <span style="font-weight: bold;"> {{ Lexicon.boxA }}</span>
                     </div>
                     <div class="flip-card-back valign-wrapper jok">
-                        <span>Professor Marx: Spanish</span>
+                        <span> {{ Lexicon.marx }}</span>
                     </div>
                 </div>
             </div>
@@ -116,10 +109,10 @@
             <div class="flip-card tracked_element">
                 <div class="flip-card-inner">
                     <div class="flip-card-front valign-wrapper jok">
-                        <span style="font-weight: bold;">Box B</span>
+                        <span style="font-weight: bold;">{{ Lexicon.boxB }}</span>
                     </div>
                     <div class="flip-card-back valign-wrapper jok">
-                        <span>Professor Smith: Philosophy</span>
+                        <span>{{ Lexicon.smith }}</span>
                     </div>
                 </div>
             </div>
@@ -127,10 +120,10 @@
             <div class="flip-card tracked_element">
                 <div class="flip-card-inner">
                     <div class="flip-card-front valign-wrapper jok">
-                        <span style="font-weight: bold;">Box C</span>
+                        <span style="font-weight: bold;">{{ Lexicon.boxB }}</span>
                     </div>
                     <div class="flip-card-back valign-wrapper jok">
-                        <span>Professor Jones: Marketing</span>
+                        <span>{{ Lexicon.jones }}</span>
                     </div>
                 </div>
             </div>
@@ -138,34 +131,20 @@
 <div class="row mt-4">
         <div class="col-12 text-center">
             <!-- Container for radio button questions -->
-            <div class="radio-questions-container">
-                <p>What class does Professor Smith teach?</p>
-                <div class="form-check" style="text-align: left">
-                    <input class="form-check-input" type="radio" name="teacher" id="Marketing" value="Marketing">
-                    <label class="form-check-label" for="teacherMarketing">
-                        Marketing
-                    </label>
-                </div>
-                <div class="form-check" style="text-align: left">
-                    <input class="form-check-input" type="radio" name="teacher" id="Philosophy" value="Philosophy">
-                    <label class="form-check-label" for="teacherPhilosophy">
-                        Philosophy
-                    </label>
-                </div>
-                <div class="form-check" style="text-align: left">
-                    <input class="form-check-input" type="radio" name="teacher" id="Spanish" value="Spanish">
-                    <label class="form-check-label" for="teacherSpanish">
-                        Spanish
-                    </label>
-                </div>
-            </div>
+            <form method="post">
+                {% for field in form %}
+                {{formfield_errors field.name}} <div>
+            <b><label id="{{field.id}}" name="{{field.name}}"></label></b><br><br style="margin-bottom: 2px">
+           {{field}}
         </div>
+            {% endfor %}
+        </form>
     </div>
 </div>
 
     <div class="row mt-4">
         <div class="col-6 offset-3 text-center"> <!-- Center-align and offset the button to the left -->
-            <button id="next-button" type="submit" class="btn btn-primary">Next</button>
+            <button id="next-button" type="submit" class="btn btn-primary">{{ Lexicon.next }}</button>
         </div>
     </div>
 {% endblock %}
@@ -216,7 +195,7 @@
         // Function to check the selected answer and provide feedback
         function checkAnswer() {
             let selectedAnswer = $('input[name="teacher"]:checked').val();
-            if (selectedAnswer !== "Philosophy") {
+            if (selectedAnswer !== "philosophy") {
                 // Show the feedback message in red
                 $('#feedback').css('display', 'block');
                 // Disable the "Next" button
@@ -234,4 +213,15 @@
         // Attach the change event listener to the radio buttons
         $('input[name="teacher"]').change(checkAnswer);
     </script>
+
+            <script>
+    $(document).ready(function () {
+        for (let i = 0; i < js_vars.form_fields.length; i++) {
+            prop = js_vars.form_fields[i] + '_Label';
+            label = js_vars.form_field_labels[i];
+            id = 'id_' + js_vars.form_fields[i];
+            $('#' + id).html(label);
+        }
+    });
+</script>
 {% endblock %}

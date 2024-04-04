@@ -27,7 +27,16 @@ class Group(BaseGroup):
 
 class Player(BasePlayer):
 
-    teacher = models.StringField()
+    teacher = models.StringField(widget=widgets.RadioSelectHorizontal)
+
+def teacher_choices(player):
+    Lexicon = player.session.tracking_introLexi
+    teacher_choices = [
+        ["marketing", Lexicon.marketing],
+        ["philosophy", Lexicon.philosophy],
+        ["spanish", Lexicon.spanish]
+    ]
+    return teacher_choices
 
     # teacher = models.StringField(
     #    choices=["Marketing", "Philosophy", "Spanish"],
@@ -80,6 +89,14 @@ class Tracker_demo(Page):
     @staticmethod
     def vars_for_template(player: Player):
         return dict(Lexicon=player.session.tracking_introLexi)
+
+    @staticmethod
+    def js_vars(player):
+        Lexicon = player.session.tracking_introLexi
+        return dict(
+            form_fields=['teacher'],
+            form_field_labels=[Lexicon.teacher_label]
+        )
 
 
 class practice_completed_template(Page):
