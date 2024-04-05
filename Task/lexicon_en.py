@@ -79,3 +79,6 @@ class Lexicon:
              'over the whole lifespan of the car</b>. '
              'Find the label in the <b>Lifecycle Greenhouse Gas Emissions</b> box. <br>',
     }
+
+    policy_package_no = "Policy Package"
+    product_offer_no = "Electric Vehicle Offer"

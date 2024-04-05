@@ -240,10 +240,10 @@
     <div class="row">
         <div class="col-12 my_flipcards">
         {% if policy_block %}
-        <p id="offerTitle">Policy Package No. 1</p>
+        <p id="offerTitle">{{ Lexicon.policy_package_no }} No. 1</p>
         <img style="width:100%; margin: 10px; max-width:300px;" src="{% static 'global/images/policyhand.webp' %}">
         {% else %}
-        <p id="offerTitle">Electric Vehicle Offer No. 1</p>
+        <p id="offerTitle">{{ Lexicon.product_offer_no }} No. 1</p>
         <img style="width:100%; margin: 10px; max-width:300px;" src="{% static 'global/images/electric.webp' %}">
         {% endif %}
             {% for attribute, level in attributes.items %}
@@ -312,7 +312,7 @@
         var pageLoadCount = (roundNumber - 1) % 18 + 1;
 
         // Set the title with the updated count and appropriate prefix
-        var titlePrefix = isPolicyBlock ? "Policy Package" : "Electric Vehicle Offer";
+        var titlePrefix = isPolicyBlock ? "{{ Lexicon.policy_package_no }}" : "{{ Lexicon.product_offer_no }}";
         titleElement.textContent = titlePrefix + " No. " + pageLoadCount;
 
         // Save the updated pageLoadCount to localStorage
