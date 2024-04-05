@@ -8,12 +8,12 @@ SESSION_CONFIGS = [
        display_name="USA_Intervention_Study",
        num_demo_participants=5,
        language="en",
-       app_sequence=['tracking_intro',
+       app_sequence=['Demographics',
+                     'Task',
+                     'tracking_intro',
                      'Consent',
-                     'Demographics',
                      'Questionnaires',
-                     'End',
-                     'Task']
+                     'End']
      ),
     dict(
        name='Mexico',

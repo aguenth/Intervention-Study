@@ -44,34 +44,6 @@ class Constants(BaseConstants):
     from .attributes_es import attributes_listD_large as attributes_listD_large_es
     from .attributes_es import attributes_listE as attributes_listE_es
 
-    # Add block-specific texts
-    block_texts = {
-        'A': '<br>A carbon tax on gasoline is now in effect. '
-             'This tax increases the savings of an electric car compared to a gasoline car per 100 miles. '
-             'Find the tax amount in the <b>Savings Compared to Gasoline Car</b> box. <br>',
-
-        'B': '<br> '
-             'A carbon tax on gasoline is now in effect. '
-             'This tax increases the savings of electric cars compared to gasoline cars per 100 miles. '
-             'Find the tax amount in the <b>Savings Compared to Gasoline Car</b> box. <br>'
-             'Additionally, the government introduced a manufacturer label on cars. '
-             'The greenhouse gas emissions information is presented as a percentage label. '
-             'It reflects the <b>emission savings of electric vehicles compared to similar-sized gasoline cars '
-             'over the whole lifespan of the car</b>. '
-             'Find the label in the <b>Lifecycle Greenhouse Gas Emissions</b> box. <br>',
-
-        'C': '',
-
-        'D': '<br>'
-             'The government introduced a manufacturer label on cars. '
-             'The greenhouse gas emissions information is presented as a percentage label. '
-             'It reflects the <b>emission savings of electric vehicles compared to similar-sized gasoline cars '
-             'over the whole lifespan of the car</b>. '
-             'Find the label in the <b>Lifecycle Greenhouse Gas Emissions</b> box. <br>',
-    }
-
-    affirmative_text = 'Well done on completing the block!'
-
 
 # Subsession
 class Subsession(BaseSubsession):
@@ -147,6 +119,14 @@ def custom_export(players):
 
 
 def creating_session(subsession: Subsession):
+    if subsession.session.config['language'] == 'mx':
+        from .lexicon_mx import Lexicon
+        subsession.session.myLangCode = "_mx"
+    else:
+        from .lexicon_en import Lexicon
+        subsession.session.myLangCode = "_en"
+    subsession.session.taskLexi = Lexicon
+
     if subsession.round_number == 1:
         for p in subsession.get_players():
             tasks = ['TaskPage'] * Constants.num_rounds + ['PolicyPage']
@@ -192,6 +172,7 @@ class TaskPage(Page):
 
     @staticmethod
     def vars_for_template(player: Player):
+        Lexicon = player.session.taskLexi
         # Ensure that randomized_sequence is set before trying to access it
         if player.session.config['language'] == "mx":
             attributes_listA_small = Constants.attributes_listA_small_es
@@ -240,7 +221,7 @@ class TaskPage(Page):
         player.current_task = trial_number
 
         # Get the block-specific text from Constants
-        block_text = Constants.block_texts.get(block, 'Default block text')
+        block_text = Lexicon.block_texts.get(block, 'Default block text')
 
         policy_block = block == 'E'
         product_block = player.block in ['A', 'B', 'C', 'D']
@@ -267,7 +248,7 @@ class TaskPage(Page):
         completed_block = player.round_number in well_done
 
         # Conditionally choose the attributes lists based on the "car" value and block
-        if player.participant.vars['car'] == 'Small':
+        if player.participant.vars['car'] == 'small':
             attributes_list = {
                 'A': attributes_listA_small,
                 'B': attributes_listB_small,
@@ -275,7 +256,7 @@ class TaskPage(Page):
                 'D': attributes_listD_small,
                 'E': attributes_listE,
             }
-        elif player.participant.vars['car'] == 'Medium':
+        elif player.participant.vars['car'] == 'medium':
             attributes_list = {
                 'A': attributes_listA_medium,
                 'B': attributes_listB_medium,
@@ -283,7 +264,7 @@ class TaskPage(Page):
                 'D': attributes_listD_medium,
                 'E': attributes_listE,
             }
-        elif player.participant.vars['car'] == 'Luxury':
+        elif player.participant.vars['car'] == 'large':
             attributes_list = {
                 'A': attributes_listA_large,
                 'B': attributes_listB_large,
@@ -338,6 +319,7 @@ class TaskPage(Page):
             "product_block": product_block,
             "blockC_first": blockC_first,
             "blockC_second": blockC_second,
+            "Lexicon": player.session.taskLexi,
         }
 
     def live_method(player, data):
