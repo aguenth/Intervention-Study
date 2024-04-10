@@ -34,7 +34,7 @@ class Lexicon:
     university = "University degree"
     doctor = "Doctorate"
 
-    income_label = "How high is your yearly <b>household</b> income before tax?"
+    income_label = "How high is your yearly <u><b>household</b></u> income before tax?"
     income_quintile1 = "< $30,000"
     income_quintile2 = "$30,001 to $55,000"
     income_quintile3 = "$55,001 to $90,000"
@@ -86,14 +86,14 @@ class Lexicon:
 
     wom_number_label = "How many people do you know who own an electric vehicle?"
 
-    wom_positive_label = "In the last month, how often have you heard <b>positive</b> comments about electric vehicles?"
+    wom_positive_label = "In the last month, how often have you heard <u><b>positive</u></b> comments about electric vehicles?"
     never = "Never (0 times)"
     rarely = "Rarely (1 time)"
     sometimes = "Sometimes (2-3 times)"
     often = "Often (4 times)"
     very_often = "Very often (5 times or more)"
 
-    wom_negative_label = "In the last month, how often have you heard <b>negative</b> comments about electric vehicles?"
+    wom_negative_label = "In the last month, how often have you heard <u><b>negative</u></b> comments about electric vehicles?"
 
     # affect
     affect_ev_title = "Feelings towards electric vehicles"

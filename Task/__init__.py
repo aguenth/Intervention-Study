@@ -15,6 +15,16 @@ class Constants(BaseConstants):
     blocks = ['A', 'B', 'C', 'D', 'E']
     trials_per_block = 18
     num_rounds = 90
+    possible_orders = [
+        ['B', 'D', 'C', 'A'],
+        ['B', 'D', 'A', 'C'],
+        ['D', 'B', 'C', 'A'],
+        ['D', 'B', 'A', 'C'],
+        ['C', 'D', 'B', 'D'],
+        ['A', 'C', 'B', 'D'],
+        ['C', 'A', 'D', 'B'],
+        ['A', 'C', 'D', 'B']
+    ]
 
     from .attributes_en import attributes_listA_small as attributes_listA_small
     from .attributes_en import attributes_listB_small as attributes_listB_small
@@ -138,14 +148,10 @@ def creating_session(subsession: Subsession):
         trials_per_block = Constants.trials_per_block
 
         for p in subsession.get_players():
-            block_order = Constants.blocks.copy()
-
-            # Check if 'E' is in the list before trying to remove it
-            if 'E' in block_order:
-                block_order.remove('E')
+            possible_orders = Constants.possible_orders.copy()
 
             # Shuffle the order of blocks (excluding Block E)
-            random.shuffle(block_order)
+            block_order = random.choice(possible_orders)
 
             # Decide whether Block E should be placed before or after the shuffled blocks
             if random.choice([True, False]):
@@ -220,13 +226,14 @@ class TaskPage(Page):
         player.block = block
         player.current_task = trial_number
 
-        # Get the block-specific text from Constants
+        # Get the block-specific text from Lexicon
         block_text = Lexicon.block_texts.get(block, 'Default block text')
 
+        # Define which blocks are product choice and which is the policy block
         policy_block = block == 'E'
         product_block = player.block in ['A', 'B', 'C', 'D']
 
-        # Check if it's the very first trial and the block is A, B, C, or D
+        # Check if the current trial is the very first trial and the block is A, B, C, or D
         product_first = player.round_number == 1 and player.block in ['A', 'B', 'C', 'D']
         product_second = not product_first and player.round_number == 19 and player.block in ['A', 'B', 'C', 'D']
 
@@ -237,6 +244,12 @@ class TaskPage(Page):
 
         if player.round_number == 1 and policy_block:
             player.participant.vars['first_block_was_policy'] = True
+
+        if player.round_number == 1 and player.block in ['B', 'D']:
+            player.participant.vars['label_first'] = True
+
+        if player.round_number == 1 and player.block in ['A', 'C']:
+            player.participant.vars['label_second'] = True
 
         # Specify the rounds where the message is supposed to be visually attractive -> first trials of each block
         attractive_rounds = {1, 19, 37, 55, 73}
@@ -319,6 +332,8 @@ class TaskPage(Page):
             "product_block": product_block,
             "blockC_first": blockC_first,
             "blockC_second": blockC_second,
+            "label_first": player.participant.vars.get('label_first', False),
+            "nolabel_first": player.participant.vars.get('label_second', False),
             "Lexicon": player.session.taskLexi,
         }
 

@@ -6,20 +6,20 @@ class Lexicon:
 
     # instruction_product
     product_intro_title = "Please read carefully: Instructions on the product choice task"
-    product_intro_text1 = "In the upcoming pages, you will be presented with various hypothetical investment scenarios. <b>Please imagine that you are contemplating to purchase a new car.</b><br><br>"
+    product_intro_text1 = "In the upcoming pages, you will be presented with various hypothetical investment scenarios. <b>Please imagine that you would like to purchase a new car.</b><br><br>"
     product_intro_text2 = "Your role is to evaluate different offers for <b>electric vehicles</b> and decide whether or not you would choose to buy each car. An electric car operates exclusively on electricity, utilizing an electric motor instead of the conventional internal combustion engine found in typical cars.<br><br>"
     product_intro_text3 = "Consider the following attributes that vary across the offers:"
 
-    investment_cost = "Investment Costs:"
-    savings = "Savings on Driving:"
-    emissions = "Life Cycle Emissions:"
-    range = "Battery Range:"
-    adopters = "Adopters in the Neighborhood:"
+    investment_cost = "<u>Investment Costs:</u>"
+    savings = "<u>Savings on Driving:</u>"
+    emissions = "<u>Life Cycle Emissions:</u>"
+    range = "<u>Battery Range:</u>"
+    adopters = "<u>Adopters in the Neighborhood:</u>"
 
-    investment_cost_text = "This monetary attribute defines the <b>total investment costs of the electric car</b>. Citizens may be eligible for government subsidies, which reduce the costs. The costs depend on the make of the car and the subsidies received."
-    savings_text = "Electric vehicles have lower running costs than traditional gasoline cars. The <b>savings are calculated compared to the costs of driving a gasoline car </b> and are based on electricity prices and efficiency for 100 miles."
-    emissions_text = "This refers to the total greenhouse gas emissions associated with an electric vehicle <b>throughout its entire lifespan</b>. It takes into account emissions from manufacturing, disposal, and the electricity needed for the journey. In simpler terms, this corresponds to assessing the environmental footprint of the electric car from the moment of its creation to its retirement after <b>approximately 150,000 miles</b>."
-    range_text = "Battery range indicates the <b>distance an electric vehicle can travel on a single battery charge</b>. It defines how far you can drive before needing to recharge the vehicle's battery."
+    investment_cost_text = "This financial attribute defines the <b>net price of the electric car</b>. There are government subsidies that can reduce the price. The cost depends on the car brand and the subsidies/discounts subtracted."
+    savings_text = "Charging an electric vehicles is <b>cheaper than fueling a gasoline car</b>. Therefore, the costs per mile are lower for electric vehicles than for gasoline cars. The savings are calculated by comparing electricity prices with gas prices and the efficiency of electric vehicles with traditional cars. <b>The value presented tells you how much you can save with this electric car for 100 miles.</b>"
+    emissions_text = "The emissions show the environmental footprint of the electric car in tons from the production to its decommissioning after <b>approx. 150,000 miles</b>. This includes emissions from production, disposal and the electricity needed for driving."
+    range_text = "The battery range indicates the <b>distance an electric vehicle can travel on a single battery charge</b>. It indicates how many miles you can drive before you have to stop to charge the battery."
     adopters_text = "This attribute represents the <b>percentage of people in your neighborhood who currently drive a <i>similar electric car</i></b>."
 
     product_intro_text4 = "Each electric car presented in an offer is designed to match the characteristics of a car you would consider buying. This includes factors such as model, size, engine power, and the number of doors."
@@ -36,10 +36,10 @@ class Lexicon:
     subsidy = "Subsidies on Investment Costs:"
     label = "Climate Label:"
 
-    tax_text = "This attribute indicates whether the government proposes a <b>carbon tax on the emissions from gasoline</b> in $ per metric ton of CO2, which increases the fuel price. A carbon tax is a policy tool which discourages the use of fossil fuels and encourages a shift towards cleaner energy sources. In this context, it reflects a policy tool to stimulate the transition from traditional gasoline powered vehicles to cleaner alternatives such as electric vehicles."
-    subsidy_text = "This attribute indicates whether there are <b>government subsidies (price reduction)</b> provided to individuals who buy an electric vehicle. Subsidies on investment costs are designed to make electric vehicles more financially attractive and affordable for consumers, promoting the adoption of electric cars. However, it's important to note that these subsidies might also mean that the funds are not available for other projects."
-    label_text = "This attribute describes whether the government plans to introduce a <b>voluntary or mandatory climate label on cars</b> (or no label). The climate label provides information about <b>gasoline cars climate footprint compared to EVs</b> and the other way round. A voluntary or mandatory climate label is a policy tool to enhance consumer awareness and transparency regarding the environmental impact of vehicle choices."
-    adopters_policy_text = "To evaluate the potential impact of a policy package, it is crucial to understand the number of people affected by the policy. This attribute indicates the <b>percentage of EVs among new car registrations in your neighborhood <i>over the last year</i></b>. Please make your decisions under the assumption that of all new car registrations in your area, the provided number of people has adopted an electric vehicle."
+    tax_text = "The policy package can include a <b>carbon tax on gasoline emissions</b>. This tax is expressed in $ per metric ton of CO2. Each gallon of gasoline burned produces about 9 kilograms of CO2, so the carbon tax would increase the price of fuel. As a result, the savings from driving an electric vehicle would be higher compared to a gasoline car. The tax revenue would be redistributed to low-income households so that those who cannot afford an electric vehicle but have to rely on their car are not disadvantaged."
+    subsidy_text = "This attribute indicates whether there are <b>government subsidies (price discounts)</b> provided to individuals who buy an electric vehicle. Subsidies on investment costs are designed to make electric vehicles more financially attractive and affordable for consumers, promoting the adoption of electric cars. However, it's important to note that these subsidies might also mean that the funds are not available for other projects."
+    label_text = "This attribute describes whether the government plans to introduce a <b>voluntary or mandatory climate label for cars</b>. The climate label provides information about the <b>climate footprint of electric vehicles compared to gasoline vehicles</b> and vice versa (i.e. how much less emissions an electric car produces). A climate label is a policy tool to improve consumer awareness and transparency regarding the environmental impact of vehicle choices."
+    adopters_policy_text = "To assess the potential impact of a package of measures, it is important to know the number of people affected by the measure. This attribute indicates the <b>percentage of electric vehicles among new registrations <i>in the last year</i></b>. Please make your decisions based on the assumption that of all new registrations in your region, the specified number of people have purchased an electric vehicle."
 
     policy_intro_text4 = "The different parts of the policy packages will be concealed behind boxes. To view the information, hover your mouse pointer over the box. The box will open, allowing you to see the information."
     policy_intro_text5 = "Please decide whether or not you would support each policy package presented."
@@ -79,6 +79,13 @@ class Lexicon:
              'over the whole lifespan of the car</b>. '
              'Find the label in the <b>Lifecycle Greenhouse Gas Emissions</b> box. <br>',
     }
+
+    BD1 = ("Please consider for the next car offers that the government introduced a manufacturer climate footprint label. "
+           "This label shows how much greenhouse gas emissions cars produce and specifically how much emissions an electric car saves compared to a gasoline car. "
+           "You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>")
+    BD19 = ("Please consider for the next car offers that the government introduced a gasoline tax in addition to the climate footprint label."
+            "The label of each vehicle can still be found in the <b>Lifecycle Greenhouse Gas Emissions</b> box. "
+            "The gasoline tax increases")
 
     policy_package_no = "Policy Package"
     product_offer_no = "Electric Vehicle Offer"

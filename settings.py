@@ -8,10 +8,10 @@ SESSION_CONFIGS = [
        display_name="USA_Intervention_Study",
        num_demo_participants=5,
        language="en",
-       app_sequence=['Demographics',
-                     'Task',
+       app_sequence=['Consent',
+                     'Demographics',
                      'tracking_intro',
-                     'Consent',
+                     'Task',
                      'Questionnaires',
                      'End']
      ),
