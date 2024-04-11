@@ -226,9 +226,6 @@ class TaskPage(Page):
         player.block = block
         player.current_task = trial_number
 
-        # Get the block-specific text from Lexicon
-        block_text = Lexicon.block_texts.get(block, 'Default block text')
-
         # Define which blocks are product choice and which is the policy block
         policy_block = block == 'E'
         product_block = player.block in ['A', 'B', 'C', 'D']
@@ -394,7 +391,6 @@ class TaskPage(Page):
             "current_task": trial_number,  # Set current_task to the extracted trial_number
             "block": block,  # Include the block information
             "round_number": round_number,
-            "block_text": block_text,  # Include the block-specific text,
             "is_first_trial_of_block": is_first_trial_of_block,
             "completed_block": completed_block,
             "policy_block": policy_block,

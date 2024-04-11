@@ -55,90 +55,44 @@ class Lexicon:
 
     affirmative_text = 'Well done on completing the block!'
     # Add block-specific texts
-    block_texts = {
-        'A': '<br>A carbon tax on gasoline is now in effect. '
-             'This tax increases the savings of an electric car compared to a gasoline car per 100 miles. '
-             'Find the tax amount in the <b>Savings Compared to Gasoline Car</b> box. <br>',
 
-        'B': '<br> '
-             'A carbon tax on gasoline is now in effect. '
-             'This tax increases the savings of electric cars compared to gasoline cars per 100 miles. '
-             'Find the tax amount in the <b>Savings Compared to Gasoline Car</b> box. <br>'
-             'Additionally, the government introduced a manufacturer label on cars. '
-             'The greenhouse gas emissions information is presented as a percentage label. '
-             'It reflects the <b>emission savings of electric vehicles compared to similar-sized gasoline cars '
-             'over the whole lifespan of the car</b>. '
-             'Find the label in the <b>Lifecycle Greenhouse Gas Emissions</b> box. <br>',
+    BD1 = """Please consider for the next car offers that the government introduced a <b>manufacturer climate footprint label</b>. This label shows how much greenhouse gas emissions cars produce and in particular <b>how much emissions an electric car saves compared to a gasoline car in %</b>. You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box. <br><br>
+    In addition, the government introduced a <b>price on the emissions from gasoline</b>. This tax means that the price per gallon of gasoline will increase. Depending on the level set by the government, this increase could be <b>around $0.5 per gallon or around $2. </b>Essentially, driving a gasoline vehicle will become more expensive, making <b>electric vehicles even more cost-effective.</b> To see how much you can save per 100 miles by choosing an electric vehicle, including the savings due to the carbon pricing, see the <b>Savings Compared to Gasoline Car</b> box.<br>"""
 
-        'C': '',
+    BD19 = """Please consider for the next car offers that there is <b>still the manufacturer climate footprint label</b> which shows <b>how much emissions an electric car saves compared to a gasoline car in %</b>. You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box. <br><br>
+    There is <b>no gasoline tax for the next offers</b>. This means that the electric vehicles are still cost-effective compared to gasoline cars, but the savings are no longer increased by a higher gasoline price.<br>"""
 
-        'D': '<br>'
-             'The government introduced a manufacturer label on cars. '
-             'The greenhouse gas emissions information is presented as a percentage label. '
-             'It reflects the <b>emission savings of electric vehicles compared to similar-sized gasoline cars '
-             'over the whole lifespan of the car</b>. '
-             'Find the label in the <b>Lifecycle Greenhouse Gas Emissions</b> box. <br>',
-    }
+    DB1 = """Please consider for the next car offers that the government introduced a <b>manufacturer climate footprint label</b>. This label shows how much greenhouse gas emissions cars produce and in particular <b>how much emissions an electric car saves compared to a gasoline car in %</b>. You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box. <br>"""
 
-    BD1 = ("Please consider for the next car offers that the government introduced a manufacturer climate footprint label. "
-           "This label shows how much greenhouse gas emissions cars produce and specifically <b>how much emissions an electric car saves compared to a gasoline car in %</b>. "
-           "You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>"
-           "Additionally the government introduced a <b>gasoline tax</b>. The gasoline tax increases the price per gallon of gasoline. The tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
-           "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b> ")
-    BD19 = ("Please consider for the next car offers that there is still the climate footprint label."
-            "The climate label of each vehicle can be found in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br> "
-            "There is no gasoline tax for the next offers. This means there are still savings compared to gasoline cars but these are not increased anymore.<br>")
+    DB19 = """Please consider for the next car offers that <b>in addition to the manufacturer climate footprint label</b> the government introduced a <b>price on the emissions from gasoline</b>. This tax means that the price per gallon of gasoline will increase. Depending on the level set by the government, this increase could be <b>around $0.5 per gallon or around $2. </b>Essentially, driving a gasoline vehicle will become more expensive, making <b>electric vehicles even more cost-effective.</b> To see how much you can save per 100 miles by choosing an electric vehicle, including the savings due to the carbon pricing, see the <b>Savings Compared to Gasoline Car</b> box.<br><br>
+    The climate label of each vehicle can again be found in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>"""
 
-    DB1 = ("Please consider for the next car offers that the government introduced a manufacturer climate footprint label. "
-           "This label shows how much greenhouse gas emissions cars produce and specifically <b>how much emissions an electric car saves compared to a gasoline car in %</b>. "
-           "You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>")
-    DB19 = ("Please consider for the next car offers that the government introduced a <b>gasoline tax in addition to the climate footprint label</b>."
-            "The gasoline tax increases the price per gallon of gasoline. The tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
-            "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b> "
-            "The climate label of each vehicle can be found in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>")
+    AC1 = """Please consider for the next car offers that the government introduced a <b>price on the emissions from gasoline</b>. This tax means that the price per gallon of gasoline will increase. Depending on the level set by the government, this increase could be <b>around $0.5 per gallon or around $2. </b>Essentially, driving a gasoline vehicle will become more expensive, making <b>electric vehicles even more cost-effective.</b> To see how much you can save per 100 miles by choosing an electric vehicle, including the savings due to the carbon pricing, see the <b>Savings Compared to Gasoline Car</b> box.<br> """
 
-    AC1 = ("Please consider for the next car offers that the government introduced a <b>gasoline tax</b>. "
-           "The gasoline tax increases the price per gallon of gasoline. "
-           "The tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
-           "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b>")
-    AC19 = ("Please consider for the next car offers that there is is no gasoline tax for the next offers."
-            " This means there are still savings compared to gasoline cars but these are not increased anymore.<br>")
+    AC19 = """Please consider for the next car offers that there is <b>no gasoline tax. This means that the electric vehicles are still cost-effective compared to gasoline cars, but the savings are no longer increased by a higher gasoline price.<br>"""
 
-    CA1 = ""
-    CA19 = ("Please consider for the next car offers that the government introduced a <b>gasoline tax</b>. "
-            "The gasoline tax increases the price per gallon of gasoline. "
-            "The tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
-            "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b>")
+    CA1 = """ """
 
-    BD37 = ("Please consider for the next car offers that the government introduced a manufacturer climate footprint label. "
-            "This label shows how much greenhouse gas emissions cars produce and specifically <b>how much emissions an electric car saves compared to a gasoline car in %</b>. "
-            "You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>"
-            "Additionally the government introduced a <b>gasoline tax</b>. The gasoline tax increases the price per gallon of gasoline. As before, the tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
-            "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b> ")
-    BD55 = ("Please consider for the next car offers that there is still the climate footprint label."
-            "The climate label of each vehicle can be found in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br> "
-            "There is no gasoline tax for the next offers. This means there are still savings compared to gasoline cars but these are not increased anymore.<br>")
+    CA19 = """Please consider for the next car offers that the government introduced a <b>price on the emissions from gasoline</b>. This tax means that the price per gallon of gasoline will increase. Depending on the level set by the government, this increase could be <b>around $0.5 per gallon or around $2. </b>Essentially, driving a gasoline vehicle will become more expensive, making <b>electric vehicles even more cost-effective.</b> To see how much you can save per 100 miles by choosing an electric vehicle, including the savings due to the carbon pricing, see the <b>Savings Compared to Gasoline Car</b> box.<br>"""
 
-    DB37 = ("Please consider for the next car offers that the government introduced a manufacturer climate footprint label. "
-            "This label shows how much greenhouse gas emissions cars produce and specifically <b>how much emissions an electric car saves compared to a gasoline car in %</b>. "
-            "You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>")
-    DB55 = ("Please consider for the next car offers that the government introduced a <b>gasoline tax in addition to the climate footprint label</b>.<br><br> "
-            "This tax means that the price per gallon of gasoline will increase. Depending on the level set by the government, this increase could be about $0.5 per gallon or about $2. "
-            "In essence, driving a gasoline car becomes more expensive, <b>making electric vehicles even more the cost-effective option. </b><br><br>"
-            "The climate label of each vehicle can be found in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>")
+    BD37 = """Please consider for the next car offers that the government introduced a <b>manufacturer climate footprint label</b>. This label shows how much greenhouse gas emissions cars produce and in particular <b>how much emissions an electric car saves compared to a gasoline car in %</b>. You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box. <br><br>
+    In addition, the government introduced a <b>price on the emissions from gasoline</b>. As before, this tax means that the price per gallon of gasoline will increase. Depending on the level set by the government, this increase could be <b>around $0.5 per gallon or around $2. </b>Essentially, driving a gasoline vehicle will become more expensive, making <b>electric vehicles even more cost-effective.</b> To see how much you can save per 100 miles by choosing an electric vehicle, including the savings due to the carbon pricing, see the <b>Savings Compared to Gasoline Car</b> box.<br>"""
 
-    AC37 = ("Please consider for the next car offers that there is <b>no climate footprint label anymore</b>."
-            "However, there is a <b>gasoline tax</b>. The gasoline tax increases the price per gallon of gasoline. "
-            "As before, the tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
-            "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b>")
-    AC55 = "Please consider for the next car offers that there is <b>no climate footprint label and no gasoline tax anymore</b>"
+    BD55 = """Please consider for the next car offers that there is <b>still the manufacturer climate footprint label</b> which shows <b>how much emissions an electric car saves compared to a gasoline car in %</b>. You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box. <br><br>
+    There is <b>no gasoline tax for the next offers</b>. This means that the electric vehicles are still cost-effective compared to gasoline cars, but the savings are no longer increased by a higher gasoline price.<br>"""
 
-    CA37 = "Please consider for the next car offers that there is <b>no climate footprint label anymore</b>."
+    DB37 = """Please consider for the next car offers that the government introduced a <b>manufacturer climate footprint label</b>. This label shows how much greenhouse gas emissions cars produce and in particular <b>how much emissions an electric car saves compared to a gasoline car in %</b>. You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box. <br><br>"""
 
-    CA55 = ("Please consider for the next car offers that there is still <b>no climate footprint label</b>."
-            "However, there is a <b>gasoline tax</b>. The gasoline tax increases the price per gallon of gasoline. "
-            "As before, the tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
-            "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b>")
+    DB55 = """Please consider for the next car offers that <b>in addition to the manufacturer climate footprint label</b> the government introduced a <b>price on the emissions from gasoline</b>. This tax means that the price per gallon of gasoline will increase. Depending on the level set by the government, this increase could be <b>around $0.5 per gallon or around $2. </b>Essentially, driving a gasoline vehicle will become more expensive, making <b>electric vehicles even more cost-effective.</b> To see how much you can save per 100 miles by choosing an electric vehicle, including the savings due to the carbon pricing, see the <b>Savings Compared to Gasoline Car</b> box.<br><br>
+    The climate label of each vehicle can again be found in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>"""
+
+    AC37 = """Please consider for the next car offers that there is <b>no manufacturer climate footprint label anymore</b>. But the government introduced a <b>price on the emissions from gasoline</b>. This tax means that the price per gallon of gasoline will increase. Depending on the level set by the government, this increase could be <b>around $0.5 per gallon or around $2. </b>Essentially, driving a gasoline vehicle will become more expensive, making <b>electric vehicles even more cost-effective.</b> To see how much you can save per 100 miles by choosing an electric vehicle, including the savings due to the carbon pricing, see the <b>Savings Compared to Gasoline Car</b> box.<br>"""
+
+    AC55 = """Please consider for the next car offers that there is <b>no manufacturer climate footprint label and no gasoline tax anymore</b><br>"""
+
+    CA37 = """Please consider for the next car offers that there is <b>no manufacturer climate footprint label anymore</b>.<br>"""
+
+    CA55 = """Please consider for the next car offers that there is still <b>no manufacturer climate footprint label</b>. But the government introduced a <b>price on the emissions from gasoline</b>. This tax means that the price per gallon of gasoline will increase. Depending on the level set by the government, this increase could be <b>around $0.5 per gallon or around $2. </b>Essentially, driving a gasoline vehicle will become more expensive, making <b>electric vehicles even more cost-effective.</b> To see how much you can save per 100 miles by choosing an electric vehicle, including the savings due to the carbon pricing, see the <b>Savings Compared to Gasoline Car</b> box.<br>"""
 
     policy_package_no = "Policy Package"
     product_offer_no = "Electric Vehicle Offer"
