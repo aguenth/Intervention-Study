@@ -13,43 +13,43 @@ SESSION_CONFIGS = [
                      'tracking_intro',
                      'Task',
                      'Questionnaires',
-                     'End']
+                     'End',]
      ),
     dict(
        name='Mexico',
        display_name="Mexico_Intervention_Study",
        num_demo_participants=5,
        language="mx",
-       app_sequence=['Demographics',
-                     'Questionnaires',
-                     'End',
-                     'Consent',
+       app_sequence=['Consent',
+                     'Demographics',
                      'tracking_intro',
-                     'Task']
+                     'Task',
+                     'Questionnaires',
+                     'End',]
      ),
     dict(
         name='UK',
         display_name="UK_Intervention_Study",
         num_demo_participants=5,
         language="uk",
-        app_sequence=['Demographics',
-                      'Questionnaires',
-                      'End',
-                      'Consent',
+        app_sequence=['Consent',
+                      'Demographics',
                       'tracking_intro',
-                      'Task']
+                      'Task',
+                      'Questionnaires',
+                      'End',]
     ),
     dict(
         name='SouthAfrica',
         display_name="ZA_Intervention_Study",
         num_demo_participants=5,
         language="za",
-        app_sequence=['Demographics',
-                      'Questionnaires',
-                      'End',
-                      'Consent',
+        app_sequence=['Consent',
+                      'Demographics',
                       'tracking_intro',
-                      'Task']
+                      'Task',
+                      'Questionnaires',
+                      'End',]
     ),
 ]
 
@@ -79,7 +79,6 @@ SESSION_FIELDS = [
     'tracking_introLexi',
 
     'taskLexi',
-
 
     'endLexi',
 

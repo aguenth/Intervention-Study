@@ -16,11 +16,11 @@ class Lexicon:
     range = "<u>Battery Range:</u>"
     adopters = "<u>Adopters in the Neighborhood:</u>"
 
-    investment_cost_text = "This financial attribute defines the <b>net price of the electric car</b>. There are government subsidies that can reduce the price. The cost depends on the car brand and the subsidies/discounts subtracted."
+    investment_cost_text = "This financial attribute shows the <b>net price of the electric car</b>. There are government subsidies that can reduce the price. The cost depends on the car brand and the subsidies/discounts subtracted."
     savings_text = "Charging an electric vehicles is <b>cheaper than fueling a gasoline car</b>. Therefore, the costs per mile are lower for electric vehicles than for gasoline cars. The savings are calculated by comparing electricity prices with gas prices and the efficiency of electric vehicles with traditional cars. <b>The value presented tells you how much you can save with this electric car for 100 miles.</b>"
-    emissions_text = "The emissions show the environmental footprint of the electric car in tons from the production to its decommissioning after <b>approx. 150,000 miles</b>. This includes emissions from production, disposal and the electricity needed for driving."
+    emissions_text = "The emissions show the environmental footprint of the electric car <b>in metric tons</b> from the production to its decommissioning after <b>approx. 150,000 miles</b>. This includes emissions from production, disposal and the electricity needed for driving."
     range_text = "The battery range indicates the <b>distance an electric vehicle can travel on a single battery charge</b>. It indicates how many miles you can drive before you have to stop to charge the battery."
-    adopters_text = "This attribute represents the <b>percentage of people in your neighborhood who currently drive a <i>similar electric car</i></b>."
+    adopters_text = "This attribute represents the <b>percentage of people in your neighborhood who currently drive a <i>similar</i> electric car</b>."
 
     product_intro_text4 = "Each electric car presented in an offer is designed to match the characteristics of a car you would consider buying. This includes factors such as model, size, engine power, and the number of doors."
     product_intro_text5 = "As in the practice run, the attributes of the products will be concealed behind boxes. To view the attributes, hover your mouse pointer over the box. The box will open, allowing you to see the information."
@@ -81,11 +81,64 @@ class Lexicon:
     }
 
     BD1 = ("Please consider for the next car offers that the government introduced a manufacturer climate footprint label. "
-           "This label shows how much greenhouse gas emissions cars produce and specifically how much emissions an electric car saves compared to a gasoline car. "
+           "This label shows how much greenhouse gas emissions cars produce and specifically <b>how much emissions an electric car saves compared to a gasoline car in %</b>. "
+           "You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>"
+           "Additionally the government introduced a <b>gasoline tax</b>. The gasoline tax increases the price per gallon of gasoline. The tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
+           "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b> ")
+    BD19 = ("Please consider for the next car offers that there is still the climate footprint label."
+            "The climate label of each vehicle can be found in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br> "
+            "There is no gasoline tax for the next offers. This means there are still savings compared to gasoline cars but these are not increased anymore.<br>")
+
+    DB1 = ("Please consider for the next car offers that the government introduced a manufacturer climate footprint label. "
+           "This label shows how much greenhouse gas emissions cars produce and specifically <b>how much emissions an electric car saves compared to a gasoline car in %</b>. "
            "You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>")
-    BD19 = ("Please consider for the next car offers that the government introduced a gasoline tax in addition to the climate footprint label."
-            "The label of each vehicle can still be found in the <b>Lifecycle Greenhouse Gas Emissions</b> box. "
-            "The gasoline tax increases")
+    DB19 = ("Please consider for the next car offers that the government introduced a <b>gasoline tax in addition to the climate footprint label</b>."
+            "The gasoline tax increases the price per gallon of gasoline. The tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
+            "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b> "
+            "The climate label of each vehicle can be found in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>")
+
+    AC1 = ("Please consider for the next car offers that the government introduced a <b>gasoline tax</b>. "
+           "The gasoline tax increases the price per gallon of gasoline. "
+           "The tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
+           "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b>")
+    AC19 = ("Please consider for the next car offers that there is is no gasoline tax for the next offers."
+            " This means there are still savings compared to gasoline cars but these are not increased anymore.<br>")
+
+    CA1 = ""
+    CA19 = ("Please consider for the next car offers that the government introduced a <b>gasoline tax</b>. "
+            "The gasoline tax increases the price per gallon of gasoline. "
+            "The tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
+            "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b>")
+
+    BD37 = ("Please consider for the next car offers that the government introduced a manufacturer climate footprint label. "
+            "This label shows how much greenhouse gas emissions cars produce and specifically <b>how much emissions an electric car saves compared to a gasoline car in %</b>. "
+            "You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>"
+            "Additionally the government introduced a <b>gasoline tax</b>. The gasoline tax increases the price per gallon of gasoline. As before, the tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
+            "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b> ")
+    BD55 = ("Please consider for the next car offers that there is still the climate footprint label."
+            "The climate label of each vehicle can be found in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br> "
+            "There is no gasoline tax for the next offers. This means there are still savings compared to gasoline cars but these are not increased anymore.<br>")
+
+    DB37 = ("Please consider for the next car offers that the government introduced a manufacturer climate footprint label. "
+            "This label shows how much greenhouse gas emissions cars produce and specifically <b>how much emissions an electric car saves compared to a gasoline car in %</b>. "
+            "You can find the label of each electric vehicle in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>")
+    DB55 = ("Please consider for the next car offers that the government introduced a <b>gasoline tax in addition to the climate footprint label</b>.<br><br> "
+            "This tax means that the price per gallon of gasoline will increase. Depending on the level set by the government, this increase could be about $0.5 per gallon or about $2. "
+            "In essence, driving a gasoline car becomes more expensive, <b>making electric vehicles even more the cost-effective option. </b><br><br>"
+            "The climate label of each vehicle can be found in the <b>Lifecycle Greenhouse Gas Emissions</b> box.<br>")
+
+    AC37 = ("Please consider for the next car offers that there is <b>no climate footprint label anymore</b>."
+            "However, there is a <b>gasoline tax</b>. The gasoline tax increases the price per gallon of gasoline. "
+            "As before, the tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
+            "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b>")
+    AC55 = "Please consider for the next car offers that there is <b>no climate footprint label and no gasoline tax anymore</b>"
+
+    CA37 = "Please consider for the next car offers that there is <b>no climate footprint label anymore</b>."
+
+    CA55 = ("Please consider for the next car offers that there is still <b>no climate footprint label</b>."
+            "However, there is a <b>gasoline tax</b>. The gasoline tax increases the price per gallon of gasoline. "
+            "As before, the tax can be low (increase of gallon price by $0.5, from $3.3 to $3.8) or high (increase of gallon price by $2, from $3.3 to $5.3). "
+            "In any case, your <b>savings when choosing the electric vehicle become larger due to the carbon price on gasoline.</b>")
 
     policy_package_no = "Policy Package"
     product_offer_no = "Electric Vehicle Offer"

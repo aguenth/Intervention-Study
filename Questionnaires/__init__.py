@@ -74,6 +74,13 @@ class Player(BasePlayer):
         blank=True,
     )
 
+class transition(Page):
+    form_model = 'player'
+
+    @staticmethod
+    def vars_for_template(player: Player):
+        return dict(Lexicon=player.session.questionnairesLexi)
+
 
 class probability(Page):
     form_model = 'player'
@@ -173,6 +180,7 @@ class comments(Page):
 
 # Page sequence
 page_sequence = [
+    transition,
     probability,
     risks,
     neighbors,

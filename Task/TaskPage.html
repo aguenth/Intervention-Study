@@ -203,19 +203,75 @@
             {% endif %}
             {% if product_first %}
                 {{ include_sibling 'instruction_product.html' }}
-                {% if not blockC_first %}
-                <p style="color: red; font-size: 1rem"> {{ Lexicon.block_text_intro }} {{ block_text }}</p>
-                {% else %}
-                {{ block_text }}
+                {% if BD1 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.BD1 }} </p>
+                {% elif BD19 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.BD19 }} </p>
+                {% elif BD37 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.BD37 }} </p>
+                {% elif BD55 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.BD55 }} </p>
+                {% elif DB1 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.DB1 }} </p>
+                {% elif DB19 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.DB19 }} </p>
+                {% elif DB37 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.DB37 }} </p>
+                {% elif DB55 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.DB55 }} </p>
+                {% elif AC1 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.AC1 }} </p>
+                {% elif AC19 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.AC19 }} </p>
+                {% elif AC37 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.AC37}} </p>
+                {% elif AC55 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.AC55 }} </p>
+                {% elif CA1 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.CA1 }} </p>
+                {% elif CA19 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.CA19 }} </p>
+                {% elif CA37 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.CA37}} </p>
+                {% elif CA55 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.CA55 }} </p>
                 {% endif %}
             {% elif policy_block %}
                 {{ include_sibling 'instruction_policy.html' }}
             {% elif product_second and first_block_was_policy %}
                 {{ include_sibling 'instruction_product.html' }}
-                {% if not blockC_second %}
-                <p style="color: red; font-size: 1rem"> {{ Lexicon.block_text_intro }} {{ block_text }}</p>
-                {% else %}
-                <p style="color: red; font-size: 1rem"> {{ block_text }} </p>
+                {% if BD1 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.BD1 }} </p>
+                {% elif BD19 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.BD19 }} </p>
+                {% elif BD37 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.BD37 }} </p>
+                {% elif BD55 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.BD55 }} </p>
+                {% elif DB1 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.DB1 }} </p>
+                {% elif DB19 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.DB19 }} </p>
+                {% elif DB37 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.DB37 }} </p>
+                {% elif DB55 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.DB55 }} </p>
+                {% elif AC1 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.AC1 }} </p>
+                {% elif AC19 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.AC19 }} </p>
+                {% elif AC37 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.AC37}} </p>
+                {% elif AC55 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.AC55 }} </p>
+                {% elif CA1 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.CA1 }} </p>
+                {% elif CA19 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.CA19 }} </p>
+                {% elif CA37 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.CA37}} </p>
+                {% elif CA55 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.CA55 }} </p>
                 {% endif %}
             {% else %}
                     <p style="font-size: 1rem">{{ Lexicon.product_intro_short }}</p>
@@ -226,11 +282,39 @@
                         <li><b>{{ Lexicon.range }}</b> {{ Lexicon.range_text }}</li>
                         <li><b>{{ Lexicon.adopters }}</b> {{ Lexicon.adopters_text }}</li>
                     </ul>
-                    {% if not blockC_second %}
-                    <p style="color: red;font-size: 1rem"> {{ Lexicon.policy_change }} {{ block_text }}</p>
-                    {% else %}
-                    <p style="color: red; font-size: 1rem"> {{ Lexicon.block_text_intro }} {{ Lexicon.no_policies }}</p>
-                    {% endif %}
+                    {% if BD1 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.BD1 }} </p>
+                {% elif BD19 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.BD19 }} </p>
+                {% elif BD37 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.BD37 }} </p>
+                {% elif BD55 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.BD55 }} </p>
+                {% elif DB1 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.DB1 }} </p>
+                {% elif DB19 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.DB19 }} </p>
+                {% elif DB37 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.DB37 }} </p>
+                {% elif DB55 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.DB55 }} </p>
+                {% elif AC1 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.AC1 }} </p>
+                {% elif AC19 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.AC19 }} </p>
+                {% elif AC37 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.AC37}} </p>
+                {% elif AC55 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.AC55 }} </p>
+                {% elif CA1 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.CA1 }} </p>
+                {% elif CA19 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.CA19 }} </p>
+                {% elif CA37 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.CA37}} </p>
+                {% elif CA55 %}
+                <p style="color: red; font-size: 1rem"> {{ Lexicon.CA55 }} </p>
+                {% endif %}
             {% endif %}
             <div id="hideInstructionButton" class="btn btn-primary" >Start Task</div>
         </div>

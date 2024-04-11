@@ -245,11 +245,83 @@ class TaskPage(Page):
         if player.round_number == 1 and policy_block:
             player.participant.vars['first_block_was_policy'] = True
 
-        if player.round_number == 1 and player.block in ['B', 'D']:
+        if player.round_number in [1, 19] and player.block in ['B', 'D']:
             player.participant.vars['label_first'] = True
 
-        if player.round_number == 1 and player.block in ['A', 'C']:
+        if player.round_number in [1, 19] and player.block in ['A', 'C']:
             player.participant.vars['label_second'] = True
+
+        BD1 = (player.participant.vars.get('label_first', False) and
+               ((player.round_number == 1 and not player.participant.vars.get('first_block_was_policy', False)) or
+                (player.round_number == 19 and player.participant.vars.get('first_block_was_policy', False))) and
+               block == 'B')
+        BD19 = (player.participant.vars.get('label_first', False) and
+                ((player.round_number == 19 and not player.participant.vars.get('first_block_was_policy', False)) or
+                 (player.round_number == 37 and player.participant.vars.get('first_block_was_policy', False))) and
+                block == 'D')
+
+        DB1 = (player.participant.vars.get('label_first', False) and
+               ((player.round_number == 1 and not player.participant.vars.get('first_block_was_policy', False)) or
+                (player.round_number == 19 and player.participant.vars.get('first_block_was_policy', False))) and
+               block == 'D')
+        DB19 = (player.participant.vars.get('label_first', False) and
+                ((player.round_number == 19 and not player.participant.vars.get('first_block_was_policy', False)) or
+                 (player.round_number == 37 and player.participant.vars.get('first_block_was_policy', False))) and
+                block == 'B')
+
+        BD37 = (player.participant.vars.get('label_second', False) and
+                ((player.round_number == 37 and not player.participant.vars.get('first_block_was_policy', False)) or
+                 (player.round_number == 55 and player.participant.vars.get('first_block_was_policy', False))) and
+                block == 'B')
+        BD55 = (player.participant.vars.get('label_second', False) and
+                ((player.round_number == 55 and not player.participant.vars.get('first_block_was_policy', False)) or
+                 (player.round_number == 73 and player.participant.vars.get('first_block_was_policy', False))) and
+                block == 'D')
+
+        DB37 = (player.participant.vars.get('label_second', False) and
+                ((player.round_number == 37 and not player.participant.vars.get('first_block_was_policy', False)) or
+                 (player.round_number == 55 and player.participant.vars.get('first_block_was_policy', False))) and
+                block == 'D')
+        DB55 = (player.participant.vars.get('label_second', False) and
+                ((player.round_number == 55 and not player.participant.vars.get('first_block_was_policy', False)) or
+                 (player.round_number == 73 and player.participant.vars.get('first_block_was_policy', False))) and
+                block == 'B')
+
+        AC1 = (player.participant.vars.get('label_second', False) and
+               ((player.round_number == 1 and not player.participant.vars.get('first_block_was_policy', False)) or
+                (player.round_number == 19 and player.participant.vars.get('first_block_was_policy', False))) and
+               block == 'A')
+        AC19 = (player.participant.vars.get('label_second', False) and
+                ((player.round_number == 19 and not player.participant.vars.get('first_block_was_policy', False)) or
+                 (player.round_number == 37 and player.participant.vars.get('first_block_was_policy', False))) and
+                block == 'C')
+
+        CA1 = (player.participant.vars.get('label_second', False) and
+               ((player.round_number == 1 and not player.participant.vars.get('first_block_was_policy', False)) or
+                (player.round_number == 19 and player.participant.vars.get('first_block_was_policy', False))) and
+               block == 'C')
+        CA19 = (player.participant.vars.get('label_second', False) and
+                ((player.round_number == 19 and not player.participant.vars.get('first_block_was_policy', False)) or
+                 (player.round_number == 37 and player.participant.vars.get('first_block_was_policy', False))) and
+                block == 'A')
+
+        AC37 = (player.participant.vars.get('label_first', False) and
+                ((player.round_number == 37 and not player.participant.vars.get('first_block_was_policy', False)) or
+                 (player.round_number == 55 and player.participant.vars.get('first_block_was_policy', False))) and
+                block == 'A')
+        AC55 = (player.participant.vars.get('label_first', False) and
+                ((player.round_number == 55 and not player.participant.vars.get('first_block_was_policy', False)) or
+                 (player.round_number == 73 and player.participant.vars.get('first_block_was_policy', False))) and
+                block == 'C')
+
+        CA37 = (player.participant.vars.get('label_first', False) and
+                ((player.round_number == 37 and not player.participant.vars.get('first_block_was_policy', False)) or
+                 (player.round_number == 55 and player.participant.vars.get('first_block_was_policy', False))) and
+                block == 'C')
+        CA55 = (player.participant.vars.get('label_first', False) and
+                ((player.round_number == 55 and not player.participant.vars.get('first_block_was_policy', False)) or
+                 (player.round_number == 73 and player.participant.vars.get('first_block_was_policy', False))) and
+                block == 'A')
 
         # Specify the rounds where the message is supposed to be visually attractive -> first trials of each block
         attractive_rounds = {1, 19, 37, 55, 73}
@@ -333,8 +405,24 @@ class TaskPage(Page):
             "blockC_first": blockC_first,
             "blockC_second": blockC_second,
             "label_first": player.participant.vars.get('label_first', False),
-            "nolabel_first": player.participant.vars.get('label_second', False),
+            "label_second": player.participant.vars.get('label_second', False),
             "Lexicon": player.session.taskLexi,
+            "BD1": BD1,
+            "BD19": BD19,
+            "DB1": DB1,
+            "DB19": DB19,
+            "AC1": AC1,
+            "AC19": AC19,
+            "CA1": CA1,
+            "CA19": CA19,
+            "BD37": BD37,
+            "BD55": BD55,
+            "DB37": DB37,
+            "DB55": DB55,
+            "AC37": AC37,
+            "AC55": AC55,
+            "CA37": CA37,
+            "CA55": CA55
         }
 
     def live_method(player, data):
