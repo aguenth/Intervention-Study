@@ -375,6 +375,7 @@
 <div class="row mt-4">
     <div class="col-6 offset-3 text-center">
         <button id="nextButton" class="btn btn-primary" style="display: none;"> {{ Lexicon.next }}</button>
+        <input type="hidden" name="response_time" id="response_time"/>
     </div>
 </div>
 {% endblock %}
@@ -422,10 +423,16 @@
         choiceNoButton.style.display = displayStyle;
     }
 
+let firstHoverEnterTime = null;
+
 $(".tracked_element").mouseenter(function() {
     // entering starts a new hover event
     let enter_time = Date.now();
     let loopCounter = $(this).data('loop-counter');
+
+    if (firstHoverEnterTime === null) {
+        firstHoverEnterTime = enter_time;
+    }
 
     if (currentlyHoveredElement !== loopCounter) {
         // Check if there's a currently hovered element and wait for its leave event to complete
@@ -454,6 +461,7 @@ $(".tracked_element").mouseleave(function () {
     flipCardHovered = true;
     updateButtonStatus();
 });
+
     function handleMouseLeave(elementId, leave_time) {
     if (hover_events[elementId]) {
         hover_events[elementId]["leave_time"] = leave_time;
@@ -474,6 +482,25 @@ $(".tracked_element").mouseleave(function () {
     const choiceYesRadio = document.getElementById("choiceYes");
     const choiceNoRadio = document.getElementById("choiceNo");
 
+
+// Response time
+choiceYesButton.addEventListener("click", function() {
+    const buttonClickTime = Date.now();
+    const responseTime = buttonClickTime - firstHoverEnterTime;
+    document.getElementById("response_time").value = responseTime;
+
+    console.log("Response time (ms) - Choice Yes:", responseTime);
+});
+
+choiceNoButton.addEventListener("click", function() {
+    const buttonClickTime = Date.now();
+    const responseTime = buttonClickTime - firstHoverEnterTime;
+    document.getElementById("response_time").value = responseTime;
+
+    console.log("Response time (ms) - Choice No:", responseTime);
+});
+
+
 // Initially hide the buttons
 updateButtonStatus();
 
@@ -492,7 +519,6 @@ choiceNoButton.addEventListener("click", function () {
     choiceNoRadio.click();  // Trigger the click event on the radio button
     triggerNext();
 });
-
 
 // Show block instruction card on the first trial of each block
     {% if is_first_trial_of_block %}
