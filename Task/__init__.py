@@ -40,6 +40,20 @@ class Constants(BaseConstants):
     from .attributes_en import attributes_listD_large as attributes_listD_large
     from .attributes_en import attributes_listE as attributes_listE
 
+    from .attributes_uk import attributes_listA_small as attributes_listA_small_uk
+    from .attributes_uk import attributes_listB_small as attributes_listB_small_uk
+    from .attributes_uk import attributes_listC_small as attributes_listC_small_uk
+    from .attributes_uk import attributes_listD_small as attributes_listD_small_uk
+    from .attributes_uk import attributes_listA_medium as attributes_listA_medium_uk
+    from .attributes_uk import attributes_listB_medium as attributes_listB_medium_uk
+    from .attributes_uk import attributes_listC_medium as attributes_listC_medium_uk
+    from .attributes_uk import attributes_listD_medium as attributes_listD_medium_uk
+    from .attributes_uk import attributes_listA_large as attributes_listA_large_uk
+    from .attributes_uk import attributes_listB_large as attributes_listB_large_uk
+    from .attributes_uk import attributes_listC_large as attributes_listC_large_uk
+    from .attributes_uk import attributes_listD_large as attributes_listD_large_uk
+    from .attributes_uk import attributes_listE as attributes_listE_uk
+
     from .attributes_es import attributes_listA_small as attributes_listA_small_es
     from .attributes_es import attributes_listB_small as attributes_listB_small_es
     from .attributes_es import attributes_listC_small as attributes_listC_small_es
@@ -194,6 +208,20 @@ class TaskPage(Page):
             attributes_listC_large = Constants.attributes_listC_large_es
             attributes_listD_large = Constants.attributes_listD_large_es
             attributes_listE = Constants.attributes_listE_es
+        elif player.session.config['language'] == "uk":
+            attributes_listA_small = Constants.attributes_listA_small_uk
+            attributes_listB_small = Constants.attributes_listB_small_uk
+            attributes_listC_small = Constants.attributes_listC_small_uk
+            attributes_listD_small = Constants.attributes_listD_small_uk
+            attributes_listA_medium = Constants.attributes_listA_medium_uk
+            attributes_listB_medium = Constants.attributes_listB_medium_uk
+            attributes_listC_medium = Constants.attributes_listC_medium_uk
+            attributes_listD_medium = Constants.attributes_listD_medium_uk
+            attributes_listA_large = Constants.attributes_listA_large_uk
+            attributes_listB_large = Constants.attributes_listB_large_uk
+            attributes_listC_large = Constants.attributes_listC_large_uk
+            attributes_listD_large = Constants.attributes_listD_large_uk
+            attributes_listE = Constants.attributes_listE_uk
         else:
             attributes_listA_small = Constants.attributes_listA_small
             attributes_listB_small = Constants.attributes_listB_small

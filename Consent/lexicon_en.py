@@ -16,7 +16,7 @@ class Lexicon:
 
     consent_bullet1 = 'Report some demographic information, including for example your age, gender and income.'
     consent_bullet2 = 'Complete a set of questionnaires. You will be asked about your attitudes and perspectives on different topics.'
-    consent_bullet3 = 'You will complete an experimental tasks with multiple rounds of hypothetical product and policy choices.'
+    consent_bullet3 = 'You will complete an experimental task with multiple rounds of hypothetical product and policy choices.'
 
     duration = 'Duration: '
     consent_p3 = 'Participation in this study will require approximately <b>20-25 minutes</b> of your time.'
