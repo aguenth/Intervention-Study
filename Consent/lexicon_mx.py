@@ -1,43 +1,31 @@
 class Lexicon:
-    information_title = 'Información sobre este estudio'
-    instructions = "Instructions"
+    information_title = 'Información acerca de este estudio'
+    instructions = "Instrucciones"
     no = "No"
-    yes = "Yes"
-    start = "Inicio"
-    stop = "Stop"
-    your_decision = "Your decision"
-    mobile_check = "Haga clic en Siguiente. "
-    next = "Next"
-
-    # Consent Text
-    consent_p1 = 'Thank you for your interest in taking part in this study. <br><br> This study is supervised by MSc Anne Günther and Prof. Ulf J.J. Hahnel, Faculty of Psychology, University of Basel, Switzerland.'
-    consent_p2 = ' If you agree to participate in this study, you will be asked to do the following:'
-
-    consent_bullet1 = 'Report some demographic information, including for example your age, gender and income.'
-    consent_bullet2 = 'Complete a set of questionnaires. You will be asked about your attitudes and perspectives on different topics.'
-    consent_bullet3 = 'You will complete an experimental tasks with multiple rounds of hypothetical product and policy choices.'
-
-    duration = 'Duration: '
-    consent_p3 = 'Participation in this study will require approximately <b>20-25 minutes</b> of your time.'
-
-    risks = 'Risks and Benefits: '
-    consent_p4 = 'There are no known risks associated with your participation in this research beyond those of everyday life. You  will be payed by Prolific for taking part in this study. Your participation may help to better understand open research questions in behavioral and environmental psychology.'
-
-    privacy = 'Data Protection and Anonymity:'
-    consent_p5 = ' Confidentiality of your data records will be strictly maintained by assigning identification codes to each participant so that data is never directly linked to individual identity. No one, including the researchers of this study, will be able to reveal your identity. The data will be made available in an anonymized form on Open Science platforms. All sensitive information that could potentially be used to reveal your identity (including your anonymous participant code) will be removed from the dataset prior to publishing the data. We will also never know the identity of any of the participants.'
-
-    consent_p6 = 'Participation in this study is voluntary. You may refuse to participate or withdraw at any time without penalty. '
-
-    consent_p7 = 'You will only receive a payment for participation if you complete the study all the way to the end.  '
-
-    consent_p8 = ' If there is anything about the study or your participation that is unclear to you, if you have questions or wish to report a research-related problem, you may contact: Anne Günther at anne.guenther@unibas.ch or leave a comment at the end of the survey.'
-
-    consent_p9 = 'By continuing with the study you express your consent to participate in this study and indicate that you'
-
-    consent_bullet4 = 'are at least 18 years old'
-    consent_bullet5 = 'have read and understood the stated terms and that you had enough time to make a decision.'
-
-    consent_p10 = 'If you want to participate, you need to check the boxes below and click next. <b>If you do not want to participate, simply close this window.</b>  </p> <p> Based on the information presented above, I confirm that I wish to take part in this study and I authorize:'
-
-    data_consent1 = 'The use of the data for scientific purposes, and the publication of the results of the study in scientific journals or books, given that the data will be anonymous and that no information about my identity will be disclosed.'
-    data_consent2 = 'The use of the data for teaching purposes (courses and lectures for students and professionals subject to professional confidentiality).'
+    yes = "Sí"
+    start = " Iniciar "
+    stop = "Parar"
+    your_decision = "Tu decisión"
+    mobile_check = "Por favor, haz clic en siguiente"
+    mobile = "Lo sentimos, este experimento no permite navegadores móviles. Por favor, vuelve al sitio web de Prolific y pega este código: "
+    next = "Siguiente"
+    consent_p1 = 'Gracias por tu interés por participar en este estudio. <br><br> Este estudio está supervisado por la MSc Anne Günther y el Prof. Ulf J.J. Hahnel, Facultad de Psicología, Universidad de Basilea, Suiza.'
+    consent_p2 = ' Si aceptas participar en este estudio, se te pedirá que hagas lo siguiente:'
+    consent_bullet1 = 'Comunicar algunos datos demográficos, como por ejemplo tu edad, sexo e ingresos.'
+    consent_bullet2 = 'Completa una serie de cuestionarios. Se te preguntará por tus actitudes y perspectivas sobre distintos temas.'
+    consent_bullet3 = 'Completarás una tarea experimental con múltiples rondas de elecciones hipotéticas de productos y políticas.'
+    duration = 'Duración: '
+    consent_p3 = 'Participar en este estudio requerirá aproximadamente <b>20-25 minutos</b> de tu tiempo.'
+    risks = 'Riesgos y beneficios: '
+    consent_p4 = 'No existen riesgos conocidos asociados a tu participación en esta investigación más allá de los de la vida cotidiana. Prolific te pagará por participar en este estudio. Tu participación podría ayudar a comprender mejor cuestiones de investigación abiertas en psicología conductual y ambiental.'
+    privacy = 'Protección de datos y anonimato:'
+    consent_p5 = ' La confidencialidad del registro de tus datos se mantendrá estrictamente mediante la asignación de códigos de identificación a cada participante, de modo que los datos nunca se vinculen directamente a la identidad individual. Nadie, incluidos los investigadores de este estudio, podrá revelar tu identidad. Los datos estarán disponibles de forma anonimizada en plataformas de Ciencia Abierta. Toda la información sensible que pudiera utilizarse para revelar tu identidad (incluido tu código de participante anónimo) se eliminará del conjunto de datos antes de publicarlos. Tampoco conoceremos nunca la identidad de ninguno de los participantes.'
+    consent_p6 = ' La participación en este estudio es voluntaria. Puedes negarte a participar o retirarte en cualquier momento sin penalización. '
+    consent_p7 = 'Sólo recibirás un pago por participar si completas el estudio hasta el final.  '
+    consent_p8 = ' Si hay algo sobre el estudio o tu participación que no te quede claro, si tienes preguntas o deseas informar de un problema relacionado con la investigación, puedes ponerte en contacto con: Anne Günther en anne.guenther@unibas.ch o dejar un comentario al final de la encuesta.'
+    consent_p9 = 'Al continuar con el estudio expresas tu consentimiento para participar en este estudio e indicas que'
+    consent_bullet4 = 'tienes al menos 18 años'
+    consent_bullet5 = 'has leído y entendido las condiciones establecidas y que has tenido tiempo suficiente para tomar una decisión.'
+    consent_p10 = 'Si deseas participar, debes marcar las casillas que aparecen a continuación y hacer clic en siguiente. <b>Si no deseas participar, simplemente cierra esta ventana.</b> </p> <p> Basándome en la información presentada anteriormente, confirmo que deseo participar en este estudio y autorizo:'
+    data_consent1 = 'El uso de los datos con fines científicos y la publicación de los resultados del estudio en revistas o libros científicos, dado que los datos serán anónimos y no se revelará ninguna información sobre mi identidad.'
+    data_consent2 = 'El uso de los datos con fines docentes (cursos y conferencias para estudiantes y profesionales que estén sujetos al secreto profesional).'
