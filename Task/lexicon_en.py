@@ -3,6 +3,7 @@ class Lexicon:
     next = "Next"
     yes = "Yes"
     no = "No"
+    button_start = "Start Task"
 
     # instruction_product
     product_intro_title = "Please read carefully: Instructions on the product choice task"

@@ -68,6 +68,20 @@ class Constants(BaseConstants):
     from .attributes_es import attributes_listD_large as attributes_listD_large_es
     from .attributes_es import attributes_listE as attributes_listE_es
 
+    from .attributes_es import attributes_listA_small as attributes_listA_small_za
+    from .attributes_es import attributes_listB_small as attributes_listB_small_za
+    from .attributes_es import attributes_listC_small as attributes_listC_small_za
+    from .attributes_es import attributes_listD_small as attributes_listD_small_za
+    from .attributes_es import attributes_listA_medium as attributes_listA_medium_za
+    from .attributes_es import attributes_listB_medium as attributes_listB_medium_za
+    from .attributes_es import attributes_listC_medium as attributes_listC_medium_za
+    from .attributes_es import attributes_listD_medium as attributes_listD_medium_za
+    from .attributes_es import attributes_listA_large as attributes_listA_large_za
+    from .attributes_es import attributes_listB_large as attributes_listB_large_za
+    from .attributes_es import attributes_listC_large as attributes_listC_large_za
+    from .attributes_es import attributes_listD_large as attributes_listD_large_za
+    from .attributes_es import attributes_listE as attributes_listE_za
+
 
 # Subsession
 class Subsession(BaseSubsession):
@@ -194,7 +208,6 @@ class TaskPage(Page):
 
     @staticmethod
     def vars_for_template(player: Player):
-        Lexicon = player.session.taskLexi
         # Ensure that randomized_sequence is set before trying to access it
         if player.session.config['language'] == "mx":
             attributes_listA_small = Constants.attributes_listA_small_es
@@ -224,6 +237,20 @@ class TaskPage(Page):
             attributes_listC_large = Constants.attributes_listC_large_uk
             attributes_listD_large = Constants.attributes_listD_large_uk
             attributes_listE = Constants.attributes_listE_uk
+        elif player.session.config['language'] == "za":
+            attributes_listA_small = Constants.attributes_listA_small_za
+            attributes_listB_small = Constants.attributes_listB_small_za
+            attributes_listC_small = Constants.attributes_listC_small_za
+            attributes_listD_small = Constants.attributes_listD_small_za
+            attributes_listA_medium = Constants.attributes_listA_medium_za
+            attributes_listB_medium = Constants.attributes_listB_medium_za
+            attributes_listC_medium = Constants.attributes_listC_medium_za
+            attributes_listD_medium = Constants.attributes_listD_medium_za
+            attributes_listA_large = Constants.attributes_listA_large_za
+            attributes_listB_large = Constants.attributes_listB_large_za
+            attributes_listC_large = Constants.attributes_listC_large_za
+            attributes_listD_large = Constants.attributes_listD_large_za
+            attributes_listE = Constants.attributes_listE_za
         else:
             attributes_listA_small = Constants.attributes_listA_small
             attributes_listB_small = Constants.attributes_listB_small
@@ -238,6 +265,8 @@ class TaskPage(Page):
             attributes_listC_large = Constants.attributes_listC_large
             attributes_listD_large = Constants.attributes_listD_large
             attributes_listE = Constants.attributes_listE_es
+
+        Lexicon = player.session.taskLexi
 
         if 'randomized_sequence' not in player.participant.vars:
             print("DEBUG: 'randomized_sequence' not found in participant.vars. Calling creating_session.")
@@ -432,7 +461,7 @@ class TaskPage(Page):
             "blockC_second": blockC_second,
             "label_first": player.participant.vars.get('label_first', False),
             "label_second": player.participant.vars.get('label_second', False),
-            "Lexicon": player.session.taskLexi,
+            "Lexicon": Lexicon,
             "BD1": BD1,
             "BD19": BD19,
             "DB1": DB1,

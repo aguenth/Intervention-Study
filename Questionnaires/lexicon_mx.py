@@ -7,7 +7,7 @@ class Lexicon:
 
     yes = "Sí"
 
-    # Scales = NA NA
+    # Scales =  
     not_at_all = "para nada"
 
     very_much = "muy en desacuerdo"
@@ -30,7 +30,7 @@ class Lexicon:
     # Subjective Probability
     probability_title = 'Ventajas y desventajas de los vehículos eléctricos'
 
-    intro_probability = 'A continuación encontrarás algunas preguntas generales sobre las ventajas e inconvenientes de los vehículos eléctricos para ti personalmente'.NA
+    intro_probability = 'A continuación encontrarás algunas preguntas generales sobre las ventajas e inconvenientes de los vehículos eléctricos para ti personalmente'
     question_advantages = '¿Qué probabilidad crees que tienes de beneficiarte de las siguientes ventajas al comprar un vehículo eléctrico?'
 
     answer_intro_advantages = 'Comprar un vehículo eléctrico me permitiría...'
@@ -48,7 +48,7 @@ class Lexicon:
 
     ev_prob_risks2_label = '...un rendimiento de la inversión demasiado bajo.'
 
-    # Perceived Risk and benefit = NA NA
+    # Perceived Risk and benefit 
     risks_title = "Tu percepción de los riesgos y beneficios asociados a los vehículos eléctricos"
 
     risk_agree = "¿Hasta qué punto estás de acuerdo con las siguientes afirmaciones?"
@@ -66,7 +66,7 @@ class Lexicon:
     cc_concern2_label = "La protección del clima es importante para nuestro futuro"
     cc_concern3_label = "Debemos proteger el equilibrio del clima"
     cc_concern4_label = "El cambio climático tiene graves consecuencias para los seres humanos y la naturaleza"
-    # Political Orientation = NA NA
+    # Political Orientation =  
     pol_orientation_title = "Orientación Política"
 
     pol_orientation_text = "<b>Liberal</b> y <b>Conservador</b> son términos utilizados habitualmente para caracterizar la orientación política. Por favor, indica en la siguiente escala que va de 1 (extremadamente liberal) a 10 (extremadamente conservador) cómo te clasificarías en términos de orientación política."
@@ -85,6 +85,6 @@ class Lexicon:
     homophily3_label = "...sus ingresos?"
     homophily4_label = "...sus opiniones políticas?"
 
-    # Comments = NA NA
+    # Comments =  
     comments_title = "¿Tienes algún comentario antes de terminar el estudio?"
     comments_instruction = "Escribe tus comentarios en la casilla o deja esta casilla en blanco"
