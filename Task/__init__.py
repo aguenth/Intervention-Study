@@ -68,19 +68,19 @@ class Constants(BaseConstants):
     from .attributes_es import attributes_listD_large as attributes_listD_large_es
     from .attributes_es import attributes_listE as attributes_listE_es
 
-    from .attributes_es import attributes_listA_small as attributes_listA_small_za
-    from .attributes_es import attributes_listB_small as attributes_listB_small_za
-    from .attributes_es import attributes_listC_small as attributes_listC_small_za
-    from .attributes_es import attributes_listD_small as attributes_listD_small_za
-    from .attributes_es import attributes_listA_medium as attributes_listA_medium_za
-    from .attributes_es import attributes_listB_medium as attributes_listB_medium_za
-    from .attributes_es import attributes_listC_medium as attributes_listC_medium_za
-    from .attributes_es import attributes_listD_medium as attributes_listD_medium_za
-    from .attributes_es import attributes_listA_large as attributes_listA_large_za
-    from .attributes_es import attributes_listB_large as attributes_listB_large_za
-    from .attributes_es import attributes_listC_large as attributes_listC_large_za
-    from .attributes_es import attributes_listD_large as attributes_listD_large_za
-    from .attributes_es import attributes_listE as attributes_listE_za
+    from .attributes_za import attributes_listA_small as attributes_listA_small_za
+    from .attributes_za import attributes_listB_small as attributes_listB_small_za
+    from .attributes_za import attributes_listC_small as attributes_listC_small_za
+    from .attributes_za import attributes_listD_small as attributes_listD_small_za
+    from .attributes_za import attributes_listA_medium as attributes_listA_medium_za
+    from .attributes_za import attributes_listB_medium as attributes_listB_medium_za
+    from .attributes_za import attributes_listC_medium as attributes_listC_medium_za
+    from .attributes_za import attributes_listD_medium as attributes_listD_medium_za
+    from .attributes_za import attributes_listA_large as attributes_listA_large_za
+    from .attributes_za import attributes_listB_large as attributes_listB_large_za
+    from .attributes_za import attributes_listC_large as attributes_listC_large_za
+    from .attributes_za import attributes_listD_large as attributes_listD_large_za
+    from .attributes_za import attributes_listE as attributes_listE_za
 
 
 # Subsession
@@ -264,7 +264,7 @@ class TaskPage(Page):
             attributes_listB_large = Constants.attributes_listB_large
             attributes_listC_large = Constants.attributes_listC_large
             attributes_listD_large = Constants.attributes_listD_large
-            attributes_listE = Constants.attributes_listE_es
+            attributes_listE = Constants.attributes_listE
 
         Lexicon = player.session.taskLexi
 

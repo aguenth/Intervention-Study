@@ -6,10 +6,10 @@ class Lexicon:
     no = "No"
 
     demographics_title = "Demographic Questions"
-    demographics_subtitle = "We start with some demographic questions and a few questions about your mobility behavior."
+    demographics_subtitle = "We start with some demographic questions and a few questions about your mobility behaviour."
 
     mobility_title = "Mobility-related Questions"
-    mobility_subtitle = "Please answer the following questions about your mobility behavior."
+    mobility_subtitle = "Please answer the following questions about your mobility behaviour."
 
     car_title = "Car-related Questions"
     car_subtitle = "Please answer the following questions about your car."
