@@ -26,61 +26,69 @@ class Constants(BaseConstants):
         ['A', 'C', 'D', 'B']
     ]
 
-    from .attributes_en import attributes_listA_small as attributes_listA_small
-    from .attributes_en import attributes_listB_small as attributes_listB_small
-    from .attributes_en import attributes_listC_small as attributes_listC_small
-    from .attributes_en import attributes_listD_small as attributes_listD_small
-    from .attributes_en import attributes_listA_medium as attributes_listA_medium
-    from .attributes_en import attributes_listB_medium as attributes_listB_medium
-    from .attributes_en import attributes_listC_medium as attributes_listC_medium
-    from .attributes_en import attributes_listD_medium as attributes_listD_medium
-    from .attributes_en import attributes_listA_large as attributes_listA_large
-    from .attributes_en import attributes_listB_large as attributes_listB_large
-    from .attributes_en import attributes_listC_large as attributes_listC_large
-    from .attributes_en import attributes_listD_large as attributes_listD_large
-    from .attributes_en import attributes_listE as attributes_listE
+    from .attributes_en import (
+        attributes_listA_small as attributes_listA_small_en,
+        attributes_listB_small as attributes_listB_small_en,
+        attributes_listC_small as attributes_listC_small_en,
+        attributes_listD_small as attributes_listD_small_en,
+        attributes_listA_medium as attributes_listA_medium_en,
+        attributes_listB_medium as attributes_listB_medium_en,
+        attributes_listC_medium as attributes_listC_medium_en,
+        attributes_listD_medium as attributes_listD_medium_en,
+        attributes_listA_large as attributes_listA_large_en,
+        attributes_listB_large as attributes_listB_large_en,
+        attributes_listC_large as attributes_listC_large_en,
+        attributes_listD_large as attributes_listD_large_en,
+        attributes_listE as attributes_listE_en
+    )
 
-    from .attributes_uk import attributes_listA_small as attributes_listA_small_uk
-    from .attributes_uk import attributes_listB_small as attributes_listB_small_uk
-    from .attributes_uk import attributes_listC_small as attributes_listC_small_uk
-    from .attributes_uk import attributes_listD_small as attributes_listD_small_uk
-    from .attributes_uk import attributes_listA_medium as attributes_listA_medium_uk
-    from .attributes_uk import attributes_listB_medium as attributes_listB_medium_uk
-    from .attributes_uk import attributes_listC_medium as attributes_listC_medium_uk
-    from .attributes_uk import attributes_listD_medium as attributes_listD_medium_uk
-    from .attributes_uk import attributes_listA_large as attributes_listA_large_uk
-    from .attributes_uk import attributes_listB_large as attributes_listB_large_uk
-    from .attributes_uk import attributes_listC_large as attributes_listC_large_uk
-    from .attributes_uk import attributes_listD_large as attributes_listD_large_uk
-    from .attributes_uk import attributes_listE as attributes_listE_uk
+    from .attributes_uk import (
+        attributes_listA_small as attributes_listA_small_uk,
+        attributes_listB_small as attributes_listB_small_uk,
+        attributes_listC_small as attributes_listC_small_uk,
+        attributes_listD_small as attributes_listD_small_uk,
+        attributes_listA_medium as attributes_listA_medium_uk,
+        attributes_listB_medium as attributes_listB_medium_uk,
+        attributes_listC_medium as attributes_listC_medium_uk,
+        attributes_listD_medium as attributes_listD_medium_uk,
+        attributes_listA_large as attributes_listA_large_uk,
+        attributes_listB_large as attributes_listB_large_uk,
+        attributes_listC_large as attributes_listC_large_uk,
+        attributes_listD_large as attributes_listD_large_uk,
+        attributes_listE as attributes_listE_uk
+    )
 
-    from .attributes_es import attributes_listA_small as attributes_listA_small_es
-    from .attributes_es import attributes_listB_small as attributes_listB_small_es
-    from .attributes_es import attributes_listC_small as attributes_listC_small_es
-    from .attributes_es import attributes_listD_small as attributes_listD_small_es
-    from .attributes_es import attributes_listA_medium as attributes_listA_medium_es
-    from .attributes_es import attributes_listB_medium as attributes_listB_medium_es
-    from .attributes_es import attributes_listC_medium as attributes_listC_medium_es
-    from .attributes_es import attributes_listD_medium as attributes_listD_medium_es
-    from .attributes_es import attributes_listA_large as attributes_listA_large_es
-    from .attributes_es import attributes_listB_large as attributes_listB_large_es
-    from .attributes_es import attributes_listC_large as attributes_listC_large_es
-    from .attributes_es import attributes_listD_large as attributes_listD_large_es
-    from .attributes_es import attributes_listE as attributes_listE_es
+    from .attributes_es import (
+        attributes_listA_small as attributes_listA_small_es,
+        attributes_listB_small as attributes_listB_small_es,
+        attributes_listC_small as attributes_listC_small_es,
+        attributes_listD_small as attributes_listD_small_es,
+        attributes_listA_medium as attributes_listA_medium_es,
+        attributes_listB_medium as attributes_listB_medium_es,
+        attributes_listC_medium as attributes_listC_medium_es,
+        attributes_listD_medium as attributes_listD_medium_es,
+        attributes_listA_large as attributes_listA_large_es,
+        attributes_listB_large as attributes_listB_large_es,
+        attributes_listC_large as attributes_listC_large_es,
+        attributes_listD_large as attributes_listD_large_es,
+        attributes_listE as attributes_listE_es
+    )
 
-    from .attributes_za import attributes_listA_small as attributes_listA_small_za
-    from .attributes_za import attributes_listB_small as attributes_listB_small_za
-    from .attributes_za import attributes_listC_small as attributes_listC_small_za
-    from .attributes_za import attributes_listD_small as attributes_listD_small_za
-    from .attributes_za import attributes_listA_medium as attributes_listA_medium_za
-    from .attributes_za import attributes_listB_medium as attributes_listB_medium_za
-    from .attributes_za import attributes_listC_medium as attributes_listC_medium_za
-    from .attributes_za import attributes_listD_medium as attributes_listD_medium_za
-    from .attributes_za import attributes_listA_large as attributes_listA_large_za
-    from .attributes_za import attributes_listB_large as attributes_listB_large_za
-    from .attributes_za import attributes_listC_large as attributes_listC_large_za
-    from .attributes_za import attributes_listD_large as attributes_listD_large_za
-    from .attributes_za import attributes_listE as attributes_listE_za
+    from .attributes_za import (
+        attributes_listA_small as attributes_listA_small_za,
+        attributes_listB_small as attributes_listB_small_za,
+        attributes_listC_small as attributes_listC_small_za,
+        attributes_listD_small as attributes_listD_small_za,
+        attributes_listA_medium as attributes_listA_medium_za,
+        attributes_listB_medium as attributes_listB_medium_za,
+        attributes_listC_medium as attributes_listC_medium_za,
+        attributes_listD_medium as attributes_listD_medium_za,
+        attributes_listA_large as attributes_listA_large_za,
+        attributes_listB_large as attributes_listB_large_za,
+        attributes_listC_large as attributes_listC_large_za,
+        attributes_listD_large as attributes_listD_large_za,
+        attributes_listE as attributes_listE_za
+    )
 
 
 # Subsession

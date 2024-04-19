@@ -11,7 +11,7 @@ class Lexicon:
     product_intro_text2 = "Your role is to evaluate different offers for <b>electric vehicles</b> and decide whether or not you would choose to buy each car. An electric car operates exclusively on electricity, utilizing an electric motor instead of the conventional internal combustion engine found in typical cars.<br><br>"
     product_intro_text3 = "Consider the following attributes that vary across the offers:"
 
-    investment_cost = "<u>Investment Costs:</u>"
+    investment_cost = "<u>Purchase Price:</u>"
     savings = "<u>Savings on Driving:</u>"
     emissions = "<u>Life Cycle Emissions:</u>"
     range = "<u>Battery Range:</u>"
@@ -34,7 +34,7 @@ class Lexicon:
     policy_intro_text3 = "Each policy package will consist of different combinations of the following attributes:"
 
     tax = "Carbon Tax on Gasoline:"
-    subsidy = "Subsidies on Investment Costs:"
+    subsidy = "Subsidy on Purchase Price:"
     label = "Climate Label:"
 
     tax_text = "The policy package can include a <b>carbon tax on gasoline emissions</b>. This tax is expressed in $ per metric ton of CO2. Each gallon of gasoline burned produces about 9 kilograms of CO2, so the carbon tax would increase the price of fuel. As a result, the savings from driving an electric vehicle would be higher compared to a gasoline car. The tax revenue would be redistributed to low-income households so that those who cannot afford an electric vehicle but have to rely on their car are not disadvantaged."
