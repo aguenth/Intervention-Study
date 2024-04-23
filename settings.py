@@ -69,10 +69,9 @@ PARTICIPANT_FIELDS = [
 
 
 SESSION_FIELDS = [
+    'introLexi',
 
     'questionnairesLexi',
-
-    'introLexi',
 
     'demographicsLexi',
 
