@@ -129,6 +129,8 @@ class Player(BasePlayer):
 
     response_time = models.IntegerField(blank=True)
 
+    button_time = models.IntegerField(blank=True)
+
 
 # Extra model for tracking hover events
 class HoverEvent(models.ExtraModel):
@@ -217,7 +219,7 @@ def creating_session(subsession: Subsession):
 # Page with Blocks A, B, C, D, E
 class TaskPage(Page):
     form_model = 'player'
-    form_fields = ['choice', 'response_time']
+    form_fields = ['choice', 'response_time', 'button_time']
 
     @staticmethod
     def vars_for_template(player: Player):

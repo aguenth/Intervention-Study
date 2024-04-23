@@ -31,7 +31,7 @@ class Lexicon:
     university = "Título universitario"
     doctor = "Doctorado"
 
-    income_label = "¿A cuánto ascienden los ingresos anuales de tu <b>hogar</b> antes de pagar impuestos?"
+    income_label = "¿Cuál es su <b>ingreso familiar disponible</b> anual (después de impuestos)?"
     income_quintile1 = "< 30,000 pesos"
     income_quintile2 = "30,001 a 75,000 pesos"
     income_quintile3 = "75,001 a 120,000 pesos"
