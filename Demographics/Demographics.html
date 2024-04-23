@@ -3,13 +3,7 @@
 {% endblock%}
 
 {% block content %}
-{% load otree otree_tools %}
-   {% tracking_focus %}
-   {% tracking_time %}
-{% endblock%}
-
-{% block content %}
-<h3 style="font-size: 1.2rem">{{ Lexicon.demographics_subtitle }}</h3><br><br>
+<h3 style="font-size: 1.2rem">{{ Lexicon.demographics_subtitle }}</h3><br>
 
 <form method="post">
     {% for field in form %}
