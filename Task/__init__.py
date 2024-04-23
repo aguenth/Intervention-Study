@@ -127,9 +127,9 @@ class Player(BasePlayer):
 
     car = models.StringField()
 
-    response_time = models.IntegerField(blank=True)
+    response_time = models.LongStringField(blank=True)
 
-    button_time = models.IntegerField(blank=True)
+    button_time = models.LongStringField(blank=True)
 
 
 # Extra model for tracking hover events
