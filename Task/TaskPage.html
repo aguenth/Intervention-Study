@@ -488,7 +488,6 @@ $(".tracked_element").mouseleave(function () {
     // Record response_time
 choiceYesButton.addEventListener("click", function() {
     const buttonClickTime = Date.now();
-    document.getElementById("button_time").value = buttonClickTime;
 
     // Calculate response time if firstHoverEnterTime is recorded
     let responseTime = 0;
@@ -504,7 +503,6 @@ choiceYesButton.addEventListener("click", function() {
 
 choiceNoButton.addEventListener("click", function() {
     const buttonClickTime = Date.now();
-    document.getElementById("button_time").value = buttonClickTime;
 
     // Calculate response time if firstHoverEnterTime is recorded
     let responseTime = 0;
