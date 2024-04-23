@@ -52,7 +52,7 @@ class Lexicon:
 
     # Car_questions
     own_car_label = "Does your household own a car (or lease a car)?"
-    car_label = "Whether or not you currently own a car, envisioning a scenario where you are purchasing a new one, what size of car would you find most appealing for your daily journeys?"
+    car_label = "Whether or not you currently own a car, envisioning a scenario where you are purchasing a new one, what size of car would you chose for your daily trips?"
 
     # car_owner
     car_type_label = "What kind of car is your main car you use for daily trips?"
@@ -74,6 +74,9 @@ class Lexicon:
     four = "Every 4 years"
     eight = "Every 8 years"
     twelve = "Every 12 years or when it needs replacement"
+
+    km_day_label = "How many kilometres do you drive on average <i>per day</i>?"
+    km_year_label = "How many kilometres do you drive on average <i>in one year</i>?"
 
     # No car
     no_car_label = "You indicated that you do not own a car. Can you imagine buying a car in the next 10 years?"

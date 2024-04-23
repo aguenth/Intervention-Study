@@ -170,6 +170,11 @@ def creating_session(subsession: Subsession):
     if subsession.session.config['language'] == 'mx':
         from .lexicon_mx import Lexicon
         subsession.session.myLangCode = "_mx"
+    elif subsession.session.config['language'] == "uk":
+        from .lexicon_uk import Lexicon
+        subsession.session.myLangCode = "uk"
+    elif subsession.session.config['language'] == "za":
+        from .lexicon_za import Lexicon
     else:
         from .lexicon_en import Lexicon
         subsession.session.myLangCode = "_en"
@@ -260,19 +265,19 @@ class TaskPage(Page):
             attributes_listD_large = Constants.attributes_listD_large_za
             attributes_listE = Constants.attributes_listE_za
         else:
-            attributes_listA_small = Constants.attributes_listA_small
-            attributes_listB_small = Constants.attributes_listB_small
-            attributes_listC_small = Constants.attributes_listC_small
-            attributes_listD_small = Constants.attributes_listD_small
-            attributes_listA_medium = Constants.attributes_listA_medium
-            attributes_listB_medium = Constants.attributes_listB_medium
-            attributes_listC_medium = Constants.attributes_listC_medium
-            attributes_listD_medium = Constants.attributes_listD_medium
-            attributes_listA_large = Constants.attributes_listA_large
-            attributes_listB_large = Constants.attributes_listB_large
-            attributes_listC_large = Constants.attributes_listC_large
-            attributes_listD_large = Constants.attributes_listD_large
-            attributes_listE = Constants.attributes_listE
+            attributes_listA_small = Constants.attributes_listA_small_en
+            attributes_listB_small = Constants.attributes_listB_small_en
+            attributes_listC_small = Constants.attributes_listC_small_en
+            attributes_listD_small = Constants.attributes_listD_small_en
+            attributes_listA_medium = Constants.attributes_listA_medium_en
+            attributes_listB_medium = Constants.attributes_listB_medium_en
+            attributes_listC_medium = Constants.attributes_listC_medium_en
+            attributes_listD_medium = Constants.attributes_listD_medium_en
+            attributes_listA_large = Constants.attributes_listA_large_en
+            attributes_listB_large = Constants.attributes_listB_large_en
+            attributes_listC_large = Constants.attributes_listC_large_en
+            attributes_listD_large = Constants.attributes_listD_large_en
+            attributes_listE = Constants.attributes_listE_en
 
         Lexicon = player.session.taskLexi
 

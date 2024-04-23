@@ -188,6 +188,8 @@ class Player(BasePlayer):
     car_number = models.IntegerField(min=1, max=8)
     car_age = models.IntegerField(min=1, max=30)
     car_replace = models.StringField(widget=widgets.RadioSelect,)
+    km_day = models.IntegerField(min=0, max=1000)
+    km_year = models.IntegerField(min=0, max=100000)
 
     # no_car_owner
     no_car = models.StringField(widget=widgets.RadioSelect,)
@@ -246,7 +248,7 @@ class Car_questions(Page):
 
 class car_owner(Page):
     form_model = 'player'
-    form_fields = ['car_number', 'car_type', 'car_model', 'car_age', 'car_replace']
+    form_fields = ['car_number', 'car_type', 'car_model', 'car_age', 'car_replace', 'km_day', 'km_year']
 
     def is_displayed(player):
         return player.participant.vars['own_car'] == 'yes'
@@ -259,9 +261,9 @@ class car_owner(Page):
     def js_vars(player):
         Lexicon = player.session.demographicsLexi
         return dict(
-            form_fields=['car_number', 'car_type', 'car_model', 'car_age', 'car_replace'],
+            form_fields=['car_number', 'car_type', 'car_model', 'car_age', 'car_replace', 'km_day', 'km_year'],
             form_field_labels=[Lexicon.car_number_label, Lexicon.car_type_label, Lexicon.car_model_label,
-                               Lexicon.car_age_label, Lexicon.car_replace_label]
+                               Lexicon.car_age_label, Lexicon.car_replace_label, Lexicon.km_day_label, Lexicon.km_year_label]
         )
 
 

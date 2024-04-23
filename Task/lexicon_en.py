@@ -33,9 +33,9 @@ class Lexicon:
     policy_intro_text2 = "Your task is to evaluate and express your support or non-support for each policy proposal."
     policy_intro_text3 = "Each policy package will consist of different combinations of the following attributes:"
 
-    tax = "Carbon Tax on Gasoline:"
-    subsidy = "Subsidy on Purchase Price:"
-    label = "Climate Label:"
+    tax = "<u>Carbon Tax on Gasoline:</u>"
+    subsidy = "<u>Subsidy on Purchase Price:</u>"
+    label = "<u>Climate Label:</u>"
 
     tax_text = "The policy package can include a <b>carbon tax on gasoline emissions</b>. This tax is expressed in $ per metric ton of CO2. Each gallon of gasoline burned produces about 9 kilograms of CO2, so the carbon tax would increase the price of fuel. As a result, the savings from driving an electric vehicle would be higher compared to a gasoline car. The tax revenue would be redistributed to low-income households so that those who cannot afford an electric vehicle but have to rely on their car are not disadvantaged."
     subsidy_text = "This attribute indicates whether there are <b>government subsidies (price discounts)</b> provided to individuals who buy an electric vehicle. Subsidies on investment costs are designed to make electric vehicles more financially attractive and affordable for consumers, promoting the adoption of electric cars. However, it's important to note that these subsidies might also mean that the funds are not available for other projects."
