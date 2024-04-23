@@ -34,12 +34,12 @@ class Lexicon:
     university = "University degree"
     doctor = "Doctorate"
 
-    income_label = "How high is your yearly <u><b>household</b></u> income before tax?"
-    income_quintile1 = "< $30,000"
-    income_quintile2 = "$30,001 to $55,000"
-    income_quintile3 = "$55,001 to $90,000"
-    income_quintile4 = "$90,001 to $150,000"
-    income_quintile5 = "> R 1,000,000"
+    income_label = "How high is your yearly <u><b>disposable household</b></u> income (after taxes)?"
+    income_quintile1 = "< R20,000"
+    income_quintile2 = "R20,001 to R60,000"
+    income_quintile3 = "R60,001 to R130,000"
+    income_quintile4 = "R130,001 to R240,000"
+    income_quintile5 = "> R240,001"
 
     household_label = "How many people live in your household?"
 
