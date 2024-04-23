@@ -39,7 +39,7 @@ class Lexicon:
     income_quintile2 = "$30,001 to $55,000"
     income_quintile3 = "$55,001 to $90,000"
     income_quintile4 = "$90,001 to $150,000"
-    income_quintile5 = "> $150,001"
+    income_quintile5 = "> R 1,000,000"
 
     household_label = "How many people live in your household?"
 

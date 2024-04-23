@@ -16,7 +16,7 @@ class Lexicon:
 
     wom_title = "Electric Vehicle Questions"
     ev_explanation_intro = "Please consider the following definition for electric vehicles:"
-    ev_explanation_text = "<b>Electric vehicles are cars that run on electricity.</b> They use rechargeable batteries to power electric motors, eliminating the need for gas and reducing or eliminating tailpipe emissions.<br><br>Please answer the following questions.</p>"
+    ev_explanation_text = "<b>Electric vehicles are cars that run on electricity.</b> They use rechargeable batteries to power electric motors, eliminating the need for petrol and reducing or eliminating tailpipe emissions.<br><br>Please answer the following questions.</p>"
 
     # Demographics
     age_label = "What is your age?"
@@ -34,12 +34,12 @@ class Lexicon:
     university = "University degree"
     doctor = "Doctorate"
 
-    income_label = "How high is your yearly <u><b>household</b></u> income before tax?"
-    income_quintile1 = "< $30,000"
-    income_quintile2 = "$30,001 to $55,000"
-    income_quintile3 = "$55,001 to $90,000"
-    income_quintile4 = "$90,001 to $150,000"
-    income_quintile5 = "> $150,001"
+    income_label = "How high is your yearly <u><b>disposable household</b></u> income (after taxes)?"
+    income_quintile1 = "< £15,000"
+    income_quintile2 = "£15,001 to £30,000"
+    income_quintile3 = "£30,001 to £50,000"
+    income_quintile4 = "£50,001 to £70,000"
+    income_quintile5 = "> £70,001"
 
     household_label = "How many people live in your household?"
 
@@ -48,15 +48,15 @@ class Lexicon:
     suburban = "Suburban (between 5,000 and 50,000 inhabitants)"
     rural = "Rural (less than 5,000 inhabitants)"
 
-    zip_code_label = "What is your zip code?"
+    zip_code_label = "What is your postcode?"
 
     # Car_questions
     own_car_label = "Does your household own a car (or lease a car)?"
-    car_label = "Whether or not you currently own a car, envisioning a scenario where you are purchasing a new one, what size of car would you chose for your daily trips?"
+    car_label = "Whether or not you currently own a car, envisioning a scenario where you are purchasing a new one, what size of car would you choose for your daily trips?"
 
     # car_owner
     car_type_label = "What kind of car is your main car you use for daily trips?"
-    gasoline = "Gasoline car"
+    petrol = "Petrol car"
     ev = "Battery electric car"
     hev = "Hybrid car"
 

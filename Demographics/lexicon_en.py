@@ -34,7 +34,7 @@ class Lexicon:
     university = "University degree"
     doctor = "Doctorate"
 
-    income_label = "How high is your yearly <u><b>household</b></u> income before tax?"
+    income_label = "How high is your yearly <u><b>disposable household</b></u> income (after local and federal taxes)?"
     income_quintile1 = "< $30,000"
     income_quintile2 = "$30,001 to $55,000"
     income_quintile3 = "$55,001 to $90,000"
