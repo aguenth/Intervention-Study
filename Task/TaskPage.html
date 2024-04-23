@@ -486,24 +486,34 @@ $(".tracked_element").mouseleave(function () {
     const choiceNoRadio = document.getElementById("choiceNo");
 
 
-// Response time
 choiceYesButton.addEventListener("click", function() {
     const buttonClickTime = Date.now();
     document.getElementById("button_time").value = buttonClickTime;
     const responseTime = buttonClickTime - firstHoverEnterTime;
-    document.getElementById("response_time").value = responseTime;
 
-    console.log("Response time (ms) - Choice Yes:", responseTime);
+    // Check if responseTime is less than 1,000,000 (6 digits)
+    if (responseTime < 1000000) {
+        document.getElementById("response_time").value = responseTime;
+        console.log("Response time (ms) - Choice Yes:", responseTime);
+    } else {
+        console.log("Response time (ms) - Choice Yes is too long:", responseTime);
+    }
 });
 
 choiceNoButton.addEventListener("click", function() {
     const buttonClickTime = Date.now();
     document.getElementById("button_time").value = buttonClickTime;
     const responseTime = buttonClickTime - firstHoverEnterTime;
-    document.getElementById("response_time").value = responseTime;
 
-    console.log("Response time (ms) - Choice No:", responseTime);
+    // Check if responseTime is less than 1,000,000 (6 digits)
+    if (responseTime < 1000000) {
+        document.getElementById("response_time").value = responseTime;
+        console.log("Response time (ms) - Choice No:", responseTime);
+    } else {
+        console.log("Response time (ms) - Choice No is too long:", responseTime);
+    }
 });
+
 
 
 // Initially hide the buttons
