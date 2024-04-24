@@ -1,7 +1,7 @@
 attributes_listA_small = [
     {
         "Purchase Price": "R112,000",
-        "Savings Compared to Petrol Car": "R172 savings per 100 km <br> (R130 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R141 savings per 100 km <br> (R130 + R11 due to fuel tax)",
         "Battery Range": "240 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -15,7 +15,7 @@ attributes_listA_small = [
     },
     {
         "Purchase Price": "R161,000",
-        "Savings Compared to Petrol Car": "R187 savings per 100 km <br> (R145 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R156 savings per 100 km <br> (R145 + R11 due to fuel tax)",
         "Battery Range": "420 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -36,14 +36,14 @@ attributes_listA_small = [
     },
     {
         "Purchase Price": "R210,000",
-        "Savings Compared to Petrol Car": "R202 savings per 100 km <br> (R160 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R171 savings per 100 km <br> (R160 + R11 due to fuel tax)",
         "Battery Range": "600 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "R161,000",
-        "Savings Compared to Petrol Car": "R187 savings per 100 km <br> (R145 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R156 savings per 100 km <br> (R145 + R11 due to fuel tax)",
         "Battery Range": "240 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -57,7 +57,7 @@ attributes_listA_small = [
     },
     {
         "Purchase Price": "R210,000",
-        "Savings Compared to Petrol Car": "R202 savings per 100 km <br> (R160 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R171 savings per 100 km <br> (R160 + R11 due to fuel tax)",
         "Battery Range": "420 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -71,7 +71,7 @@ attributes_listA_small = [
     },
     {
         "Purchase Price": "R112,000",
-        "Savings Compared to Petrol Car": "R172 savings per 100 km <br> (R130 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R141 savings per 100 km <br> (R130 + R11 due to fuel tax)",
         "Battery Range": "600 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -92,7 +92,7 @@ attributes_listA_small = [
     },
     {
         "Purchase Price": "R210,000",
-        "Savings Compared to Petrol Car": "R172 savings per 100 km <br> (R130 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R141 savings per 100 km <br> (R130 + R11 due to fuel tax)",
         "Battery Range": "240 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -106,14 +106,14 @@ attributes_listA_small = [
     },
     {
         "Purchase Price": "R112,000",
-        "Savings Compared to Petrol Car": "R187 savings per 100 km <br> (R145 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R156 savings per 100 km <br> (R145 + R11 due to fuel tax)",
         "Battery Range": "420 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "R161,000",
-        "Savings Compared to Petrol Car": "R202 savings per 100 km <br> (R160 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R171 savings per 100 km <br> (R160 + R11 due to fuel tax)",
         "Battery Range": "600 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -130,7 +130,7 @@ attributes_listA_small = [
 attributes_listA_medium = [
     {
         "Purchase Price": "R189,000",
-        "Savings Compared to Petrol Car": "R192 savings per 100 km <br> (R150 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R161 savings per 100 km <br> (R150 + R11 due to fuel tax)",
         "Battery Range": "300 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -144,7 +144,7 @@ attributes_listA_medium = [
     },
     {
         "Purchase Price": "R252,000",
-        "Savings Compared to Petrol Car": "R207 savings per 100 km <br> (R165 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R176 savings per 100 km <br> (R165 + R11 due to fuel tax)",
         "Battery Range": "480 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -165,14 +165,14 @@ attributes_listA_medium = [
     },
     {
         "Purchase Price": "R315,000",
-        "Savings Compared to Petrol Car": "R222 savings per 100 km <br> (R180 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R191 savings per 100 km <br> (R180 + R11 due to fuel tax)",
         "Battery Range": "660 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "R252,000",
-        "Savings Compared to Petrol Car": "R207 savings per 100 km <br> (R165 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R176 savings per 100 km <br> (R165 + R11 due to fuel tax)",
         "Battery Range": "300 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -186,7 +186,7 @@ attributes_listA_medium = [
     },
     {
         "Purchase Price": "R315,000",
-        "Savings Compared to Petrol Car": "R222 savings per 100 km <br> (R180 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R191 savings per 100 km <br> (R180 + R11 due to fuel tax)",
         "Battery Range": "480 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -200,7 +200,7 @@ attributes_listA_medium = [
     },
     {
         "Purchase Price": "R189,000",
-        "Savings Compared to Petrol Car": "R192 savings per 100 km <br> (R150 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R161 savings per 100 km <br> (R150 + R11 due to fuel tax)",
         "Battery Range": "660 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -221,7 +221,7 @@ attributes_listA_medium = [
     },
     {
         "Purchase Price": "R315,000",
-        "Savings Compared to Petrol Car": "R192 savings per 100 km <br> (R150 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R161 savings per 100 km <br> (R150 + R11 due to fuel tax)",
         "Battery Range": "300 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -235,14 +235,14 @@ attributes_listA_medium = [
     },
     {
         "Purchase Price": "R189,000",
-        "Savings Compared to Petrol Car": "R207 savings per 100 km <br> (R165 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R176 savings per 100 km <br> (R165 + R11 due to fuel tax)",
         "Battery Range": "480 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "R252,000",
-        "Savings Compared to Petrol Car": "R222 savings per 100 km <br> (R180 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R191 savings per 100 km <br> (R180 + R11 due to fuel tax)",
         "Battery Range": "660 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -259,7 +259,7 @@ attributes_listA_medium = [
 attributes_listA_large = [
     {
         "Purchase Price": "R497,000",
-        "Savings Compared to Petrol Car": "R217 savings per 100 km <br> (R175 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R186 savings per 100 km <br> (R175 + R11 due to fuel tax)",
         "Battery Range": "370 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -273,7 +273,7 @@ attributes_listA_large = [
     },
     {
         "Purchase Price": "R581,000",
-        "Savings Compared to Petrol Car": "R237 savings per 100 km <br> (R195 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R206 savings per 100 km <br> (R195 + R11 due to fuel tax)",
         "Battery Range": "550 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -294,14 +294,14 @@ attributes_listA_large = [
     },
     {
         "Purchase Price": "R686,000",
-        "Savings Compared to Petrol Car": "R257 savings per 100 km <br> (R215 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R226 savings per 100 km <br> (R215 + R11 due to fuel tax)",
         "Battery Range": "730 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "R581,000",
-        "Savings Compared to Petrol Car": "R237 savings per 100 km <br> (R195 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R206 savings per 100 km <br> (R195 + R11 due to fuel tax)",
         "Battery Range": "370 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -315,7 +315,7 @@ attributes_listA_large = [
     },
     {
         "Purchase Price": "R686,000",
-        "Savings Compared to Petrol Car": "R257 savings per 100 km <br> (R215 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R226 savings per 100 km <br> (R215 + R11 due to fuel tax)",
         "Battery Range": "550 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -329,7 +329,7 @@ attributes_listA_large = [
     },
     {
         "Purchase Price": "R497,000",
-        "Savings Compared to Petrol Car": "R217 savings per 100 km <br> (R175 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R186 savings per 100 km <br> (R175 + R11 due to fuel tax)",
         "Battery Range": "730 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -350,7 +350,7 @@ attributes_listA_large = [
     },
     {
         "Purchase Price": "R686,000",
-        "Savings Compared to Petrol Car": "R217 savings per 100 km <br> (R175 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R186 savings per 100 km <br> (R175 + R11 due to fuel tax)",
         "Battery Range": "370 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -364,14 +364,14 @@ attributes_listA_large = [
     },
     {
         "Purchase Price": "R497,000",
-        "Savings Compared to Petrol Car": "R237 savings per 100 km <br> (R195 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R206 savings per 100 km <br> (R195 + R11 due to fuel tax)",
         "Battery Range": "550 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "R581,000",
-        "Savings Compared to Petrol Car": "R257 savings per 100 km <br> (R215 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R226 savings per 100 km <br> (R215 + R11 due to fuel tax)",
         "Battery Range": "730 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -388,7 +388,7 @@ attributes_listA_large = [
 attributes_listB_small = [
     {
         "Purchase Price": "R112,000",
-        "Savings Compared to Petrol Car": "R172 savings per 100 km <br> (R130 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R141 savings per 100 km <br> (R130 + R11 due to fuel tax)",
         "Battery Range": "240 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -402,7 +402,7 @@ attributes_listB_small = [
     },
     {
         "Purchase Price": "R161,000",
-        "Savings Compared to Petrol Car": "R187 savings per 100 km <br> (R145 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R156 savings per 100 km <br> (R145 + R11 due to fuel tax)",
         "Battery Range": "420 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -423,14 +423,14 @@ attributes_listB_small = [
     },
     {
         "Purchase Price": "R210,000",
-        "Savings Compared to Petrol Car": "R202 savings per 100 km <br> (R160 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R171 savings per 100 km <br> (R160 + R11 due to fuel tax)",
         "Battery Range": "600 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "25% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "R161,000",
-        "Savings Compared to Petrol Car": "R187 savings per 100 km <br> (R145 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R156 savings per 100 km <br> (R145 + R11 due to fuel tax)",
         "Battery Range": "240 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "25% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -444,7 +444,7 @@ attributes_listB_small = [
     },
     {
         "Purchase Price": "R210,000",
-        "Savings Compared to Petrol Car": "R202 savings per 100 km <br> (R160 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R171 savings per 100 km <br> (R160 + R11 due to fuel tax)",
         "Battery Range": "420 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -458,7 +458,7 @@ attributes_listB_small = [
     },
     {
         "Purchase Price": "R112,000",
-        "Savings Compared to Petrol Car": "R172 savings per 100 km <br> (R130 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R141 savings per 100 km <br> (R130 + R11 due to fuel tax)",
         "Battery Range": "600 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -479,7 +479,7 @@ attributes_listB_small = [
     },
     {
         "Purchase Price": "R210,000",
-        "Savings Compared to Petrol Car": "R172 savings per 100 km <br> (R130 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R141 savings per 100 km <br> (R130 + R11 due to fuel tax)",
         "Battery Range": "240 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -493,14 +493,14 @@ attributes_listB_small = [
     },
     {
         "Purchase Price": "R112,000",
-        "Savings Compared to Petrol Car": "R187 savings per 100 km <br> (R145 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R156 savings per 100 km <br> (R145 + R11 due to fuel tax)",
         "Battery Range": "420 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "25% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "R161,000",
-        "Savings Compared to Petrol Car": "R202 savings per 100 km <br> (R160 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R171 savings per 100 km <br> (R160 + R11 due to fuel tax)",
         "Battery Range": "600 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -517,7 +517,7 @@ attributes_listB_small = [
 attributes_listB_medium = [
     {
         "Purchase Price": "R189,000",
-        "Savings Compared to Petrol Car": "R192 savings per 100 km <br> (R150 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R161 savings per 100 km <br> (R150 + R11 due to fuel tax)",
         "Battery Range": "300 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -531,7 +531,7 @@ attributes_listB_medium = [
     },
     {
         "Purchase Price": "R252,000",
-        "Savings Compared to Petrol Car": "R207 savings per 100 km <br> (R165 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R176 savings per 100 km <br> (R165 + R11 due to fuel tax)",
         "Battery Range": "480 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -552,14 +552,14 @@ attributes_listB_medium = [
     },
     {
         "Purchase Price": "R315,000",
-        "Savings Compared to Petrol Car": "R222 savings per 100 km <br> (R180 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R191 savings per 100 km <br> (R180 + R11 due to fuel tax)",
         "Battery Range": "660 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "25% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "R252,000",
-        "Savings Compared to Petrol Car": "R207 savings per 100 km <br> (R165 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R176 savings per 100 km <br> (R165 + R11 due to fuel tax)",
         "Battery Range": "300 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "25% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -573,7 +573,7 @@ attributes_listB_medium = [
     },
     {
         "Purchase Price": "R315,000",
-        "Savings Compared to Petrol Car": "R222 savings per 100 km <br> (R180 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R191 savings per 100 km <br> (R180 + R11 due to fuel tax)",
         "Battery Range": "480 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -587,7 +587,7 @@ attributes_listB_medium = [
     },
     {
         "Purchase Price": "R189,000",
-        "Savings Compared to Petrol Car": "R192 savings per 100 km <br> (R150 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R161 savings per 100 km <br> (R150 + R11 due to fuel tax)",
         "Battery Range": "660 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -608,7 +608,7 @@ attributes_listB_medium = [
     },
     {
         "Purchase Price": "R315,000",
-        "Savings Compared to Petrol Car": "R192 savings per 100 km <br> (R150 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R161 savings per 100 km <br> (R150 + R11 due to fuel tax)",
         "Battery Range": "300 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -622,14 +622,14 @@ attributes_listB_medium = [
     },
     {
         "Purchase Price": "R189,000",
-        "Savings Compared to Petrol Car": "R207 savings per 100 km <br> (R165 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R176 savings per 100 km <br> (R165 + R11 due to fuel tax)",
         "Battery Range": "480 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "25% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "R252,000",
-        "Savings Compared to Petrol Car": "R222 savings per 100 km <br> (R180 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R191 savings per 100 km <br> (R180 + R11 due to fuel tax)",
         "Battery Range": "660 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -646,7 +646,7 @@ attributes_listB_medium = [
 attributes_listB_large = [
     {
         "Purchase Price": "R497,000",
-        "Savings Compared to Petrol Car": "R217 savings per 100 km <br> (R175 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R186 savings per 100 km <br> (R175 + R11 due to fuel tax)",
         "Battery Range": "370 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -660,7 +660,7 @@ attributes_listB_large = [
     },
     {
         "Purchase Price": "R581,000",
-        "Savings Compared to Petrol Car": "R237 savings per 100 km <br> (R195 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R206 savings per 100 km <br> (R195 + R11 due to fuel tax)",
         "Battery Range": "550 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -681,14 +681,14 @@ attributes_listB_large = [
     },
     {
         "Purchase Price": "R686,000",
-        "Savings Compared to Petrol Car": "R257 savings per 100 km <br> (R215 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R226 savings per 100 km <br> (R215 + R11 due to fuel tax)",
         "Battery Range": "730 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "25% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "R581,000",
-        "Savings Compared to Petrol Car": "R237 savings per 100 km <br> (R195 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R206 savings per 100 km <br> (R195 + R11 due to fuel tax)",
         "Battery Range": "370 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "25% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -702,7 +702,7 @@ attributes_listB_large = [
     },
     {
         "Purchase Price": "R686,000",
-        "Savings Compared to Petrol Car": "R257 savings per 100 km <br> (R215 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R226 savings per 100 km <br> (R215 + R11 due to fuel tax)",
         "Battery Range": "550 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -716,7 +716,7 @@ attributes_listB_large = [
     },
     {
         "Purchase Price": "R497,000",
-        "Savings Compared to Petrol Car": "R217 savings per 100 km <br> (R175 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R186 savings per 100 km <br> (R175 + R11 due to fuel tax)",
         "Battery Range": "730 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -737,7 +737,7 @@ attributes_listB_large = [
     },
     {
         "Purchase Price": "R686,000",
-        "Savings Compared to Petrol Car": "R217 savings per 100 km <br> (R175 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R186 savings per 100 km <br> (R175 + R11 due to fuel tax)",
         "Battery Range": "370 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -751,14 +751,14 @@ attributes_listB_large = [
     },
     {
         "Purchase Price": "R497,000",
-        "Savings Compared to Petrol Car": "R237 savings per 100 km <br> (R195 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R206 savings per 100 km <br> (R195 + R11 due to fuel tax)",
         "Battery Range": "550 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "25% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "R581,000",
-        "Savings Compared to Petrol Car": "R257 savings per 100 km <br> (R215 + R42 due to fuel tax)",
+        "Savings Compared to Petrol Car": "R226 savings per 100 km <br> (R215 + R11 due to fuel tax)",
         "Battery Range": "730 km on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",

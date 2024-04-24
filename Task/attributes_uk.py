@@ -1,7 +1,7 @@
 attributes_listA_small = [
     {
         "Purchase Price": "£11,200",
-        "Savings Compared to Petrol Car": "£14.1 savings per 100 miles <br> (£9.9 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£11.0 savings per 100 miles <br> (£9.9 + £1.1 due to fuel tax)",
         "Battery Range": "150 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -15,7 +15,7 @@ attributes_listA_small = [
     },
     {
         "Purchase Price": "£16,000",
-        "Savings Compared to Petrol Car": "£15.0 savings per 100 miles <br> (£10.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£11.9 savings per 100 miles <br> (£10.8 + £1.1 due to fuel tax)",
         "Battery Range": "260 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -36,14 +36,14 @@ attributes_listA_small = [
     },
     {
         "Purchase Price": "£21,000",
-        "Savings Compared to Petrol Car": "£15.9 savings per 100 miles <br> (£11.7 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£12.8 savings per 100 miles <br> (£11.7 + £1.1 due to fuel tax)",
         "Battery Range": "370 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "£16,000",
-        "Savings Compared to Petrol Car": "£15.0 savings per 100 miles <br> (£10.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£11.9 savings per 100 miles <br> (£10.8 + £1.1 due to fuel tax)",
         "Battery Range": "150 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -57,7 +57,7 @@ attributes_listA_small = [
     },
     {
         "Purchase Price": "£21,000",
-        "Savings Compared to Petrol Car": "£15.9 savings per 100 miles <br> (£11.7 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£12.8 savings per 100 miles <br> (£11.7 + £1.1 due to fuel tax)",
         "Battery Range": "260 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -71,7 +71,7 @@ attributes_listA_small = [
     },
     {
         "Purchase Price": "£11,200",
-        "Savings Compared to Petrol Car": "£14.1 savings per 100 miles <br> (£9.9 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£11.0 savings per 100 miles <br> (£9.9 + £1.1 due to fuel tax)",
         "Battery Range": "370 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -92,7 +92,7 @@ attributes_listA_small = [
     },
     {
         "Purchase Price": "£21,000",
-        "Savings Compared to Petrol Car": "£14.1 savings per 100 miles <br> (£9.9 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£11.0 savings per 100 miles <br> (£9.9 + £1.1 due to fuel tax)",
         "Battery Range": "150 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -106,14 +106,14 @@ attributes_listA_small = [
     },
     {
         "Purchase Price": "£11,200",
-        "Savings Compared to Petrol Car": "£15.0 savings per 100 miles <br> (£10.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£11.9 savings per 100 miles <br> (£10.8 + £1.1 due to fuel tax)",
         "Battery Range": "260 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "£16,000",
-        "Savings Compared to Petrol Car": "£15.9 savings per 100 miles <br> (£11.7 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£12.8 savings per 100 miles <br> (£11.7 + £1.1 due to fuel tax)",
         "Battery Range": "370 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -130,7 +130,7 @@ attributes_listA_small = [
 attributes_listA_medium = [
     {
         "Purchase Price": "£18,900",
-        "Savings Compared to Petrol Car": "£15.7 savings per 100 miles <br> (£11.5 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£12.6 savings per 100 miles <br> (£11.5 + £1.1 due to fuel tax)",
         "Battery Range": "190 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -144,7 +144,7 @@ attributes_listA_medium = [
     },
     {
         "Purchase Price": "£25,200",
-        "Savings Compared to Petrol Car": "£17.0 savings per 100 miles <br> (£12.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£13.9 savings per 100 miles <br> (£12.8 + £1.1 due to fuel tax)",
         "Battery Range": "300 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -165,14 +165,14 @@ attributes_listA_medium = [
     },
     {
         "Purchase Price": "£31,500",
-        "Savings Compared to Petrol Car": "£18.3 savings per 100 miles <br> (£14.1 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£15.2 savings per 100 miles <br> (£14.1 + £1.1 due to fuel tax)",
         "Battery Range": "410 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "£25,200",
-        "Savings Compared to Petrol Car": "£17.0 savings per 100 miles <br> (£12.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£13.9 savings per 100 miles <br> (£12.8 + £1.1 due to fuel tax)",
         "Battery Range": "190 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -186,7 +186,7 @@ attributes_listA_medium = [
     },
     {
         "Purchase Price": "£31,500",
-        "Savings Compared to Petrol Car": "£18.3 savings per 100 miles <br> (£14.1 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£15.2 savings per 100 miles <br> (£14.1 + £1.1 due to fuel tax)",
         "Battery Range": "300 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -200,7 +200,7 @@ attributes_listA_medium = [
     },
     {
         "Purchase Price": "£18,900",
-        "Savings Compared to Petrol Car": "£15.7 savings per 100 miles <br> (£11.5 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£12.6 savings per 100 miles <br> (£11.5 + £1.1 due to fuel tax)",
         "Battery Range": "410 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -221,7 +221,7 @@ attributes_listA_medium = [
     },
     {
         "Purchase Price": "£31,500",
-        "Savings Compared to Petrol Car": "£15.7 savings per 100 miles <br> (£11.5 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£12.6 savings per 100 miles <br> (£11.5 + £1.1 due to fuel tax)",
         "Battery Range": "190 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -235,14 +235,14 @@ attributes_listA_medium = [
     },
     {
         "Purchase Price": "£18,900",
-        "Savings Compared to Petrol Car": "£17.0 savings per 100 miles <br> (£12.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£13.9 savings per 100 miles <br> (£12.8 + £1.1 due to fuel tax)",
         "Battery Range": "300 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "£25,200",
-        "Savings Compared to Petrol Car": "£18.3 savings per 100 miles <br> (£14.1 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£15.2 savings per 100 miles <br> (£14.1 + £1.1 due to fuel tax)",
         "Battery Range": "410 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -259,7 +259,7 @@ attributes_listA_medium = [
 attributes_listA_large = [
     {
         "Purchase Price": "£49,700",
-        "Savings Compared to Petrol Car": "£18.0 savings per 100 miles <br> (£13.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£14.9 savings per 100 miles <br> (£13.8 + £1.1 due to fuel tax)",
         "Battery Range": "230 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -273,7 +273,7 @@ attributes_listA_large = [
     },
     {
         "Purchase Price": "£58,000",
-        "Savings Compared to Petrol Car": "£19.6 savings per 100 miles <br> (£15.4 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£16.5 savings per 100 miles <br> (£15.4 + £1.1 due to fuel tax)",
         "Battery Range": "340 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -294,14 +294,14 @@ attributes_listA_large = [
     },
     {
         "Purchase Price": "£68,000",
-        "Savings Compared to Petrol Car": "£21.2 savings per 100 miles <br> (£17 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£18.1 savings per 100 miles <br> (£17 + £1.1 due to fuel tax)",
         "Battery Range": "450 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "£58,000",
-        "Savings Compared to Petrol Car": "£19.6 savings per 100 miles <br> (£15.4 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£16.5 savings per 100 miles <br> (£15.4 + £1.1 due to fuel tax)",
         "Battery Range": "230 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -315,7 +315,7 @@ attributes_listA_large = [
     },
     {
         "Purchase Price": "£68,000",
-        "Savings Compared to Petrol Car": "£21.2 savings per 100 miles <br> (£17 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£18.1 savings per 100 miles <br> (£17 + £1.1 due to fuel tax)",
         "Battery Range": "340 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -329,7 +329,7 @@ attributes_listA_large = [
     },
     {
         "Purchase Price": "£49,700",
-        "Savings Compared to Petrol Car": "£18.0 savings per 100 miles <br> (£13.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£14.9 savings per 100 miles <br> (£13.8 + £1.1 due to fuel tax)",
         "Battery Range": "450 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -350,7 +350,7 @@ attributes_listA_large = [
     },
     {
         "Purchase Price": "£68,000",
-        "Savings Compared to Petrol Car": "£18.0 savings per 100 miles <br> (£13.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£14.9 savings per 100 miles <br> (£13.8 + £1.1 due to fuel tax)",
         "Battery Range": "230 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -364,14 +364,14 @@ attributes_listA_large = [
     },
     {
         "Purchase Price": "£49,700",
-        "Savings Compared to Petrol Car": "£19.6 savings per 100 miles <br> (£15.4 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£16.5 savings per 100 miles <br> (£15.4 + £1.1 due to fuel tax)",
         "Battery Range": "340 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "£58,000",
-        "Savings Compared to Petrol Car": "£21.2 savings per 100 miles <br> (£17 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£18.1 savings per 100 miles <br> (£17 + £1.1 due to fuel tax)",
         "Battery Range": "450 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "13 metric tons of emissions",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -388,7 +388,7 @@ attributes_listA_large = [
 attributes_listB_small = [
     {
         "Purchase Price": "£11,200",
-        "Savings Compared to Petrol Car": "£14.1 savings per 100 miles <br> (£9.9 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£11.0 savings per 100 miles <br> (£9.9 + £1.1 due to fuel tax)",
         "Battery Range": "150 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -402,7 +402,7 @@ attributes_listB_small = [
     },
     {
         "Purchase Price": "£16,000",
-        "Savings Compared to Petrol Car": "£15.0 savings per 100 miles <br> (£10.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£11.9 savings per 100 miles <br> (£10.8 + £1.1 due to fuel tax)",
         "Battery Range": "260 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "55% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -423,14 +423,14 @@ attributes_listB_small = [
     },
     {
         "Purchase Price": "£21,000",
-        "Savings Compared to Petrol Car": "£15.9 savings per 100 miles <br> (£11.7 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£12.8 savings per 100 miles <br> (£11.7 + £1.1 due to fuel tax)",
         "Battery Range": "370 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "45% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "£16,000",
-        "Savings Compared to Petrol Car": "£15.0 savings per 100 miles <br> (£10.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£11.9 savings per 100 miles <br> (£10.8 + £1.1 due to fuel tax)",
         "Battery Range": "150 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "45% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -444,7 +444,7 @@ attributes_listB_small = [
     },
     {
         "Purchase Price": "£21,000",
-        "Savings Compared to Petrol Car": "£15.9 savings per 100 miles <br> (£11.7 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£12.8 savings per 100 miles <br> (£11.7 + £1.1 due to fuel tax)",
         "Battery Range": "260 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -458,7 +458,7 @@ attributes_listB_small = [
     },
     {
         "Purchase Price": "£11,200",
-        "Savings Compared to Petrol Car": "£14.1 savings per 100 miles <br> (£9.9 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£11.0 savings per 100 miles <br> (£9.9 + £1.1 due to fuel tax)",
         "Battery Range": "370 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "55% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -479,7 +479,7 @@ attributes_listB_small = [
     },
     {
         "Purchase Price": "£21,000",
-        "Savings Compared to Petrol Car": "£14.1 savings per 100 miles <br> (£9.9 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£11.0 savings per 100 miles <br> (£9.9 + £1.1 due to fuel tax)",
         "Battery Range": "150 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "55% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -493,14 +493,14 @@ attributes_listB_small = [
     },
     {
         "Purchase Price": "£11,200",
-        "Savings Compared to Petrol Car": "£15.0 savings per 100 miles <br> (£10.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£11.9 savings per 100 miles <br> (£10.8 + £1.1 due to fuel tax)",
         "Battery Range": "260 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "45% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "£16,000",
-        "Savings Compared to Petrol Car": "£15.9 savings per 100 miles <br> (£11.7 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£12.8 savings per 100 miles <br> (£11.7 + £1.1 due to fuel tax)",
         "Battery Range": "370 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -517,7 +517,7 @@ attributes_listB_small = [
 attributes_listB_medium = [
     {
         "Purchase Price": "£18,900",
-        "Savings Compared to Petrol Car": "£15.7 savings per 100 miles <br> (£11.5 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£12.6 savings per 100 miles <br> (£11.5 + £1.1 due to fuel tax)",
         "Battery Range": "190 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -531,7 +531,7 @@ attributes_listB_medium = [
     },
     {
         "Purchase Price": "£25,200",
-        "Savings Compared to Petrol Car": "£17.0 savings per 100 miles <br> (£12.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£13.9 savings per 100 miles <br> (£12.8 + £1.1 due to fuel tax)",
         "Battery Range": "300 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "55% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -552,14 +552,14 @@ attributes_listB_medium = [
     },
     {
         "Purchase Price": "£31,500",
-        "Savings Compared to Petrol Car": "£18.3 savings per 100 miles <br> (£14.1 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£15.2 savings per 100 miles <br> (£14.1 + £1.1 due to fuel tax)",
         "Battery Range": "410 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "45% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "£25,200",
-        "Savings Compared to Petrol Car": "£17.0 savings per 100 miles <br> (£12.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£13.9 savings per 100 miles <br> (£12.8 + £1.1 due to fuel tax)",
         "Battery Range": "190 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "45% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -573,7 +573,7 @@ attributes_listB_medium = [
     },
     {
         "Purchase Price": "£31,500",
-        "Savings Compared to Petrol Car": "£18.3 savings per 100 miles <br> (£14.1 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£15.2 savings per 100 miles <br> (£14.1 + £1.1 due to fuel tax)",
         "Battery Range": "300 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -587,7 +587,7 @@ attributes_listB_medium = [
     },
     {
         "Purchase Price": "£18,900",
-        "Savings Compared to Petrol Car": "£15.7 savings per 100 miles <br> (£11.5 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£12.6 savings per 100 miles <br> (£11.5 + £1.1 due to fuel tax)",
         "Battery Range": "410 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "55% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -608,7 +608,7 @@ attributes_listB_medium = [
     },
     {
         "Purchase Price": "£31,500",
-        "Savings Compared to Petrol Car": "£15.7 savings per 100 miles <br> (£11.5 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£12.6 savings per 100 miles <br> (£11.5 + £1.1 due to fuel tax)",
         "Battery Range": "190 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "55% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -622,14 +622,14 @@ attributes_listB_medium = [
     },
     {
         "Purchase Price": "£18,900",
-        "Savings Compared to Petrol Car": "£17.0 savings per 100 miles <br> (£12.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£13.9 savings per 100 miles <br> (£12.8 + £1.1 due to fuel tax)",
         "Battery Range": "300 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "45% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "£25,200",
-        "Savings Compared to Petrol Car": "£18.3 savings per 100 miles <br> (£14.1 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£15.2 savings per 100 miles <br> (£14.1 + £1.1 due to fuel tax)",
         "Battery Range": "410 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -646,7 +646,7 @@ attributes_listB_medium = [
 attributes_listB_large = [
     {
         "Purchase Price": "£49,700",
-        "Savings Compared to Petrol Car": "£18.0 savings per 100 miles <br> (£13.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£14.9 savings per 100 miles <br> (£13.8 + £1.1 due to fuel tax)",
         "Battery Range": "230 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -660,7 +660,7 @@ attributes_listB_large = [
     },
     {
         "Purchase Price": "£58,000",
-        "Savings Compared to Petrol Car": "£19.6 savings per 100 miles <br> (£15.4 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£16.5 savings per 100 miles <br> (£15.4 + £1.1 due to fuel tax)",
         "Battery Range": "340 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "55% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
@@ -681,14 +681,14 @@ attributes_listB_large = [
     },
     {
         "Purchase Price": "£68,000",
-        "Savings Compared to Petrol Car": "£21.2 savings per 100 miles <br> (£17 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£18.1 savings per 100 miles <br> (£17 + £1.1 due to fuel tax)",
         "Battery Range": "450 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "45% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "8% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "£58,000",
-        "Savings Compared to Petrol Car": "£19.6 savings per 100 miles <br> (£15.4 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£16.5 savings per 100 miles <br> (£15.4 + £1.1 due to fuel tax)",
         "Battery Range": "230 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "45% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -702,7 +702,7 @@ attributes_listB_large = [
     },
     {
         "Purchase Price": "£68,000",
-        "Savings Compared to Petrol Car": "£21.2 savings per 100 miles <br> (£17 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£18.1 savings per 100 miles <br> (£17 + £1.1 due to fuel tax)",
         "Battery Range": "340 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -716,7 +716,7 @@ attributes_listB_large = [
     },
     {
         "Purchase Price": "£49,700",
-        "Savings Compared to Petrol Car": "£18.0 savings per 100 miles <br> (£13.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£14.9 savings per 100 miles <br> (£13.8 + £1.1 due to fuel tax)",
         "Battery Range": "450 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "55% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "40% of neighbors drive a similar electric car",
@@ -737,7 +737,7 @@ attributes_listB_large = [
     },
     {
         "Purchase Price": "£68,000",
-        "Savings Compared to Petrol Car": "£18.0 savings per 100 miles <br> (£13.8 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£14.9 savings per 100 miles <br> (£13.8 + £1.1 due to fuel tax)",
         "Battery Range": "230 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "55% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
@@ -751,14 +751,14 @@ attributes_listB_large = [
     },
     {
         "Purchase Price": "£49,700",
-        "Savings Compared to Petrol Car": "£19.6 savings per 100 miles <br> (£15.4 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£16.5 savings per 100 miles <br> (£15.4 + £1.1 due to fuel tax)",
         "Battery Range": "340 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "45% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "£58,000",
-        "Savings Compared to Petrol Car": "£21.2 savings per 100 miles <br> (£17 + £4.2 due to fuel tax)",
+        "Savings Compared to Petrol Car": "£18.1 savings per 100 miles <br> (£17 + £1.1 due to fuel tax)",
         "Battery Range": "450 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "65% of emissions saved compared to petrol car",
         "Drivers in the Neighbourhood": "72% of neighbors drive a similar electric car",

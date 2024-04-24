@@ -1,7 +1,7 @@
 attributes_listA_small = [
     {
         "Precio de Compra": "$155,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$12.7 de ahorro por 100 kilometers <br> ($6.7 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.2 de ahorro por 100 kilometers <br> ($6.7 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "240 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "15 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
@@ -15,7 +15,7 @@ attributes_listA_small = [
     },
     {
         "Precio de Compra": "$223,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$13.4 de ahorro por 100 kilometers <br> ($7.4 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.9 de ahorro por 100 kilometers <br> ($7.4 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "420 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "25 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
@@ -36,14 +36,14 @@ attributes_listA_small = [
     },
     {
         "Precio de Compra": "$291,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.1 de ahorro por 100 kilometers <br> ($8.1 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$9.6 de ahorro por 100 kilometers <br> ($8.1 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "600 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "35 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
     },
     {
         "Precio de Compra": "$223,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$13.4 de ahorro por 100 kilometers <br> ($7.4 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.9 de ahorro por 100 kilometers <br> ($7.4 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "240 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "35 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -57,7 +57,7 @@ attributes_listA_small = [
     },
     {
         "Precio de Compra": "$291,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.1 de ahorro por 100 kilometers <br> ($8.1 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$9.6 de ahorro por 100 kilometers <br> ($8.1 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "420 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "15 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -71,7 +71,7 @@ attributes_listA_small = [
     },
     {
         "Precio de Compra": "$155,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$12.7 de ahorro por 100 kilometers <br> ($6.7 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.2 de ahorro por 100 kilometers <br> ($6.7 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "600 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "25 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -92,7 +92,7 @@ attributes_listA_small = [
     },
     {
         "Precio de Compra": "$291,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$12.7 de ahorro por 100 kilometers <br> ($6.7 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.2 de ahorro por 100 kilometers <br> ($6.7 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "240 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "25 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
@@ -106,14 +106,14 @@ attributes_listA_small = [
     },
     {
         "Precio de Compra": "$155,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$13.4 de ahorro por 100 kilometers <br> ($7.4 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.9 de ahorro por 100 kilometers <br> ($7.4 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "420 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "35 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
     },
     {
         "Precio de Compra": "$223,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.1 de ahorro por 100 kilometers <br> ($8.1 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$9.6 de ahorro por 100 kilometers <br> ($8.1 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "600 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "15 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
@@ -130,7 +130,7 @@ attributes_listA_small = [
 attributes_listA_medium = [
     {
         "Precio de Compra": "$261,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$13.2 de ahorro por 100 kilometers <br> ($7.2 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.7 de ahorro por 100 kilometers <br> ($7.2 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "300 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "15 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
@@ -144,7 +144,7 @@ attributes_listA_medium = [
     },
     {
         "Precio de Compra": "$350,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14 de ahorro por 100 kilometers <br> ($8 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$9.5 de ahorro por 100 kilometers <br> ($8 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "480 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "25 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
@@ -165,14 +165,14 @@ attributes_listA_medium = [
     },
     {
         "Precio de Compra": "$436,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.8 de ahorro por 100 kilometers <br> ($8.8 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$10.3 de ahorro por 100 kilometers <br> ($8.8 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "660 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "35 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
     },
     {
         "Precio de Compra": "$350,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14 de ahorro por 100 kilometers <br> ($8 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$9.5 de ahorro por 100 kilometers <br> ($8 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "300 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "35 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -186,7 +186,7 @@ attributes_listA_medium = [
     },
     {
         "Precio de Compra": "$436,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.8 de ahorro por 100 kilometers <br> ($8.8 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$10.3 de ahorro por 100 kilometers <br> ($8.8 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "480 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "15 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -200,7 +200,7 @@ attributes_listA_medium = [
     },
     {
         "Precio de Compra": "$261,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$13.2 de ahorro por 100 kilometers <br> ($7.2 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.7 de ahorro por 100 kilometers <br> ($7.2 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "660 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "25 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -221,7 +221,7 @@ attributes_listA_medium = [
     },
     {
         "Precio de Compra": "$436,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$13.2 de ahorro por 100 kilometers <br> ($7.2 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.7 de ahorro por 100 kilometers <br> ($7.2 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "300 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "25 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
@@ -235,14 +235,14 @@ attributes_listA_medium = [
     },
     {
         "Precio de Compra": "$261,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14 de ahorro por 100 kilometers <br> ($8 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$9.5 de ahorro por 100 kilometers <br> ($8 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "480 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "35 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
     },
     {
         "Precio de Compra": "$350,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.8 de ahorro por 100 kilometers <br> ($8.8 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$10.3 de ahorro por 100 kilometers <br> ($8.8 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "660 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "15 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
@@ -259,7 +259,7 @@ attributes_listA_medium = [
 attributes_listA_large = [
     {
         "Precio de Compra": "$688,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.7 de ahorro por 100 kilometers <br> ($8.7 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$10.2 de ahorro por 100 kilometers <br> ($8.7 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "370 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "15 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
@@ -273,7 +273,7 @@ attributes_listA_large = [
     },
     {
         "Precio de Compra": "$805,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$15.6 de ahorro por 100 kilometers <br> ($9.6 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$11.1 de ahorro por 100 kilometers <br> ($9.6 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "550 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "25 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
@@ -294,14 +294,14 @@ attributes_listA_large = [
     },
     {
         "Precio de Compra": "$950,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$16.5 de ahorro por 100 kilometers <br> ($10.5 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$12.0 de ahorro por 100 kilometers <br> ($10.5 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "730 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "35 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
     },
     {
         "Precio de Compra": "$805,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$15.6 de ahorro por 100 kilometers <br> ($9.6 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$11.1 de ahorro por 100 kilometers <br> ($9.6 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "370 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "35 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -315,7 +315,7 @@ attributes_listA_large = [
     },
     {
         "Precio de Compra": "$950,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$16.5 de ahorro por 100 kilometers <br> ($10.5 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$12.0 de ahorro por 100 kilometers <br> ($10.5 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "550 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "15 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -329,7 +329,7 @@ attributes_listA_large = [
     },
     {
         "Precio de Compra": "$688,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.7 de ahorro por 100 kilometers <br> ($8.7 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$10.2 de ahorro por 100 kilometers <br> ($8.7 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "730 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "25 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -350,7 +350,7 @@ attributes_listA_large = [
     },
     {
         "Precio de Compra": "$950,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.7 de ahorro por 100 kilometers <br> ($8.7 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$10.2 de ahorro por 100 kilometers <br> ($8.7 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "370 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "25 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
@@ -364,14 +364,14 @@ attributes_listA_large = [
     },
     {
         "Precio de Compra": "$688,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$15.6 de ahorro por 100 kilometers <br> ($9.6 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$11.1 de ahorro por 100 kilometers <br> ($9.6 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "550 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "35 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
     },
     {
         "Precio de Compra": "$805,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$16.5 de ahorro por 100 kilometers <br> ($10.5 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$12.0 de ahorro por 100 kilometers <br> ($10.5 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "730 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "15 metric toneladas de emisiones",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
@@ -388,7 +388,7 @@ attributes_listA_large = [
 attributes_listB_small = [
     {
         "Precio de Compra": "$155,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$12.7 de ahorro por 100 kilometers <br> ($6.7 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.2 de ahorro por 100 kilometers <br> ($6.7 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "240 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "75% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
@@ -402,7 +402,7 @@ attributes_listB_small = [
     },
     {
         "Precio de Compra": "$223,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$13.4 de ahorro por 100 kilometers <br> ($7.4 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.9 de ahorro por 100 kilometers <br> ($7.4 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "420 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "65% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
@@ -423,14 +423,14 @@ attributes_listB_small = [
     },
     {
         "Precio de Compra": "$291,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.1 de ahorro por 100 kilometers <br> ($8.1 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$9.6 de ahorro por 100 kilometers <br> ($8.1 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "600 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "50% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
     },
     {
         "Precio de Compra": "$223,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$13.4 de ahorro por 100 kilometers <br> ($7.4 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.9 de ahorro por 100 kilometers <br> ($7.4 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "240 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "50% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -444,7 +444,7 @@ attributes_listB_small = [
     },
     {
         "Precio de Compra": "$291,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.1 de ahorro por 100 kilometers <br> ($8.1 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$9.6 de ahorro por 100 kilometers <br> ($8.1 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "420 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "75% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -458,7 +458,7 @@ attributes_listB_small = [
     },
     {
         "Precio de Compra": "$155,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$12.7 de ahorro por 100 kilometers <br> ($6.7 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.2 de ahorro por 100 kilometers <br> ($6.7 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "600 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "65% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -479,7 +479,7 @@ attributes_listB_small = [
     },
     {
         "Precio de Compra": "$291,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$12.7 de ahorro por 100 kilometers <br> ($6.7 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.2 de ahorro por 100 kilometers <br> ($6.7 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "240 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "65% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
@@ -493,14 +493,14 @@ attributes_listB_small = [
     },
     {
         "Precio de Compra": "$155,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$13.4 de ahorro por 100 kilometers <br> ($7.4 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.9 de ahorro por 100 kilometers <br> ($7.4 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "420 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "50% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
     },
     {
         "Precio de Compra": "$223,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.1 de ahorro por 100 kilometers <br> ($8.1 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$9.6 de ahorro por 100 kilometers <br> ($8.1 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "600 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "75% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
@@ -517,7 +517,7 @@ attributes_listB_small = [
 attributes_listB_medium = [
     {
         "Precio de Compra": "$261,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$13.2 de ahorro por 100 kilometers <br> ($7.2 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.7 de ahorro por 100 kilometers <br> ($7.2 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "300 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "75% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
@@ -531,7 +531,7 @@ attributes_listB_medium = [
     },
     {
         "Precio de Compra": "$350,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14 de ahorro por 100 kilometers <br> ($8 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$9.5 de ahorro por 100 kilometers <br> ($8 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "480 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "65% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
@@ -552,14 +552,14 @@ attributes_listB_medium = [
     },
     {
         "Precio de Compra": "$436,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.8 de ahorro por 100 kilometers <br> ($8.8 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$10.3 de ahorro por 100 kilometers <br> ($8.8 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "660 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "50% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
     },
     {
         "Precio de Compra": "$350,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14 de ahorro por 100 kilometers <br> ($8 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$9.5 de ahorro por 100 kilometers <br> ($8 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "300 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "50% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -573,7 +573,7 @@ attributes_listB_medium = [
     },
     {
         "Precio de Compra": "$436,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.8 de ahorro por 100 kilometers <br> ($8.8 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$10.3 de ahorro por 100 kilometers <br> ($8.8 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "480 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "75% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -587,7 +587,7 @@ attributes_listB_medium = [
     },
     {
         "Precio de Compra": "$261,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$13.2 de ahorro por 100 kilometers <br> ($7.2 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.7 de ahorro por 100 kilometers <br> ($7.2 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "660 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "65% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -608,7 +608,7 @@ attributes_listB_medium = [
     },
     {
         "Precio de Compra": "$436,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$13.2 de ahorro por 100 kilometers <br> ($7.2 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$8.7 de ahorro por 100 kilometers <br> ($7.2 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "300 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "65% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
@@ -622,14 +622,14 @@ attributes_listB_medium = [
     },
     {
         "Precio de Compra": "$261,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14 de ahorro por 100 kilometers <br> ($8 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$9.5 de ahorro por 100 kilometers <br> ($8 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "480 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "50% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
     },
     {
         "Precio de Compra": "$350,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.8 de ahorro por 100 kilometers <br> ($8.8 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$10.3 de ahorro por 100 kilometers <br> ($8.8 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "660 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "75% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
@@ -646,7 +646,7 @@ attributes_listB_medium = [
 attributes_listB_large = [
     {
         "Precio de Compra": "$688,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.7 de ahorro por 100 kilometers <br> ($8.7 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$10.2 de ahorro por 100 kilometers <br> ($8.7 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "370 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "75% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
@@ -660,7 +660,7 @@ attributes_listB_large = [
     },
     {
         "Precio de Compra": "$805,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$15.6 de ahorro por 100 kilometers <br> ($9.6 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$11.1 de ahorro por 100 kilometers <br> ($9.6 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "550 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "65% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
@@ -681,14 +681,14 @@ attributes_listB_large = [
     },
     {
         "Precio de Compra": "$950,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$16.5 de ahorro por 100 kilometers <br> ($10.5 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$12.0 de ahorro por 100 kilometers <br> ($10.5 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "730 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "50% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 8% de los vecinos conduce un coche eléctrico similar",
     },
     {
         "Precio de Compra": "$805,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$15.6 de ahorro por 100 kilometers <br> ($9.6 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$11.1 de ahorro por 100 kilometers <br> ($9.6 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "370 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "50% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -702,7 +702,7 @@ attributes_listB_large = [
     },
     {
         "Precio de Compra": "$950,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$16.5 de ahorro por 100 kilometers <br> ($10.5 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$12.0 de ahorro por 100 kilometers <br> ($10.5 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "550 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "75% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -716,7 +716,7 @@ attributes_listB_large = [
     },
     {
         "Precio de Compra": "$688,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.7 de ahorro por 100 kilometers <br> ($8.7 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$10.2 de ahorro por 100 kilometers <br> ($8.7 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "730 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "65% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 40% de los vecinos conduce un coche eléctrico similar",
@@ -737,7 +737,7 @@ attributes_listB_large = [
     },
     {
         "Precio de Compra": "$950,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$14.7 de ahorro por 100 kilometers <br> ($8.7 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$10.2 de ahorro por 100 kilometers <br> ($8.7 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "370 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "65% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
@@ -751,14 +751,14 @@ attributes_listB_large = [
     },
     {
         "Precio de Compra": "$688,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$15.6 de ahorro por 100 kilometers <br> ($9.6 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$11.1 de ahorro por 100 kilometers <br> ($9.6 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "550 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "50% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
     },
     {
         "Precio de Compra": "$805,000",
-        "Ahorro en Comparación con un Coche de Gasolina": "$16.5 de ahorro por 100 kilometers <br> ($10.5 + $6 debido al impuesto sobre la gasolina)",
+        "Ahorro en Comparación con un Coche de Gasolina": "$12.0 de ahorro por 100 kilometers <br> ($10.5 + $1.5 debido al impuesto sobre la gasolina)",
         "Autonomía de la Batería": "730 kilometers con una sola carga",
         "Emisiones de Gases de Efecto Invernadero": "75% de emisiones ahorradas en comparación con un coche de gasolina",
         "Conductores en el Vecindario": "El 72% de los vecinos conduce un coche eléctrico similar",
