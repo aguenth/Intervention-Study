@@ -129,6 +129,7 @@ class Player(BasePlayer):
 
     response_time = models.LongStringField(blank=True)
 
+
 # Extra model for tracking hover events
 class HoverEvent(models.ExtraModel):
     player = models.Link(Player)
@@ -161,7 +162,7 @@ def custom_export(players):
                 e.duration,
                 e.attributeType,
                 e.attributeValue,
-                player.choice,  # Include the choice variable
+                player.choice
             ]
 
 

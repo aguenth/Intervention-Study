@@ -489,13 +489,12 @@ $(".tracked_element").mouseleave(function () {
 choiceYesButton.addEventListener("click", function() {
     const buttonClickTime = Date.now();
 
-    // Calculate response time if firstHoverEnterTime is recorded
+    // Calculate response time
     let responseTime = 0;
     if (firstHoverEnterTime) {
         responseTime = buttonClickTime - firstHoverEnterTime;
     }
 
-    // Set responseTime to 0 if firstHoverEnterTime is not recorded
     document.getElementById("response_time").value = responseTime;
 
     console.log("Response time (ms) - Choice Yes:", responseTime);
@@ -504,20 +503,15 @@ choiceYesButton.addEventListener("click", function() {
 choiceNoButton.addEventListener("click", function() {
     const buttonClickTime = Date.now();
 
-    // Calculate response time if firstHoverEnterTime is recorded
+    // Calculate response time
     let responseTime = 0;
     if (firstHoverEnterTime) {
         responseTime = buttonClickTime - firstHoverEnterTime;
     }
-
-    // Set responseTime to 0 if firstHoverEnterTime is not recorded
     document.getElementById("response_time").value = responseTime;
 
     console.log("Response time (ms) - Choice No:", responseTime);
 });
-
-
-
 
 // Initially hide the buttons
 updateButtonStatus();
