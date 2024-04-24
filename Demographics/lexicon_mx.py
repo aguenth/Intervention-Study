@@ -25,11 +25,11 @@ class Lexicon:
 
     education_label = "¿Cuál es tu nivel educativo más alto?"
     none = "Sin educación formal"
-    obligatory = "Educación obligatoria (secundaria)"
-    high_school = "Título de bachillerato o GED"
+    obligatory = "Secundaria"
+    high_school = "Título de bachillerato"
     college = "Parte de un título universitario"
     university = "Título universitario"
-    doctor = "Doctorado"
+    doctor = "Doctorado / PhD"
 
     income_label = "¿Cuál es su <b>ingreso familiar disponible</b> anual (después de impuestos)?"
     income_quintile1 = "< 30,000 pesos"

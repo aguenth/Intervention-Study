@@ -32,7 +32,7 @@ class Lexicon:
     high_school = "High school diploma or GED"
     college = "Some college degree"
     university = "University degree"
-    doctor = "Doctorate"
+    doctor = "Doctorate / PhD"
 
     income_label = "How high is your yearly <u><b>disposable household</b></u> income (after local and federal taxes)?"
     income_quintile1 = "< $30,000"

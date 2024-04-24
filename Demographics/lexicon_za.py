@@ -28,11 +28,11 @@ class Lexicon:
 
     education_label = "What is your highest education?"
     none = "No formal education"
-    obligatory = "Compulsory education (secondary school)"
-    high_school = "High school diploma or GED"
+    obligatory = "Secondary school"
+    high_school = "Matric"
     college = "Some college degree"
-    university = "University degree"
-    doctor = "Doctorate"
+    university = "University degree (e.g. Diploma, Masters)"
+    doctor = "Doctorate / PhD"
 
     income_label = "How high is your yearly <u><b>disposable household</b></u> income (after taxes)?"
     income_quintile1 = "< R20,000"

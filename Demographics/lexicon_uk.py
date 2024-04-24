@@ -29,10 +29,10 @@ class Lexicon:
     education_label = "What is your highest education?"
     none = "No formal education"
     obligatory = "Compulsory education (secondary school)"
-    high_school = "High school diploma or GED"
+    high_school = "A-level"
     college = "Some college degree"
     university = "University degree"
-    doctor = "Doctorate"
+    doctor = "Doctorate / PhD"
 
     income_label = "How high is your yearly <u><b>disposable household</b></u> income (after taxes)?"
     income_quintile1 = "< £15,000"
