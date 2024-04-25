@@ -74,5 +74,5 @@ class Lexicon:
     homophily4_label = "...their political opinions?"
 
     # Comments
-    comments_title = "Do you have any comments before finishing the study?"
-    comments_instruction = "Write down your comments in the box or leave this box blank."
+    comments_title = "Did you follow a specific strategy for your decisions in the choice tasks? Was there an attribute that you always looked at first?"
+    comments_instruction = "Please write down your comments in the box or leave this box blank."

@@ -86,5 +86,5 @@ class Lexicon:
     homophily4_label = "...sus opiniones políticas?"
 
     # Comments =  
-    comments_title = "¿Tienes algún comentario antes de terminar el estudio?"
+    comments_title = "¿Seguiste una estrategia específica para tomar tus decisiones en las tareas de elección? ¿Hubo algún atributo en el que siempre te fijaste primero?"
     comments_instruction = "Escribe tus comentarios en la casilla o deja esta casilla en blanco"
