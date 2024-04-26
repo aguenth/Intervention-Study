@@ -95,3 +95,5 @@ class Lexicon:
     affect_ev_label = "En general, ¿qué opinas de los coches eléctricos?"
     very_negative = "muy negativo"
     very_positive = "muy positivo"
+    affect_ice_title = "Opinión sobre los coches de gasolina"
+    affect_ice_label = "En general, ¿qué opinas de los coches de gasolina?"

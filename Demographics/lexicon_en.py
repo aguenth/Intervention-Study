@@ -103,3 +103,5 @@ class Lexicon:
     affect_ev_label = "Overall, how do you feel about electric cars?"
     very_negative = "very negative"
     very_positive = "very positive"
+    affect_ice_title = "Feelings towards gasoline cars"
+    affect_ice_label = "Overall, how do you feel about gasoline cars?"

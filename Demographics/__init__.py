@@ -202,6 +202,7 @@ class Player(BasePlayer):
 
     # affect
     affect_ev = make_likert10()
+    affect_ice = make_likert10()
 
 
 # Demographics Page class
@@ -314,6 +315,15 @@ class affect(Page):
         return dict(Lexicon=player.session.demographicsLexi)
 
 
+class affect_ice(Page):
+    form_model = 'player'
+    form_fields = ['affect_ice']
+
+    @staticmethod
+    def vars_for_template(player: Player):
+        return dict(Lexicon=player.session.demographicsLexi)
+
+
 # Page sequence
 page_sequence = [
     Demographics,
@@ -321,5 +331,6 @@ page_sequence = [
     car_owner,
     no_car_owner,
     WoM,
-    affect
+    affect,
+    affect_ice
 ]
