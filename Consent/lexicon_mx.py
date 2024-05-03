@@ -7,7 +7,7 @@ class Lexicon:
     stop = "Parar"
     your_decision = "Tu decisión"
     mobile_check = "Por favor, haz clic en siguiente"
-    mobile = "Lo sentimos, este experimento no permite navegadores móviles. Por favor, vuelve al sitio web de Prolific y pega este código: "
+    mobile = "Lo sentimos, este experimento no permite navegadores móviles. Por favor, vuelve al sitio web de Prolific y pega este código: CZ52BU9U"
     next = "Siguiente"
     consent_p1 = 'Gracias por tu interés por participar en este estudio. <br><br> Este estudio está supervisado por la MSc Anne Günther y el Prof. Ulf J.J. Hahnel, Facultad de Psicología, Universidad de Basilea, Suiza.'
     consent_p2 = ' Si aceptas participar en este estudio, se te pedirá que hagas lo siguiente:'
