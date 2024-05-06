@@ -1555,25 +1555,25 @@ attributes_listE = [
     },
     {
         "Carbon Tax on Gasoline": "$240 per tCO2: about 50% gas price increase",
-        "Subsidy on EV Price": "$7500 price reduction",
+        "Subsidy on EV Price": "$5000 price reduction",
         "Climate Label on Cars": "No climate label",
         "Drivers in the Neighborhood": "11% who bought a new car chose an EV last year",
     },
     {
         "Carbon Tax on Gasoline": "$60 per tCO2: about 20% gas price increase",
-        "Subsidy on EV Price": "$7500 price reduction",
+        "Subsidy on EV Price": "$5000 price reduction",
         "Climate Label on Cars": "No climate label",
         "Drivers in the Neighborhood": "47% who bought a new car chose an EV last year",
     },
     {
         "Carbon Tax on Gasoline": "$240 per tCO2: about 50% gas price increase",
-        "Subsidy on EV Price": "$3750 price reduction",
+        "Subsidy on EV Price": "$2500 price reduction",
         "Climate Label on Cars": "No climate label",
         "Drivers in the Neighborhood": "47% who bought a new car chose an EV last year",
     },
     {
         "Carbon Tax on Gasoline": "No new tax on gasoline",
-        "Subsidy on EV Price": "$3750 price reduction",
+        "Subsidy on EV Price": "$2500 price reduction",
         "Climate Label on Cars": "No climate label",
         "Drivers in the Neighborhood": "83% who bought a new car chose an EV last year",
     },
@@ -1585,13 +1585,13 @@ attributes_listE = [
     },
     {
         "Carbon Tax on Gasoline": "$60 per tCO2: about 20% gas price increase",
-        "Subsidy on EV Price": "$7500 price reduction",
+        "Subsidy on EV Price": "$5000 price reduction",
         "Climate Label on Cars": "Voluntary manufacturer label",
         "Drivers in the Neighborhood": "11% who bought a new car chose an EV last year",
     },
     {
         "Carbon Tax on Gasoline": "$240 per tCO2: about 50% gas price increase",
-        "Subsidy on EV Price": "$3750 price reduction",
+        "Subsidy on EV Price": "$2500 price reduction",
         "Climate Label on Cars": "Voluntary manufacturer label",
         "Drivers in the Neighborhood": "11% who bought a new car chose an EV last year",
     },
@@ -1603,13 +1603,13 @@ attributes_listE = [
     },
     {
         "Carbon Tax on Gasoline": "$60 per tCO2: about 20% gas price increase",
-        "Subsidy on EV Price": "$3750 price reduction",
+        "Subsidy on EV Price": "$2500 price reduction",
         "Climate Label on Cars": "Voluntary manufacturer label",
         "Drivers in the Neighborhood": "47% who bought a new car chose an EV last year",
     },
     {
         "Carbon Tax on Gasoline": "No new tax on gasoline",
-        "Subsidy on EV Price": "$7500 price reduction",
+        "Subsidy on EV Price": "$5000 price reduction",
         "Climate Label on Cars": "Voluntary manufacturer label",
         "Drivers in the Neighborhood": "83% who bought a new car chose an EV last year",
     },
@@ -1621,7 +1621,7 @@ attributes_listE = [
     },
     {
         "Carbon Tax on Gasoline": "No new tax on gasoline",
-        "Subsidy on EV Price": "$3750 price reduction",
+        "Subsidy on EV Price": "$2500 price reduction",
         "Climate Label on Cars": "Mandatory manufacturer label",
         "Drivers in the Neighborhood": "11% who bought a new car chose an EV last year",
     },
@@ -1633,7 +1633,7 @@ attributes_listE = [
     },
     {
         "Carbon Tax on Gasoline": "No new tax on gasoline",
-        "Subsidy on EV Price": "$7500 price reduction",
+        "Subsidy on EV Price": "$5000 price reduction",
         "Climate Label on Cars": "Mandatory manufacturer label",
         "Drivers in the Neighborhood": "47% who bought a new car chose an EV last year",
     },
@@ -1645,15 +1645,14 @@ attributes_listE = [
     },
     {
         "Carbon Tax on Gasoline": "$60 per tCO2: about 20% gas price increase",
-        "Subsidy on EV Price": "$3750 price reduction",
+        "Subsidy on EV Price": "$2500 price reduction",
         "Climate Label on Cars": "Mandatory manufacturer label",
         "Drivers in the Neighborhood": "83% who bought a new car chose an EV last year",
     },
     {
         "Carbon Tax on Gasoline": "$240 per tCO2: about 50% gas price increase",
-        "Subsidy on EV Price": "$7500 price reduction",
+        "Subsidy on EV Price": "$5000 price reduction",
         "Climate Label on Cars": "Mandatory manufacturer label",
         "Drivers in the Neighborhood": "83% who bought a new car chose an EV last year",
     },
 ]
-

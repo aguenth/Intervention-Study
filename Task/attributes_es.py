@@ -1555,25 +1555,25 @@ attributes_listE = [
     },
     {
         "Impuesto sobre el carbono en la gasolina": "$2200 por tCO2: aproximadamente un 50% de aumento del precio de la gasolina",
-        "Subvención al precio del VE": "Reducción de precio a $72,000",
+        "Subvención al precio del VE": "Reducción de precio a $48,500",
         "Etiqueta climática en los coches": "Sin etiqueta climática",
         "Conductores en el Vecindario": "El 11% de los vecinos que compraron un coche nuevo eligieron un VE el año pasado",
     },
     {
         "Impuesto sobre el carbono en la gasolina": "$550 por tCO2: aproximadamente un 20% de aumento del precio de la gasolina",
-        "Subvención al precio del VE": "Reducción de precio a $72,000",
+        "Subvención al precio del VE": "Reducción de precio a $48,500",
         "Etiqueta climática en los coches": "Sin etiqueta climática",
         "Conductores en el Vecindario": "El 47% de los vecinos que compraron un coche nuevo eligieron un VE el año pasado",
     },
     {
         "Impuesto sobre el carbono en la gasolina": "$2200 por tCO2: aproximadamente un 50% de aumento del precio de la gasolina",
-        "Subvención al precio del VE": "Reducción de precio a $36,000",
+        "Subvención al precio del VE": "Reducción de precio a $24,250",
         "Etiqueta climática en los coches": "Sin etiqueta climática",
         "Conductores en el Vecindario": "El 47% de los vecinos que compraron un coche nuevo eligieron un VE el año pasado",
     },
     {
         "Impuesto sobre el carbono en la gasolina": "Ningún nuevo impuesto sobre la gasolina",
-        "Subvención al precio del VE": "Reducción de precio a $36,000",
+        "Subvención al precio del VE": "Reducción de precio a $24,250",
         "Etiqueta climática en los coches": "Sin etiqueta climática",
         "Conductores en el Vecindario": "El 83% de los vecinos que compraron un coche nuevo eligieron un VE el año pasado",
     },
@@ -1585,13 +1585,13 @@ attributes_listE = [
     },
     {
         "Impuesto sobre el carbono en la gasolina": "$550 por tCO2: aproximadamente un 20% de aumento del precio de la gasolina",
-        "Subvención al precio del VE": "Reducción de precio a $72,000",
+        "Subvención al precio del VE": "Reducción de precio a $48,500",
         "Etiqueta climática en los coches": "Etiqueta voluntaria del fabricante",
         "Conductores en el Vecindario": "El 11% de los vecinos que compraron un coche nuevo eligieron un VE el año pasado",
     },
     {
         "Impuesto sobre el carbono en la gasolina": "$2200 por tCO2: aproximadamente un 50% de aumento del precio de la gasolina",
-        "Subvención al precio del VE": "Reducción de precio a $36,000",
+        "Subvención al precio del VE": "Reducción de precio a $24,250",
         "Etiqueta climática en los coches": "Etiqueta voluntaria del fabricante",
         "Conductores en el Vecindario": "El 11% de los vecinos que compraron un coche nuevo eligieron un VE el año pasado",
     },
@@ -1603,13 +1603,13 @@ attributes_listE = [
     },
     {
         "Impuesto sobre el carbono en la gasolina": "$550 por tCO2: aproximadamente un 20% de aumento del precio de la gasolina",
-        "Subvención al precio del VE": "Reducción de precio a $36,000",
+        "Subvención al precio del VE": "Reducción de precio a $24,250",
         "Etiqueta climática en los coches": "Etiqueta voluntaria del fabricante",
         "Conductores en el Vecindario": "El 47% de los vecinos que compraron un coche nuevo eligieron un VE el año pasado",
     },
     {
         "Impuesto sobre el carbono en la gasolina": "Ningún nuevo impuesto sobre la gasolina",
-        "Subvención al precio del VE": "Reducción de precio a $72,000",
+        "Subvención al precio del VE": "Reducción de precio a $48,500",
         "Etiqueta climática en los coches": "Etiqueta voluntaria del fabricante",
         "Conductores en el Vecindario": "El 83% de los vecinos que compraron un coche nuevo eligieron un VE el año pasado",
     },
@@ -1621,7 +1621,7 @@ attributes_listE = [
     },
     {
         "Impuesto sobre el carbono en la gasolina": "Ningún nuevo impuesto sobre la gasolina",
-        "Subvención al precio del VE": "Reducción de precio a $36,000",
+        "Subvención al precio del VE": "Reducción de precio a $24,250",
         "Etiqueta climática en los coches": "Etiqueta obligatoria del fabricante",
         "Conductores en el Vecindario": "El 11% de los vecinos que compraron un coche nuevo eligieron un VE el año pasado",
     },
@@ -1633,7 +1633,7 @@ attributes_listE = [
     },
     {
         "Impuesto sobre el carbono en la gasolina": "Ningún nuevo impuesto sobre la gasolina",
-        "Subvención al precio del VE": "Reducción de precio a $72,000",
+        "Subvención al precio del VE": "Reducción de precio a $48,500",
         "Etiqueta climática en los coches": "Etiqueta obligatoria del fabricante",
         "Conductores en el Vecindario": "El 47% de los vecinos que compraron un coche nuevo eligieron un VE el año pasado",
     },
@@ -1645,14 +1645,15 @@ attributes_listE = [
     },
     {
         "Impuesto sobre el carbono en la gasolina": "$550 por tCO2: aproximadamente un 20% de aumento del precio de la gasolina",
-        "Subvención al precio del VE": "Reducción de precio a $36,000",
+        "Subvención al precio del VE": "Reducción de precio a $24,250",
         "Etiqueta climática en los coches": "Etiqueta obligatoria del fabricante",
         "Conductores en el Vecindario": "El 83% de los vecinos que compraron un coche nuevo eligieron un VE el año pasado",
     },
     {
         "Impuesto sobre el carbono en la gasolina": "$2200 por tCO2: aproximadamente un 50% de aumento del precio de la gasolina",
-        "Subvención al precio del VE": "Reducción de precio a $72,000",
+        "Subvención al precio del VE": "Reducción de precio a $48,500",
         "Etiqueta climática en los coches": "Etiqueta obligatoria del fabricante",
         "Conductores en el Vecindario": "El 83% de los vecinos que compraron un coche nuevo eligieron un VE el año pasado",
     },
 ]
+

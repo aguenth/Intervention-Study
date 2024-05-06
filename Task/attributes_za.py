@@ -1555,25 +1555,25 @@ attributes_listE = [
     },
     {
         "Carbon Tax on Fuel": "R1600 per tCO2: about 50% fuel price increase",
-        "Subsidy on EV Price": "R52,000 price reduction",
+        "Subsidy on EV Price": "R35,000 price reduction",
         "Climate Label on Cars": "No climate label",
         "Drivers in the Neighbourhood": "11% who bought a new car chose an EV last year",
     },
     {
         "Carbon Tax on Fuel": "R400 per tCO2: about 20% fuel price increase",
-        "Subsidy on EV Price": "R52,000 price reduction",
+        "Subsidy on EV Price": "R35,000 price reduction",
         "Climate Label on Cars": "No climate label",
         "Drivers in the Neighbourhood": "47% who bought a new car chose an EV last year",
     },
     {
         "Carbon Tax on Fuel": "R1600 per tCO2: about 50% fuel price increase",
-        "Subsidy on EV Price": "R26,000 price reduction",
+        "Subsidy on EV Price": "R17,500 price reduction",
         "Climate Label on Cars": "No climate label",
         "Drivers in the Neighbourhood": "47% who bought a new car chose an EV last year",
     },
     {
         "Carbon Tax on Fuel": "No new tax on road fuel",
-        "Subsidy on EV Price": "R26,000 price reduction",
+        "Subsidy on EV Price": "R17,500 price reduction",
         "Climate Label on Cars": "No climate label",
         "Drivers in the Neighbourhood": "83% who bought a new car chose an EV last year",
     },
@@ -1585,13 +1585,13 @@ attributes_listE = [
     },
     {
         "Carbon Tax on Fuel": "R400 per tCO2: about 20% fuel price increase",
-        "Subsidy on EV Price": "R52,000 price reduction",
+        "Subsidy on EV Price": "R35,000 price reduction",
         "Climate Label on Cars": "Voluntary manufacturer label",
         "Drivers in the Neighbourhood": "11% who bought a new car chose an EV last year",
     },
     {
         "Carbon Tax on Fuel": "R1600 per tCO2: about 50% fuel price increase",
-        "Subsidy on EV Price": "R26,000 price reduction",
+        "Subsidy on EV Price": "R17,500 price reduction",
         "Climate Label on Cars": "Voluntary manufacturer label",
         "Drivers in the Neighbourhood": "11% who bought a new car chose an EV last year",
     },
@@ -1603,13 +1603,13 @@ attributes_listE = [
     },
     {
         "Carbon Tax on Fuel": "R400 per tCO2: about 20% fuel price increase",
-        "Subsidy on EV Price": "R26,000 price reduction",
+        "Subsidy on EV Price": "R17,500 price reduction",
         "Climate Label on Cars": "Voluntary manufacturer label",
         "Drivers in the Neighbourhood": "47% who bought a new car chose an EV last year",
     },
     {
         "Carbon Tax on Fuel": "No new tax on road fuel",
-        "Subsidy on EV Price": "R52,000 price reduction",
+        "Subsidy on EV Price": "R35,000 price reduction",
         "Climate Label on Cars": "Voluntary manufacturer label",
         "Drivers in the Neighbourhood": "83% who bought a new car chose an EV last year",
     },
@@ -1621,7 +1621,7 @@ attributes_listE = [
     },
     {
         "Carbon Tax on Fuel": "No new tax on road fuel",
-        "Subsidy on EV Price": "R26,000 price reduction",
+        "Subsidy on EV Price": "R17,500 price reduction",
         "Climate Label on Cars": "Mandatory manufacturer label",
         "Drivers in the Neighbourhood": "11% who bought a new car chose an EV last year",
     },
@@ -1633,7 +1633,7 @@ attributes_listE = [
     },
     {
         "Carbon Tax on Fuel": "No new tax on road fuel",
-        "Subsidy on EV Price": "R52,000 price reduction",
+        "Subsidy on EV Price": "R35,000 price reduction",
         "Climate Label on Cars": "Mandatory manufacturer label",
         "Drivers in the Neighbourhood": "47% who bought a new car chose an EV last year",
     },
@@ -1645,15 +1645,14 @@ attributes_listE = [
     },
     {
         "Carbon Tax on Fuel": "R400 per tCO2: about 20% fuel price increase",
-        "Subsidy on EV Price": "R26,000 price reduction",
+        "Subsidy on EV Price": "R17,500 price reduction",
         "Climate Label on Cars": "Mandatory manufacturer label",
         "Drivers in the Neighbourhood": "83% who bought a new car chose an EV last year",
     },
     {
         "Carbon Tax on Fuel": "R1600 per tCO2: about 50% fuel price increase",
-        "Subsidy on EV Price": "R52,000 price reduction",
+        "Subsidy on EV Price": "R35,000 price reduction",
         "Climate Label on Cars": "Mandatory manufacturer label",
         "Drivers in the Neighbourhood": "83% who bought a new car chose an EV last year",
     },
 ]
-
