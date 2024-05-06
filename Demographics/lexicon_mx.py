@@ -57,9 +57,9 @@ class Lexicon:
     hev = "Coche híbrido"
 
     car_model_label = "¿De qué tamaño es ese coche?"
-    small = "Coche pequeño (por ejemplo, Toyota Yaris, Fiat 500, Dacia Sandero, Nissan Versa)"
-    medium = "Coche mediano (por ejemplo, Chevrolet Malibu, VW Golf, Audi A6)"
-    large = "Coche grande / Coche de lujo / SUV (por ejemplo, Range Rover, Porsche, Mercedes-Benz Clase S)"
+    small = "Coche pequeño (por ejemplo, Toyota Yaris, Chevrolet Aveo, Nissan Versa, MG5)"
+    medium = "Coche mediano (por ejemplo, Volkswagen Virtus, Nissan NP300, Kia K3)"
+    large = "Coche grande / Coche de lujo / SUV (por ejemplo, Porsche, Mercedes-Benz Clase S)"
 
     car_number_label = "¿Cuántos coches tiene tu familia en total?"
 

@@ -61,9 +61,9 @@ class Lexicon:
     hev = "Hybrid car"
 
     car_model_label = "What size is that car?"
-    small = "Small car (e.g., Toyota Corolla, Nissan Versa, Fiat 500, Dacia Sandero)"
-    medium = "Medium sized car (e.g., Chevrolet Malibu, Nissan Maxima, Audi A4)"
-    large = "Large car / Luxury car / SUV (e.g., Range Rover, Porsche, Mercedes-Benz S-Class)"
+    small = "Small car (e.g., Vauxhall Corsa, Toyota Yaris, Skoda Fabia)"
+    medium = "Medium sized car (e.g., Nissan Qashqai, Ford Puma, Audi A3/A4)"
+    large = "Large car / Luxury car / SUV (e.g., Range Rover, BMW 5 Series, Mercedes-Benz S-Class)"
 
     car_number_label = "How many cars does your household own in total?"
 
