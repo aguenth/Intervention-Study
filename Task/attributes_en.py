@@ -1040,7 +1040,7 @@ attributes_listC_large = [
     },
     {
         "Purchase Price": "$83,000",
-        "Savings Compared to Gasoline Car": "$10.6 savings per 100 miles",
+        "Savings Compared to Gasoline Car": "$10.5 savings per 100 miles",
         "Battery Range": "230 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighborhood": "8% of neighbors drive a similar electric car",
@@ -1068,7 +1068,7 @@ attributes_listC_large = [
     },
     {
         "Purchase Price": "$98,000",
-        "Savings Compared to Gasoline Car": "$10.6 savings per 100 miles",
+        "Savings Compared to Gasoline Car": "$10.5 savings per 100 miles",
         "Battery Range": "450 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighborhood": "8% of neighbors drive a similar electric car",
@@ -1082,14 +1082,14 @@ attributes_listC_large = [
     },
     {
         "Purchase Price": "$71,000",
-        "Savings Compared to Gasoline Car": "$10.6 savings per 100 miles",
+        "Savings Compared to Gasoline Car": "$10.5 savings per 100 miles",
         "Battery Range": "230 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "30 metric tons of emissions",
         "Drivers in the Neighborhood": "40% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "$98,000",
-        "Savings Compared to Gasoline Car": "$10.6 savings per 100 miles",
+        "Savings Compared to Gasoline Car": "$10.5 savings per 100 miles",
         "Battery Range": "340 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "11 metric tons of emissions",
         "Drivers in the Neighborhood": "40% of neighbors drive a similar electric car",
@@ -1131,7 +1131,7 @@ attributes_listC_large = [
     },
     {
         "Purchase Price": "$71,000",
-        "Savings Compared to Gasoline Car": "$10.6 savings per 100 miles",
+        "Savings Compared to Gasoline Car": "$10.5 savings per 100 miles",
         "Battery Range": "340 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "19 metric tons of emissions",
         "Drivers in the Neighborhood": "72% of neighbors drive a similar electric car",
@@ -1145,7 +1145,7 @@ attributes_listC_large = [
     },
     {
         "Purchase Price": "$83,000",
-        "Savings Compared to Gasoline Car": "$10.6 savings per 100 miles",
+        "Savings Compared to Gasoline Car": "$10.5 savings per 100 miles",
         "Battery Range": "450 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "11 metric tons of emissions",
         "Drivers in the Neighborhood": "72% of neighbors drive a similar electric car",
@@ -1427,7 +1427,7 @@ attributes_listD_large = [
     },
     {
         "Purchase Price": "$83,000",
-        "Savings Compared to Gasoline Car": "$10.6 savings per 100 miles",
+        "Savings Compared to Gasoline Car": "$10.5 savings per 100 miles",
         "Battery Range": "230 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "60% of emissions saved compared to gasoline car",
         "Drivers in the Neighborhood": "8% of neighbors drive a similar electric car",
@@ -1455,7 +1455,7 @@ attributes_listD_large = [
     },
     {
         "Purchase Price": "$98,000",
-        "Savings Compared to Gasoline Car": "$10.6 savings per 100 miles",
+        "Savings Compared to Gasoline Car": "$10.5 savings per 100 miles",
         "Battery Range": "450 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "50% of emissions saved compared to gasoline car",
         "Drivers in the Neighborhood": "8% of neighbors drive a similar electric car",
@@ -1469,14 +1469,14 @@ attributes_listD_large = [
     },
     {
         "Purchase Price": "$71,000",
-        "Savings Compared to Gasoline Car": "$10.6 savings per 100 miles",
+        "Savings Compared to Gasoline Car": "$10.5 savings per 100 miles",
         "Battery Range": "230 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "50% of emissions saved compared to gasoline car",
         "Drivers in the Neighborhood": "40% of neighbors drive a similar electric car",
     },
     {
         "Purchase Price": "$98,000",
-        "Savings Compared to Gasoline Car": "$10.6 savings per 100 miles",
+        "Savings Compared to Gasoline Car": "$10.5 savings per 100 miles",
         "Battery Range": "340 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "70% of emissions saved compared to gasoline car",
         "Drivers in the Neighborhood": "40% of neighbors drive a similar electric car",
@@ -1518,7 +1518,7 @@ attributes_listD_large = [
     },
     {
         "Purchase Price": "$71,000",
-        "Savings Compared to Gasoline Car": "$10.6 savings per 100 miles",
+        "Savings Compared to Gasoline Car": "$10.5 savings per 100 miles",
         "Battery Range": "340 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "60% of emissions saved compared to gasoline car",
         "Drivers in the Neighborhood": "72% of neighbors drive a similar electric car",
@@ -1532,7 +1532,7 @@ attributes_listD_large = [
     },
     {
         "Purchase Price": "$83,000",
-        "Savings Compared to Gasoline Car": "$10.6 savings per 100 miles",
+        "Savings Compared to Gasoline Car": "$10.5 savings per 100 miles",
         "Battery Range": "450 miles on a single charge",
         "Lifecycle Greenhouse Gas Emissions": "70% of emissions saved compared to gasoline car",
         "Drivers in the Neighborhood": "72% of neighbors drive a similar electric car",
