@@ -56,7 +56,7 @@ class Lexicon:
 
     # car_owner
     car_type_label = "What kind of car is your main car you use for daily trips?"
-    petrol = "Petrol car"
+    gasoline = "Petrol car"
     ev = "Battery electric car"
     hev = "Hybrid car"
 
