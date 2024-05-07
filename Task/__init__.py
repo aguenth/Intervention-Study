@@ -20,7 +20,7 @@ class Constants(BaseConstants):
         ['B', 'D', 'A', 'C'],
         ['D', 'B', 'C', 'A'],
         ['D', 'B', 'A', 'C'],
-        ['C', 'D', 'B', 'D'],
+        ['C', 'A', 'B', 'D'],
         ['A', 'C', 'B', 'D'],
         ['C', 'A', 'D', 'B'],
         ['A', 'C', 'D', 'B']
