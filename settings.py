@@ -1,5 +1,7 @@
 from os import environ
 
+# LICENSE
+# Copyright (c) 2020 Christian König gen. Kersting
 
 SESSION_CONFIGS = [
 
